@@ -6,10 +6,187 @@ Content-Type: application/json
 [
     {
        "nombre": "Quemadura",
-       "Normas": "No tocar",
+       "Normas": [
+"Deje correr agua fría sobre la zona de la quemadura o sumerja la zona en agua fría (no helada). Mantenga la zona en el agua durante al menos de 5 a 30 minutos. Una toalla limpia, húmeda y fría también ayuda a reducir el dolor.",
+"Calme y reconforte a la persona.",
+"Luego de lavar o remojar la quemadura en agua, cúbrala con un vendaje estéril y seco o con un apósito limpio.",
+"Proteja la quemadura de presiones o fricciones.",
+"El ibuprofeno o el paracetamol de venta libre pueden ayudar a aliviar el dolor y la inflamación. NO le dé ácido acetilsalicílico (aspirin) a niños menores de 12 años.",
+"Una vez que se enfríe la piel, una loción humectante que contenga áloe y un antibiótico también puede ayudar."
+],
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":
+       ["Ampollas que están intactas (sin romperse) o tienen rupturas que están perdiendo fluido.",
+"Dolor -- El grado de este no está relacionado con la gravedad de la quemadura. Las quemaduras más graves pueden ser indoloras.",
+"Peladuras en la piel.",
+"Shock-- Se debe observar si hay palidez y piel fría y húmeda, debilidad, labios y uñas azulados y disminución de la lucidez mental.",
+"Inflamación.",
+"Piel blanca, roja o carbonizada."],
+       "Consideraciones": "No coloque hielo, cremas, dentífrico u otras soluciones habitualmente de
+origen popular, pues pueden aumentar la lesión y provocar infección.
+En caso de tener “ampollas” no las abra.."
+    },
+    {
+       "nombre":"Heridaa",
+       "Normas":[
+        "Si la herida presenta hemorragia, para detener
+o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión. 
+",
+"Si la herida se encuentra en piernas o brazos,
+levante el miembro a un nivel superior al corazón,
+esto puede detener o reducir una hemorragia. ",
+"Si el sangrado no se detiene, es conveniente
+colocar más compresas y realizar un vendaje.
+NO USAR torniquete"
+       ]",
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
        "Signos":"Geminis y Tauro",
-       "Consideraciones": "Todas"
+       "Consideraciones": Frente a heridas no sangrantes, luego de un abundante lavado con agua y
+jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).
+Luego cubra con compresa, gasa y vendaje si fuera posible.
+No coloque algodón sobre la herida, ya que se incorpora al tejido.
+La herida debe ser evaluada por un médico lo antes posible (antes de
+las 6 horas pues puede requerir sutura).
+s"
+    },
+    {
+       "nombre": Fracturaa",
+       "Normas":
+       [
+        "Retirar anillos, pulseras y relojes cuando la fractura se produce en los miembros superiores (la
+hinchazón posterior puede hacer imposible su
+extracción y cortar la circulación).",
+"Si se requiere trasladar a la persona, ante fracturas no complejas de miembros (brazos o piernas) es importante “inmovilizar” con objetos rígidos, maderas, palos, cartones gruesos. Esta
+maniobra calma o disminuye el dolor. Hay que
+trasladar a la persona siempre y cuando se movilice por sus propios medios. En caso contrario
+esperar al servicio de emergencias",
+"Cuando la fractura es expuesta, es decir que se
+ve el hueso, no intente reintroducir los fragmentos óseos. Sólo cúbralo con gasas o telas limpias
+e inmovilice"
+       ]",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos"[:"Geminis y Tauro]",
+       "Consideraciones": La inmovilización debe tomar dos articulaciones, una por arriba y otra por debajo de la fractura.
+Si hay una fractura en el antebrazo, inmovilice también el codo y la muñeca.s"
     }
+    ,
+    {
+       "nombre": Electrocuióna",
+       "Normas":[
+        "Si presencia la electrocución de una persona:
+primero, si es posible y no hay riesgos para usted, interrumpa el suministro eléctrico general
+(apague interruptores, llave térmica u otro) Con
+solo apagar un equipo puede no interrumpir el
+flujo eléctrico. ",
+"Si no puede interrumpir el flujo de corriente,
+utilice un objeto no conductor (palo, escoba, silla
+madera, rollo alfombra) para empujar a la víctima lejos de la fuente. NO utilice un objeto húmedo ni metálico. De ser posible, párese sobre un
+objeto no conductor (goma, papeles). No intente
+el rescate de una víctima que se encuentre cerca
+de líneas activas de alto voltaje. ",
+"Llame o haga llamar al
+servicio de emergencias",
+"Si la víctima está libre de la fuente de electricidad, controle su respiración y evalúe el estado
+de conciencia, si no responde, no se mueve, no
+respira o respira mal, comience a administrar
+compresiones torácicas (RCP). ",
+" Si la víctima está consciente, tranquilícela, si
+tiene una quemadura, retire la ropa que salga
+con facilidad y lave con agua corriente (ver quemaduras)."
+       ]",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos"[
+        "Alteración del nivel de la conciencia, desde la pérdida total
+(desmayo) hasta mareos o embotamiento.",
+"Puede presentar contractura y dolor muscular,
+hasta fracturas óseas de miembros; dolor de cabeza; alteración de la deglución, visión y audición; arritmias cardíacas; hormigueo en cara, tronco, o miembros; dificultad para respirar
+(hasta paro respiratorio); convulsiones; quemaduras y paro cardíaco.",
+"La descarga eléctrica
+puede asociarse con explosión e incendio además pudiendo producir la caída de la víctima,
+pudiendo ocasionar lesiones traumáticas adicionales, externas obvias y/o internas ocultas",
+        ]",
+       "Consideraciones": NO DEBE aplicar hielo, manteca, ungüentos,medicamentos, algodón,
+ni vendajes adhesivos a la quemadura.
+NO DEBE acercarse a menos de 6 mts. de una persona que
+se está electrocutando con corriente de alto
+voltaje hasta que la corriente eléctrica haya
+sido interrumpida.
+NO DEBE movilizar a la víctima de una descarga eléctrica
+a menos que haya peligro inmediato para ella (fuego
+o explosión inminente)s"
+    }
+
+,
+    {
+       "nombre": Intoxicacióna",
+       "Normas":[
+        "Si el contacto fue por la piel:
+Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna
+loción, grasa o aceite.",
+"Si el contacto fue por vía inhalatoria:
+Trasladar a la víctima a un lugar abierto y bien ventilado.",
+"Si se produjo por monóxido de carbono:
+Luego de sacar a la víctima, apague la fuente de combustión y ventile el ambiente. Aunque los síntomas
+sean leves siempre se debe consultar al médico debido a que los daños pueden aparecer más tarde. En
+el caso de artefactos mal instalados o con inadecuada ventilación, recuerde insistir en la revisación y
+reparación antes de usarlos nuevamente.",
+"Si el contacto fue en el ojo:
+Pasar suavemente un paño o un papel por la cara para retirar restos de producto y lavar el ojo con agua
+a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fijarse si no quedan restos sólidos del producto en las pestañas o en las cejas ni alrededor del ojo. 
+",
+"Si el contacto fue por vía oral (ingestión):
+No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido
+un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico.
+"
+       ]",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos"[
+        "Malestar, dolor de cabeza, mareos, náuseas o vómitos. ",
+        "Ardor y/o dolor de garganta, tos repentina, dificultad para tragar o respirar,
+babeo, falta de fuerzas, somnolencia repentina, confusión o disminución de la
+capacidad mental, convulsiones, desvanecimiento.",
+"La presencia de envases de plaguicidas o medicamentos en las cercanías de
+la víctima, o de restos de sustancias y/o quemaduras alrededor de la boca, los
+dientes, los ojos o la piel, también pueden estar asociados a una intoxicación."
+       ]",
+       "Consideraciones": En todos los casos de intoxicación acudir o trasladar al paciente al
+hospital o centro de salud más cercano sin perder tiempo.s"
+    },
+    {
+       "nombre": Desmayoa",
+       "Normas":[
+        "Compruebe si la víctima respira. Si respira,
+colóquela en lugar con buena ventilación fuera
+del calor/frío o peligros aledaños (vía pública). ",
+"Si todavía no perdió el conocimiento, acuéstela
+boca arriba sobre una superficie horizontal (tiene
+reflejo deglutorio, aunque ante la duda colóquela
+en posición lateral de seguridad). Afloje la ropa
+para facilitar la respiración (la cabeza quedará al
+mismo nivel que el corazón, ayuda a mejorar la
+circulación cerebral)",
+"Pídale que tosa varias veces (estímulo mejora
+la circulación cerebral).",
+"Si perdió el conocimiento: levántele las piernas (30°) para facilitar el retorno venoso y elevar
+la presión arterial.",
+"Si hace frío, evite que la víctima se enfríe (hipotermia). Cúbrala con ropa extra. "
+       ]",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos"[
+        "Debilidad repentina, palidez de la piel, sudoración
+fría, visión borrosa, obnubilación, escasa reacción",
+" pérdida momentánea de la conciencia y caída. La
+respiración es superficial pero no se pierde"
+       ]",
+       "Consideraciones": En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+s"
+    },
 ]

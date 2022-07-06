@@ -2,10 +2,10 @@ const {Schema, model} = require('mongoose')
 const EnfermedadSchema = new Schema({
     nombre: {type: String},
     descripcion: {type: String},
-    sintomas: {type: String},
-    causas: {type: Array, required: true},
+    sintomas: {type: Array},
+    causas: {type: String},
     recomendaciones: {type: String},
     consideraciones: {type: String}
 });
 
-module.exports = model('Enfermedad', EnfermedadSchema)
+module.exports = model('Enfermedad', EnfermedadSchema);

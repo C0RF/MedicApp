@@ -1,0 +1,28 @@
+@api = http://localhost:4000
+
+POST {{api}}/Enfermedad/createEnfermedad
+Content-Type: application/json
+
+{
+    "nombre": "Osteogénesis imperfecta",
+    "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
+    "sintomas": ["anomalías ósea","dientes frágiles","estatura baja"],
+    "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
+    "recomendaciones": "evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
+    "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
+}
+
+####
+
+POST {{api}}/Emergencia/add
+Content-Type: application/json
+
+    {
+       "nombre": "Quemadura",
+       "Normas": "No tocar",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":"Geminis y Tauro",
+       "Consideraciones": "Todas"
+    }
+

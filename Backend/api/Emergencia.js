@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Emergencia = require("./../models/Emergencia");
 
-function addEmg(body) {
+function addEmg(res,body) {
     let {
         nombre,
         Normas,
@@ -13,13 +13,12 @@ function addEmg(body) {
         Consideraciones
     } = body;
 
-    Emergencia.find({
-        nombre: nombre
-    }).then((r) => {
-        if (r.lenght) {
+    Emergencia.find({nombre}).then((r) => {
+        if (r.length) {
             res.json({
                 msg: "Ya existe."
-            })
+            });
+            return;
         } else {
             const nEmg = new Emergencia(body);
             nEmg.save().then((r) => {}).catch((err) => {
@@ -31,7 +30,7 @@ function addEmg(body) {
 
 router.post('/add', (req, res) => {
 
-    addEmg(req.body);
+    addEmg(res,req.body);
 
 });
 

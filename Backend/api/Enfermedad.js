@@ -6,14 +6,14 @@ const Enfermedad = require("../models/Enfermedad");
 //Guardar enfermedad
 router.post("/createEnfermedad", (req, res) => {
     let{nombre, descripcion, sintomas, causas, recomendaciones, consideraciones} = req.body;
-    nombre = nombre.trim();
-    descripcion = descripcion.trim();
-    causas = causas.trim();
+    // nombre = nombre.trim();
+    // descripcion = descripcion.trim();
+    // causas = causas.trim();
 
     if(nombre == "" || descripcion == "" || causas == ""){
         res.json({
             status: "FAILED",
-            message: "Hay campos vacíos!"
+            message: "Hay campos vacíos"
           });
     }else{
         Enfermedad.find({nombre})

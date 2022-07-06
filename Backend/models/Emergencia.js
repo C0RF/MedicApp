@@ -8,7 +8,7 @@ const EmergenciaSchema = new Schema({
         type: String
     },
     Normas: {
-        type: String
+        type: Array
     },
     Escena: {
         type: String
@@ -17,7 +17,7 @@ const EmergenciaSchema = new Schema({
         type: String
     },
     Signos: {
-        type: String
+        type: Array
     },
     Consideraciones: {
         type: String
