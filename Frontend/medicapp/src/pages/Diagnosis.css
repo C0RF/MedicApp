@@ -1,0 +1,91 @@
+.diagnosis {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.left-diagnosis {
+  background: #fff;
+  padding: 40px 0px;
+  height: 100%;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.left-diagnosis-title {
+    background: #DB90A2;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.steps-container{
+  margin: 10px;
+  margin-left: 20%;
+}
+
+.btndiagnosis{
+  position: relative;
+  padding: 10px 0px;
+  margin: 30px -100px;
+  left: 75%;
+  width: 200px;
+  background-color: #6AAACE;
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: None;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btndiagnosis:hover{
+  background-color: #0073A4;
+}
+
+.right-diagnosis {
+  background: #FEF2EC;
+  padding-top: 40px;
+  height: 650px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.right-diagnosis > p {
+  font-family: 'Bungee Inline';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+}
+
+.slide-table-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 6px;
+  padding: 2px;
+  padding-bottom: 10px;
+}
+
+.slide-table-container p {
+  font-size: 15px;
+}

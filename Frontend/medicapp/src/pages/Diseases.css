@@ -1,0 +1,50 @@
+.diseases {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.left-diseases {
+    background: #FEF2EC;
+    padding: 50px;
+    height: 100%;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.info-previewer-container{
+    margin: 10px;
+}
+
+.right-diseases {
+    background: #fff;
+    padding-top: 40px;
+    height: 580px;
+    width: 650px;
+    vertical-align: middle;
+}
+
+.right-diseases > p {
+    margin: 15px;
+    margin-left: 42px;
+}
+
+.right-diseases-title {
+    background: #DB90A2;
+    height: 60px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+.right-diseases-title p {
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FEF2EC;
+}
