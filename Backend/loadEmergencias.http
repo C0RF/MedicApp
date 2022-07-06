@@ -1,0 +1,15 @@
+@api = http://localhost:4000
+
+POST {{api}}/Emergencia/add
+Content-Type: application/json
+
+[
+    {
+       "nombre": "Quemadura",
+       "Normas": "No tocar",
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":"Geminis y Tauro",
+       "Consideraciones": "Todas"
+    }
+]
