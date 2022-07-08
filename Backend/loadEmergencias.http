@@ -188,5 +188,58 @@ respiración es superficial pero no se pierde"
 no produce ninguna complicación a menos que haya
 un golpe importante en la cabeza, cara o miembros
 s"
+    }
+    {
+       "nombre": "Desmayo",
+       "Normas": [
+       ],
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":[
+       ],
+       "Consideraciones": "En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+"
     },
+    {
+       "nombre": "Desmayo",
+       "Normas": [
+       ],
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":[
+       ],
+       "Consideraciones": "En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+"
+    },
+    {
+       "nombre": "Desmayo",
+       "Normas": [
+       ],
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":[
+       ],
+       "Consideraciones": "En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+"
+    },
+    {
+       "nombre": "Desmayo",
+       "Normas": [
+       ],
+       "Escena":"Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos":[
+       ],
+       "Consideraciones": "En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+"
+    },
+,
 ]

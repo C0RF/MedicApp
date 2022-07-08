@@ -1,6 +1,5 @@
 const config = require('./config/config');
 
-
 require('./config/database');
 
 const morgan = require('morgan');
@@ -12,7 +11,6 @@ app.use(cors());
 
 var EnfermedadRouter = require('./api/Enfermedad');
 var EmergenciaRouter = require('./api/Emergencia');
-
 
 let bodyParser = require('body-parser');
 app.use(bodyParser.json({ limit: "50mb" }));
