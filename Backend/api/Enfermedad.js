@@ -5,34 +5,45 @@ const Enfermedad = require("../models/Enfermedad");
 
 //Guardar enfermedad
 router.post("/createEnfermedad", (req, res) => {
-    let{nombre, descripcion, sintomas, causas, recomendaciones, consideraciones} = req.body;
-    // nombre = nombre.trim();
-    // descripcion = descripcion.trim();
-    // causas = causas.trim();
+    let {
+        nombre,
+        descripcion,
+        sintomas,
+        causas,
+        recomendaciones,
+        consideraciones
+    } = req.body;
+    nombre = nombre.trim();
+    descripcion = descripcion.trim();
+    causas = causas.trim();
+    recomendaciones = recomendaciones.trim();
+    consideraciones = consideraciones.trim();
 
-    if(nombre == "" || descripcion == "" || causas == ""){
+    if (nombre == "" || descripcion == "" || causas == "") {
         res.json({
             status: "FAILED",
             message: "Hay campos vacíos"
-          });
-    }else{
-        Enfermedad.find({nombre})
+        });
+    } else {
+        Enfermedad.find({
+                nombre
+            })
             .then((resultado) => {
-                if(resultado.length){
+                if (resultado.length) {
                     res.json({
                         status: "FAILED",
                         message: "Ya existe una enfermedad con ese nombre"
                     });
-                }else{
+                } else {
                     const newEnfermedad = new Enfermedad({
-                        nombre, 
-                        descripcion, 
-                        sintomas, 
-                        causas, 
-                        recomendaciones, 
+                        nombre,
+                        descripcion,
+                        sintomas,
+                        causas,
+                        recomendaciones,
                         consideraciones
                     });
-                    
+
                     newEnfermedad
                         .save()
                         .then((resultado) => {
@@ -64,33 +75,49 @@ router.post("/createEnfermedad", (req, res) => {
 //Guardar enfermedades
 router.post("/createEnfermedades", (req, res) => {
     let arrayEnfermedades = req.body;
-    
+
     for (let i = 0; i < arrayEnfermedades.length; i++) {
-        let{nombre, descripcion, sintomas, causas, recomendaciones, consideraciones} = arrayEnfermedades[i];
-        if(nombre == "" || descripcion == "" || causas == ""){
+        let {
+            nombre,
+            descripcion,
+            sintomas,
+            causas,
+            recomendaciones,
+            consideraciones
+        } = arrayEnfermedades[i];
+
+        nombre = nombre.trim();
+        descripcion = descripcion.trim();
+        causas = causas.trim();
+        recomendaciones = recomendaciones.trim();
+        consideraciones = consideraciones.trim();
+
+        if (nombre == "" || descripcion == "" || causas == "") {
             res.json({
                 status: "FAILED",
                 message: `Enfermedad ${nombre} tiene campos vacios`,
             });
             break;
-        }else{
-            Enfermedad.find({nombre})
+        } else {
+            Enfermedad.find({
+                    nombre
+                })
                 .then((resultado) => {
-                    if(resultado.length){
+                    if (resultado.length) {
                         res.json({
                             status: "FAILED",
                             message: `Ya existe una enfermedad con el nombre ${nombre}`
                         });
-                    }else{
+                    } else {
                         const newEnfermedad = new Enfermedad({
-                            nombre, 
-                            descripcion, 
-                            sintomas, 
-                            causas, 
-                            recomendaciones, 
+                            nombre,
+                            descripcion,
+                            sintomas,
+                            causas,
+                            recomendaciones,
                             consideraciones
                         });
-                        
+
                         newEnfermedad
                             .save()
                             .then((resultado) => {
@@ -119,15 +146,19 @@ router.post("/createEnfermedades", (req, res) => {
 
 //Obtener enfermedad
 router.get("/getEnfermedad", (req, res) => {
+    // const nombre = 'Cólera';
     const nombre = req.query.nombre;
-    Enfermedad.find({nombre})
+    // const nombre = 'Osteoporosis';
+    Enfermedad.find({
+            nombre
+        })
         .then((resultado) => {
-            if(resultado.length == 0){
+            if (resultado.length == 0) {
                 res.json({
                     status: "FAILED",
                     message: "No existe el nombre de la enfermedad"
                 });
-            }else{
+            } else {
                 res.json({
                     status: "SUCCESS",
                     message: "Enfermedad obtenida",
@@ -148,15 +179,16 @@ router.get("/getEnfermedad", (req, res) => {
 router.get("/getEnfermedades", (req, res) => {
     Enfermedad.find({})
         .then((resultado) => {
-            if(resultado.length == 0){
+            if (resultado.length == 0) {
                 res.json({
                     status: "FAILED",
                     message: "registro vacio",
                 });
-            }else{
+            } else {
                 res.json({
                     status: "SUCCESS",
-                    message: "Enfermedad obtenida"
+                    message: "Enfermedad obtenida",
+                    data: resultado
                 })
             }
         })
@@ -164,7 +196,7 @@ router.get("/getEnfermedades", (req, res) => {
             console.log(err);
             res.json({
                 status: "FAILED",
-                message: "Se ha producido un error al obtener enfermedades" 
+                message: "Se ha producido un error al obtener enfermedades"
             })
         })
 });

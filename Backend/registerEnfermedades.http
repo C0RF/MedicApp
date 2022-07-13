@@ -34,14 +34,14 @@ Content-Type: application/json
         "sintomas": ["Dolor en el pecho","Dolores corporales leves","Dolor de garganta","Tos con mucosidad","Dolor de cabeza leve","Dolores corporales leves","Dificultad para respirar"],
         "causas": "Suele ser provocada por un virus y, con frecuencia, ocurre después de una infección de las vías respiratorias superiores.",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
-        "consideraciones": ""
+        "consideraciones": "Se recomienda"
     },
     {
-        "nombre": "Cólera",
+        "nombre": " Cólera",
         "descripcion": "Es una enfermedad diarreica aguda causada por la ingestión de alimentos o agua contaminados con el bacilo Vibrio cholerae.",
         "sintomas": ["Deshidratación","Diarrea","Náuseas","Vómitos","Dolor de cabeza leve","Dolores corporales leves","Dificultad para respirar"],
         "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
-        "consideraciones": ""   
+        "consideraciones": "Se recomienda"   
     }
 ]

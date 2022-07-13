@@ -4,22 +4,28 @@ const {
 } = require('mongoose')
 const EnfermedadSchema = new Schema({
     nombre: {
-        type: String
+        type: String,
+        required: true
     },
     descripcion: {
-        type: String
+        type: String,
+        required: true
     },
     sintomas: {
-        type: Array
+        type: Array,
+        required: true
     },
     causas: {
-        type: String
+        type: String,
+        required: true
     },
     recomendaciones: {
-        type: String
+        type: String,
+        required: true
     },
     consideraciones: {
-        type: String
+        type: String,
+        required: true
     }
 });
 
