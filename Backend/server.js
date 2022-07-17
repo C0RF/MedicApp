@@ -1,3 +1,5 @@
+// Figma: https://www.figma.com/proto/etc4RIJbccl1LPGfu1Pjml/AppSalud?node-id=15%3A40&scaling=contain&page-id=0%3A1&starting-point-node-id=16%3A136
+
 const config = require('./config/config');
 
 require('./config/database');
