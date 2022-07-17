@@ -92,7 +92,7 @@ router.post("/createEnfermedades", (req, res) => {
         recomendaciones = recomendaciones.trim();
         consideraciones = consideraciones.trim();
 
-        if (nombre == "" || descripcion == "" || causas == "") {
+        if (nombre == "" || descripcion == "" || causas == "" || sintomas.length === 0) {
             res.json({
                 status: "FAILED",
                 message: `Enfermedad ${nombre} tiene campos vacios`,
