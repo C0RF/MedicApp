@@ -177,7 +177,9 @@ router.get("/getEnfermedad", (req, res) => {
 
 //Obtener enfermedades
 router.get("/getEnfermedades", (req, res) => {
-    Enfermedad.find({})
+    const nombre = new RegExp(`\.\*${req.query.enfermedad}\.\*`);
+    console.log(nombre)
+    Enfermedad.find({nombre})
         .then((resultado) => {
             if (resultado.length == 0) {
                 res.json({
@@ -187,7 +189,7 @@ router.get("/getEnfermedades", (req, res) => {
             } else {
                 res.json({
                     status: "SUCCESS",
-                    message: "Enfermedad obtenida",
+                    message: "Enfermedades obtenidas",
                     data: resultado
                 })
             }

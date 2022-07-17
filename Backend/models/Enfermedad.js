@@ -12,7 +12,7 @@ const EnfermedadSchema = new Schema({
         required: true
     },
     sintomas: {
-        type: Array,
+        type: Array,//[{s1:1},{s2:2}]
         required: true
     },
     causas: {
