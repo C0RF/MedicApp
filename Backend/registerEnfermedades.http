@@ -7,7 +7,7 @@ Content-Type: application/json
     {
         "nombre": "Osteogénesis imperfecta",
         "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
-        "sintomas": [["Anomalías ósea", 0.15],["Dientes frágiles", 0.13],["Estatura baja", 0.12],["Cara de forma triangular", 0.10], ["Pérdidas auditivas en la edad adulta", 0.6], ["Articulaciones laxas", 0.4]],
+        "sintomas": [["Anomalías ósea", 0.15],["Dientes frágiles", 0.13],["Estatura baja", 0.12],["Cara de forma triangular", 0.10], ["Pérdidas auditivas en la edad adulta", 0.06], ["Articulaciones laxas", 0.04]],
         "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
         "recomendaciones": "Evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
         "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
@@ -15,7 +15,7 @@ Content-Type: application/json
     {
         "nombre": "COVID‑19",
         "descripcion": "Enfermedad respiratoria muy contagiosa causada por el virus SARS-CoV-2.",
-        "sintomas": [["Fiebre", 0.15],["Tos",0.13],["Cansancio",0.12],["Pérdida del gusto",0.11],["Pérdida del olfato",0.9],["Dolor de garganta",0.5],["Dolor de cabeza",0.3],["Diarrea",0.2]],
+        "sintomas": [["Fiebre", 0.15],["Tos",0.13],["Cansancio",0.12],["Pérdida del gusto",0.11],["Pérdida del olfato",0.09],["Dolor de garganta",0.05],["Dolor de cabeza",0.03],["Diarrea",0.02]],
         "causas": "Cuando alguien contagiado con COVID-19 exhala o tose, expulsa pequeñas gotas que contienen el virus. Estas gotas pueden entrar en la boca o la nariz de alguien sin el virus, causando así una infección.",
         "recomendaciones": "Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.",
         "consideraciones": "La vacunación está ayudando a reducir los casos de muerte por esta enfermedad."
@@ -23,7 +23,7 @@ Content-Type: application/json
     {
         "nombre": "Osteoporosis",
         "descripcion": "Enfermedad esquelética en la que se produce una disminución de la densidad de masa ósea.",
-        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura con el tiempo",0.14],["Postura encorvada",0.13],["Dolor de cintura",0.13]],
+        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura con el tiempo",0.13],["Postura encorvada",0.12],["Dolor de cintura",0.11]],
         "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
         "recomendaciones": "Mantener una alimentación saludable, variada y equilibrada, y realizar ejercicios regularmente.",
         "consideraciones": "Las fracturas por osteoporosis ocurren con mayor frecuencia en la cadera, la muñeca o la columna vertebral."
@@ -31,7 +31,7 @@ Content-Type: application/json
     {
         "nombre": "Bronquitis aguda",
         "descripcion": "Es una inflamación del revestimiento de los bronquios que llevan el aire hacia adentro y fuera de los pulmones.",
-        "sintomas": [["Dolor en el pecho",0.14],["Dolores corporales leves",0.13],["Dolor de garganta",0.13],["Tos con mucosidad",0.10],["Dolor de cabeza leve",0.8],["Dolores corporales leves",0.6],["Dificultad para respirar",0.6]],
+        "sintomas": [["Dolor en el pecho",0.14],["Dolores corporales leves",0.13],["Dolor de garganta",0.13],["Tos con mucosidad",0.10],["Dolor de cabeza leve",0.08],["Dolores corporales leves",0.06],["Dificultad para respirar",0.06]],
         "causas": "Suele ser provocada por un virus y, con frecuencia, ocurre después de una infección de las vías respiratorias superiores.",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
         "consideraciones": "Se recomienda"
@@ -39,7 +39,7 @@ Content-Type: application/json
     {
         "nombre": " Cólera",
         "descripcion": "Es una enfermedad diarreica aguda causada por la ingestión de alimentos o agua contaminados con el bacilo Vibrio cholerae.",
-        "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.5],["Dolores corporales leves",0.3],["Dificultad para respirar",0.2]],
+        "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.05],["Dolores corporales leves",0.03],["Dificultad para respirar",0.02]],
         "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
         "consideraciones": "Se recomienda"   
@@ -47,7 +47,7 @@ Content-Type: application/json
     {
         "nombre": "Viruela símica",
         "descripcion": "Se trata de una enfermedad zoonótica viral, lo que significa que puede transmitirse de animales a humanos.",
-        "sintomas": [["Fiebre",""],["Inflamación de los ganglios linfáticos",""],["Dolor de cabeza",""],["Escalofríos",""],["Dolores musculares",""],["Dolores de la espalda",""],["Agotamiento",""],["Sarpullido ",""]],
+        "sintomas": [["Fiebre",0.13],["Inflamación de los ganglios linfáticos",0.12],["Dolor de cabeza",0.10],["Escalofríos",0.09],["Dolores musculares",0.07],["Dolores de la espalda",0.09],["Agotamiento",0.06],["Sarpullido ",0.04]],
         "causas": "No se sabe donde se origina la viruela del simio, pero se cree que se transmite a través de pequeños roedores y ardillas de las selvas tropicales de África, principalmente en África occidental y central.",
         "recomendaciones": "Se recomienda abstenerse de tener contacto cercano con terceros, evitar asistir a reuniones y seguir los consejos emitidos por las autoridades sanitarias correspondientes",
         "consideraciones": "Se recomienda"
@@ -58,14 +58,35 @@ Content-Type: application/json
         "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
         "recomendaciones": "Se recomienda ...",
         "consideraciones": "Se huevea"
+    },{
+        "nombre": "Sinusitis crónica",
+        "descripcion": "La sinusitis crónica se produce cuando los espacios dentro de la nariz y la cabeza (senos paranasales) están hinchados e inflamados durante tres meses o más, a pesar del tratamiento.",
+        "sintomas": [["Inflamación nasal",0.13],["Secreción espesa de la nariz",0.12],["Nariz tapada",0.11],["Secreción posnasal",0.10],["Hinchazón alrededor de los ojos",0.05],["Reducción del sentido del olfato",0.04],["Reducción del sentido del gusto",0.02],["Dolor de oído",0.001]],
+        "causas": "infecciones, crecimientos en los senos paranasales (pólipos nasales) o hinchazón del revestimiento de los senos paranasales.",
+        "recomendaciones": "Se recomienda evitar el contacto con personas resfriadas o con otras infecciones.",
+        "consideraciones": "..."
+    },{
+        "nombre": "Infección urinaria",
+        "descripcion": "",
+        "sintomas": [["",0.12],["",0.10],["",0.09],["",0.05],["",0.03],["",0.02],["",0.01]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },{
+        "nombre": "Influenza",
+        "descripcion": "",
+        "sintomas": [["Fiebre",0.13],["Tos",0.12],["Dolor de garganta",0.10],["Secreción nasal",0.06],["Dolores musculares",0.05],["Dolores de cabeza",0.04],["fatiga",0.02]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
     }
 ]
-    
-    # {
-    #     "nombre": "",
-    #     "descripcion": "",
-    #     "sintomas": [["",""],["",""],["",""],["",""],["",""],["",""],["",""],["",""]],
-    #     "causas": "",
-    #     "recomendaciones": "",
-    #     "consideraciones": ""
-    # }
+
+# {
+#     "nombre": "Influenza",
+#     "descripcion": "",
+#     "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+#     "causas": "",
+#     "recomendaciones": "",
+#     "consideraciones": "..."
+# }

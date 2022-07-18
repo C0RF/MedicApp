@@ -39,11 +39,11 @@ esto puede detener o reducir una hemorragia. ",
 "Si el sangrado no se detiene, es conveniente
 colocar más compresas y realizar un vendaje.
 NO USAR torniquete"
-       ]",
+       ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
        "Signos":"Geminis y Tauro",
-       "Consideraciones": Frente a heridas no sangrantes, luego de un abundante lavado con agua y
+       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y
 jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).
 Luego cubra con compresa, gasa y vendaje si fuera posible.
 No coloque algodón sobre la herida, ya que se incorpora al tejido.
@@ -52,7 +52,7 @@ las 6 horas pues puede requerir sutura).
 s"
     },
     {
-       "nombre": Fracturaa",
+       "nombre": "Fracturaa",
        "Normas":
        [
         "Retirar anillos, pulseras y relojes cuando la fractura se produce en los miembros superiores (la
@@ -65,16 +65,16 @@ esperar al servicio de emergencias",
 "Cuando la fractura es expuesta, es decir que se
 ve el hueso, no intente reintroducir los fragmentos óseos. Sólo cúbralo con gasas o telas limpias
 e inmovilice"
-       ]",
+       ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos"[:"Geminis y Tauro]",
-       "Consideraciones": La inmovilización debe tomar dos articulaciones, una por arriba y otra por debajo de la fractura.
+       "Signos":["Geminis", "Tauro"],
+       "Consideraciones": "La inmovilización debe tomar dos articulaciones, una por arriba y otra por debajo de la fractura.
 Si hay una fractura en el antebrazo, inmovilice también el codo y la muñeca.s"
     }
     ,
     {
-       "nombre": Electrocuióna",
+       "nombre": "Electrocuióna",
        "Normas":[
         "Si presencia la electrocución de una persona:
 primero, si es posible y no hay riesgos para usted, interrumpa el suministro eléctrico general
@@ -96,10 +96,10 @@ compresiones torácicas (RCP). ",
 " Si la víctima está consciente, tranquilícela, si
 tiene una quemadura, retire la ropa que salga
 con facilidad y lave con agua corriente (ver quemaduras)."
-       ]",
-       "Escena":"Escena?",
+       ],
+       "Escena": "Escena?",
        "Solicitud": "Solicitud?",
-       "Signos"[
+       "Signos": [
         "Alteración del nivel de la conciencia, desde la pérdida total
 (desmayo) hasta mareos o embotamiento.",
 "Puede presentar contractura y dolor muscular,
@@ -107,9 +107,8 @@ hasta fracturas óseas de miembros; dolor de cabeza; alteración de la deglució
 (hasta paro respiratorio); convulsiones; quemaduras y paro cardíaco.",
 "La descarga eléctrica
 puede asociarse con explosión e incendio además pudiendo producir la caída de la víctima,
-pudiendo ocasionar lesiones traumáticas adicionales, externas obvias y/o internas ocultas",
-        ]",
-       "Consideraciones": NO DEBE aplicar hielo, manteca, ungüentos,medicamentos, algodón,
+pudiendo ocasionar lesiones traumáticas adicionales, externas obvias y/o internas ocultas"],
+       "Consideraciones": "NO DEBE aplicar hielo, manteca, ungüentos,medicamentos, algodón,
 ni vendajes adhesivos a la quemadura.
 NO DEBE acercarse a menos de 6 mts. de una persona que
 se está electrocutando con corriente de alto
@@ -122,7 +121,7 @@ o explosión inminente)s"
 
 ,
     {
-       "nombre": Intoxicacióna",
+       "nombre": "Intoxicacióna",
        "Normas":[
         "Si el contacto fue por la piel:
 Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna
@@ -142,10 +141,10 @@ a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fija
 No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido
 un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico.
 "
-       ]",
+       ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos"[
+       "Signos": [
         "Malestar, dolor de cabeza, mareos, náuseas o vómitos. ",
         "Ardor y/o dolor de garganta, tos repentina, dificultad para tragar o respirar,
 babeo, falta de fuerzas, somnolencia repentina, confusión o disminución de la
@@ -153,12 +152,12 @@ capacidad mental, convulsiones, desvanecimiento.",
 "La presencia de envases de plaguicidas o medicamentos en las cercanías de
 la víctima, o de restos de sustancias y/o quemaduras alrededor de la boca, los
 dientes, los ojos o la piel, también pueden estar asociados a una intoxicación."
-       ]",
-       "Consideraciones": En todos los casos de intoxicación acudir o trasladar al paciente al
+       ],
+       "Consideraciones": "En todos los casos de intoxicación acudir o trasladar al paciente al
 hospital o centro de salud más cercano sin perder tiempo.s"
     },
     {
-       "nombre": Desmayoa",
+       "nombre": "Desmayoa",
        "Normas":[
         "Compruebe si la víctima respira. Si respira,
 colóquela en lugar con buena ventilación fuera
@@ -175,16 +174,16 @@ la circulación cerebral).",
 "Si perdió el conocimiento: levántele las piernas (30°) para facilitar el retorno venoso y elevar
 la presión arterial.",
 "Si hace frío, evite que la víctima se enfríe (hipotermia). Cúbrala con ropa extra. "
-       ]",
+       ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos"[
+       "Signos":[
         "Debilidad repentina, palidez de la piel, sudoración
 fría, visión borrosa, obnubilación, escasa reacción",
 " pérdida momentánea de la conciencia y caída. La
 respiración es superficial pero no se pierde"
-       ]",
-       "Consideraciones": En sí
+       ],
+       "Consideraciones": "En sí
 no produce ninguna complicación a menos que haya
 un golpe importante en la cabeza, cara o miembros
 s"

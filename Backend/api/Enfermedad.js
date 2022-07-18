@@ -179,7 +179,9 @@ router.get("/getEnfermedad", (req, res) => {
 router.get("/getEnfermedades", (req, res) => {
     const nombre = new RegExp(`\.\*${req.query.enfermedad}\.\*`);
     console.log(nombre)
-    Enfermedad.find({nombre})
+    Enfermedad.find({
+            nombre
+        })
         .then((resultado) => {
             if (resultado.length == 0) {
                 res.json({
