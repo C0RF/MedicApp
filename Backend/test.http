@@ -26,3 +26,13 @@ Content-Type: application/json
        "Consideraciones": "Todas"
     }
 
+####
+GET {{api}}/Sintomas/getEnfermedadRel
+Content-Type: application/json
+
+[
+    "Anomalías ósea",
+    "Dientes frágiles",
+    "Articulaciones laxas",
+    "Cara de forma triangular"
+]

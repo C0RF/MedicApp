@@ -7,7 +7,7 @@ Content-Type: application/json
     {
         "nombre": "Osteogénesis imperfecta",
         "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
-        "sintomas": [["Anomalías ósea", "0.15"],["Dientes frágiles", "0.12"],["Estatura baja", "0.13"],["Cara de forma triangular", "0.10"], ["Pérdidas auditivas en la edad adulta", "0.6"], ["Articulaciones laxas", "0.4"]],
+        "sintomas": [["Anomalías ósea", 0.15],["Dientes frágiles", 0.13],["Estatura baja", 0.12],["Cara de forma triangular", 0.10], ["Pérdidas auditivas en la edad adulta", 0.6], ["Articulaciones laxas", 0.4]],
         "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
         "recomendaciones": "Evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
         "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
@@ -15,7 +15,7 @@ Content-Type: application/json
     {
         "nombre": "COVID‑19",
         "descripcion": "Enfermedad respiratoria muy contagiosa causada por el virus SARS-CoV-2.",
-        "sintomas": ["Fiebre","Tos","Cansancio","Pérdida del gusto","Pérdida del olfato","Dolor de garganta","Dolor de cabeza","Diarrea"],
+        "sintomas": [["Fiebre", 0.15],["Tos",0.13],["Cansancio",0.12],["Pérdida del gusto",0.11],["Pérdida del olfato",0.9],["Dolor de garganta",0.5],["Dolor de cabeza",0.3],["Diarrea",0.2]],
         "causas": "Cuando alguien contagiado con COVID-19 exhala o tose, expulsa pequeñas gotas que contienen el virus. Estas gotas pueden entrar en la boca o la nariz de alguien sin el virus, causando así una infección.",
         "recomendaciones": "Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.",
         "consideraciones": "La vacunación está ayudando a reducir los casos de muerte por esta enfermedad."
@@ -23,15 +23,15 @@ Content-Type: application/json
     {
         "nombre": "Osteoporosis",
         "descripcion": "Enfermedad esquelética en la que se produce una disminución de la densidad de masa ósea.",
-        "sintomas": ["Dolor de espalda","Pérdida de estatura con el tiempo","Postura encorvada","Dolor de cintura"],
+        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura con el tiempo",0.14],["Postura encorvada",0.13],["Dolor de cintura",0.13]],
         "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
         "recomendaciones": "Mantener una alimentación saludable, variada y equilibrada, y realizar ejercicios regularmente.",
         "consideraciones": "Las fracturas por osteoporosis ocurren con mayor frecuencia en la cadera, la muñeca o la columna vertebral."
     },
     {
-        "nombre": "Bronquitis",
+        "nombre": "Bronquitis aguda",
         "descripcion": "Es una inflamación del revestimiento de los bronquios que llevan el aire hacia adentro y fuera de los pulmones.",
-        "sintomas": ["Dolor en el pecho","Dolores corporales leves","Dolor de garganta","Tos con mucosidad","Dolor de cabeza leve","Dolores corporales leves","Dificultad para respirar"],
+        "sintomas": [["Dolor en el pecho",0.14],["Dolores corporales leves",0.13],["Dolor de garganta",0.13],["Tos con mucosidad",0.10],["Dolor de cabeza leve",0.8],["Dolores corporales leves",0.6],["Dificultad para respirar",0.6]],
         "causas": "Suele ser provocada por un virus y, con frecuencia, ocurre después de una infección de las vías respiratorias superiores.",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
         "consideraciones": "Se recomienda"
@@ -39,9 +39,33 @@ Content-Type: application/json
     {
         "nombre": " Cólera",
         "descripcion": "Es una enfermedad diarreica aguda causada por la ingestión de alimentos o agua contaminados con el bacilo Vibrio cholerae.",
-        "sintomas": ["Deshidratación","Diarrea","Náuseas","Vómitos","Dolor de cabeza leve","Dolores corporales leves","Dificultad para respirar"],
+        "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.5],["Dolores corporales leves",0.3],["Dificultad para respirar",0.2]],
         "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
         "consideraciones": "Se recomienda"   
+    },
+    {
+        "nombre": "Viruela símica",
+        "descripcion": "Se trata de una enfermedad zoonótica viral, lo que significa que puede transmitirse de animales a humanos.",
+        "sintomas": [["Fiebre",""],["Inflamación de los ganglios linfáticos",""],["Dolor de cabeza",""],["Escalofríos",""],["Dolores musculares",""],["Dolores de la espalda",""],["Agotamiento",""],["Sarpullido ",""]],
+        "causas": "No se sabe donde se origina la viruela del simio, pero se cree que se transmite a través de pequeños roedores y ardillas de las selvas tropicales de África, principalmente en África occidental y central.",
+        "recomendaciones": "Se recomienda abstenerse de tener contacto cercano con terceros, evitar asistir a reuniones y seguir los consejos emitidos por las autoridades sanitarias correspondientes",
+        "consideraciones": "Se recomienda"
+    },{
+        "nombre": "Viruela Kawasaki",
+        "descripcion": "La enfermedad de Kawasaki es una vasculitis, es decir, una inflamación generalizada de los vasos sanguíneos, que tiende a afectar, sobre todo, a las arterias medianas de todo el organismo.",
+        "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",""],["Inyección conjuntival",""],["Garganta inflada",""],["Lengua inflamada",""],["Dolor abdominal",""],["Dolores articulares",""]],
+        "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
+        "recomendaciones": "Se recomienda ...",
+        "consideraciones": "Se huevea"
     }
 ]
+    
+    # {
+    #     "nombre": "",
+    #     "descripcion": "",
+    #     "sintomas": [["",""],["",""],["",""],["",""],["",""],["",""],["",""],["",""]],
+    #     "causas": "",
+    #     "recomendaciones": "",
+    #     "consideraciones": ""
+    # }

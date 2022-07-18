@@ -13,6 +13,7 @@ app.use(cors());
 
 var EnfermedadRouter = require('./api/Enfermedad');
 var EmergenciaRouter = require('./api/Emergencia');
+var SintomasRouter = require('./api/Sintomas');
 
 let bodyParser = require('body-parser');
 app.use(bodyParser.json({ limit: "50mb" }));
@@ -22,6 +23,7 @@ app.use(morgan("dev"));
 
 app.use('/Enfermedad',EnfermedadRouter);
 app.use('/Emergencia',EmergenciaRouter);
+app.use('/Sintomas',SintomasRouter);
 
 
 app.listen(config.portExpress, () => {

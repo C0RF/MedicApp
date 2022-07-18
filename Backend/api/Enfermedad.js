@@ -128,7 +128,7 @@ router.post("/createEnfermedades", (req, res) => {
                             .catch((err) => {
                                 res.json({
                                     status: "FAILED",
-                                    message: "Ha ocurrido un error al intentar crear una enfermedad"
+                                    message: "Ha ocurrido un error al intentar crear una enfermedad, " + err
                                 });
                             });
                     }
@@ -144,7 +144,7 @@ router.post("/createEnfermedades", (req, res) => {
     }
 });
 
-//Obtener enfermedad
+//Obtener enfermedad seleccionada
 router.get("/getEnfermedad", (req, res) => {
     // const nombre = 'Cólera';
     const nombre = req.query.nombre;
@@ -175,7 +175,7 @@ router.get("/getEnfermedad", (req, res) => {
         });
 });
 
-//Obtener enfermedades
+//Obtener enfermedades relacionadas a la búsqueda
 router.get("/getEnfermedades", (req, res) => {
     const nombre = new RegExp(`\.\*${req.query.enfermedad}\.\*`);
     console.log(nombre)
