@@ -27,12 +27,14 @@ Content-Type: application/json
     }
 
 ####
-GET {{api}}/Sintomas/getEnfermedadRel
+POST {{api}}/Sintomas/getEnfermedadRel
 Content-Type: application/json
 
-[
-    "Anomalías ósea",
-    "Dientes frágiles",
-    "Articulaciones laxas",
-    "Diarrea"
-]
+{
+    "sintomas": [
+        "Anomalías ósea",
+        "Dientes frágiles",
+        "Articulaciones laxas",
+        "Diarrea"
+        ]
+}

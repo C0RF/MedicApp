@@ -67,7 +67,7 @@ const NearestHospitals = (props) => {
                 </div>
             </div>
             <div className="right-NearestHospitals">
-                <img alt="" src="/images/hospitales.jpg"/>
+                <img alt="" src="https://ajulissa.github.io/medicapp-Frontend/images/hospitales.jpg"/>
             </div>
         </div>
     )

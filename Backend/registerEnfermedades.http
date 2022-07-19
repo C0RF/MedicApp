@@ -67,17 +67,17 @@ Content-Type: application/json
         "consideraciones": "..."
     },{
         "nombre": "Infección urinaria",
-        "descripcion": "",
-        "sintomas": [["",0.12],["",0.10],["",0.09],["",0.05],["",0.03],["",0.02],["",0.01]],
-        "causas": "",
-        "recomendaciones": "",
+        "descripcion": "Infección urinaria descripción",
+        "sintomas": [["...",0.12],["...",0.10],["...",0.09],["",0.05],["...",0.03],["...",0.02],["...",0.01]],
+        "causas": "..",
+        "recomendaciones": "...",
         "consideraciones": "..."
     },{
         "nombre": "Influenza",
-        "descripcion": "",
+        "descripcion": "Influenza descripción",
         "sintomas": [["Fiebre",0.13],["Tos",0.12],["Dolor de garganta",0.10],["Secreción nasal",0.06],["Dolores musculares",0.05],["Dolores de cabeza",0.04],["fatiga",0.02]],
-        "causas": "",
-        "recomendaciones": "",
+        "causas": "...",
+        "recomendaciones": "...",
         "consideraciones": "..."
     }
 ]

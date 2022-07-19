@@ -8,7 +8,7 @@ const dataset = [
     title: "MedicApp",
     description:
       "Plataforma para diagnóstico y recomendaciones médicas con interfaz de voz",
-    img: "/images/home.png",
+    img: "https://ajulissa.github.io/medicapp-Frontend/images/home.png",
     link: "/"
   },
   {
@@ -16,7 +16,7 @@ const dataset = [
     title: "Diagnóstico",
     description:
       "Obtén una lista de posibles enfermedades ingresando los síntomas que presentas mediante texto o voz",
-    img: "/images/diagnostico.png",
+    img: "https://ajulissa.github.io/medicapp-Frontend/images/diagnostico.png",
     link: "/diagnosis"
   },
   {
@@ -24,21 +24,21 @@ const dataset = [
     title: "Enfermedades",
     description:
       "Encuentra información sobre diversas enfermedades ingresando su nombre por texto o voz",
-    img: "/images/enfermedades.png",
+    img: "https://ajulissa.github.io/medicapp-Frontend/images/enfermedades.png",
     link: "/diseases"
   },
   {
     className: "FirstAid",
     title: "Primeros Auxilios",
     description: " Obtén recomendaciones en primeros auxilios",
-    img: "/images/primauxilios.png",
+    img: "https://ajulissa.github.io/medicapp-Frontend/images/primauxilios.png",
     link: "/firstAid"
   },
   {
     className: "NearestHospitals",
     title: "Hospitales Cercanos",
     description: "Encuentra rápidamente los hospitales cercanos a tu ubicación actual",
-    img: "/images/hospcercanos.png",
+    img: "https://ajulissa.github.io/medicapp-Frontend/images/hospcercanos.png",
     link: "/nearestHospitals"
   },
 ];

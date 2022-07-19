@@ -21,9 +21,9 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 5
 
 app.use(morgan("dev"));
 
-app.use('/Enfermedad',EnfermedadRouter);
-app.use('/Emergencia',EmergenciaRouter);
-app.use('/Sintomas',SintomasRouter);
+app.use('/Enfermedad', EnfermedadRouter);
+app.use('/Emergencia', EmergenciaRouter);
+app.use('/Sintomas', SintomasRouter);
 
 
 app.listen(config.portExpress, () => {

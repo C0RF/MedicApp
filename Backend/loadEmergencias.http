@@ -183,10 +183,7 @@ fría, visión borrosa, obnubilación, escasa reacción",
 " pérdida momentánea de la conciencia y caída. La
 respiración es superficial pero no se pierde"
        ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-s"
+       "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros"
     }
     {
        "nombre": "Desmayo",
@@ -196,10 +193,7 @@ s"
        "Solicitud": "Solicitud?",
        "Signos":[
        ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
+       "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros "
     },
     {
        "nombre": "Desmayo",
@@ -209,10 +203,7 @@ un golpe importante en la cabeza, cara o miembros
        "Solicitud": "Solicitud?",
        "Signos":[
        ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
+       "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros"
     },
     {
        "nombre": "Desmayo",
@@ -222,10 +213,7 @@ un golpe importante en la cabeza, cara o miembros
        "Solicitud": "Solicitud?",
        "Signos":[
        ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
+       "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros"
     },
     {
        "nombre": "Desmayo",
@@ -235,10 +223,6 @@ un golpe importante en la cabeza, cara o miembros
        "Solicitud": "Solicitud?",
        "Signos":[
        ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
-    },
-,
+       "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros"
+    }
 ]
