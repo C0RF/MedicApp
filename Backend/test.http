@@ -32,8 +32,8 @@ Content-Type: application/json
 
 {
     "sintomas": [
-        "Anomalías ósea",
-        "Dientes frágiles",
+        "Anomalias osea",
+        "Dientes fragiles",
         "Articulaciones laxas",
         "Diarrea"
         ]

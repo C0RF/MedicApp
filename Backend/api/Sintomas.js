@@ -5,16 +5,18 @@ const Enfermedad = require("../models/Enfermedad");
 
 router.post("/enfermedadesRelacionadas", (req, res) => {
     lista_sintomas = req.body.sintomas;
-    // console.log("ssl", ssl)
-    // var sl = ["Estatura baja"];
     var results = [];
+    const removeAccents = (str) => {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    } 
+
     async function obtProb() {
         for await (const doc of Enfermedad.find()) {
             sintomas_db = doc.sintomas;
             let prob_sum = 0;
             lista_sintomas.forEach((sintomas_paciente) => {
                 sintomas_db.forEach((sintomas) => {
-                    if (sintomas[0] == sintomas_paciente) {
+                    if (removeAccents(sintomas[0].toLowerCase()) == removeAccents(sintomas_paciente.toLowerCase())) {
                         prob_sum = prob_sum + sintomas[1];
                     }
                 });
