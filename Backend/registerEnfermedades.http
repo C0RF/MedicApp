@@ -34,7 +34,7 @@ Content-Type: application/json
         "sintomas": [["Dolor en el pecho",0.14],["Dolores corporales leves",0.13],["Dolor de garganta",0.13],["Tos con mucosidad",0.10],["Dolor de cabeza leve",0.08],["Dolores corporales leves",0.06],["Dificultad para respirar",0.06]],
         "causas": "Suele ser provocada por un virus y, con frecuencia, ocurre después de una infección de las vías respiratorias superiores.",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
-        "consideraciones": "Se recomienda"
+        "consideraciones": "..."
     },
     {
         "nombre": " Cólera",
@@ -42,7 +42,7 @@ Content-Type: application/json
         "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.05],["Dolores corporales leves",0.03],["Dificultad para respirar",0.02]],
         "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
         "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
-        "consideraciones": "Se recomienda"   
+        "consideraciones": "..."   
     },
     {
         "nombre": "Viruela símica",
@@ -50,15 +50,15 @@ Content-Type: application/json
         "sintomas": [["Fiebre",0.13],["Inflamación de los ganglios linfáticos",0.12],["Dolor de cabeza",0.10],["Escalofríos",0.09],["Dolores musculares",0.07],["Dolores de la espalda",0.09],["Agotamiento",0.06],["Sarpullido ",0.04]],
         "causas": "No se sabe donde se origina la viruela del simio, pero se cree que se transmite a través de pequeños roedores y ardillas de las selvas tropicales de África, principalmente en África occidental y central.",
         "recomendaciones": "Se recomienda abstenerse de tener contacto cercano con terceros, evitar asistir a reuniones y seguir los consejos emitidos por las autoridades sanitarias correspondientes",
-        "consideraciones": "Se recomienda"
+        "consideraciones": "..."
     },
     {
         "nombre": "Viruela Kawasaki",
         "descripcion": "La enfermedad de Kawasaki es una vasculitis, es decir, una inflamación generalizada de los vasos sanguíneos, que tiende a afectar, sobre todo, a las arterias medianas de todo el organismo.",
         "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",""],["Inyección conjuntival",""],["Garganta inflada",""],["Lengua inflamada",""],["Dolor abdominal",""],["Dolores articulares",""]],
         "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
-        "recomendaciones": "Se recomienda ...",
-        "consideraciones": "Se huevea"
+        "recomendaciones": "Se recomienda realizar tratamiento inmediato de la enfermedad de Kawasaki incompleta, la terapia con aspirina y la obtención de un ecocardiograma en caso de shock.",
+        "consideraciones": "..."
     },
     {
         "nombre": "Sinusitis crónica",
@@ -70,18 +70,138 @@ Content-Type: application/json
     },
     {
         "nombre": "Infección urinaria",
-        "descripcion": "",
-        "sintomas": [["",0.12],["",0.10],["",0.09],["",0.05],["",0.03],["",0.02],["",0.01]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
+        "descripcion": "Son infecciones comunes que ocurren cuando entran bacterias a la uretra, generalmente de la piel o el recto, e infectan las vías urinarias.",
+        "sintomas": [["Ardor al orinar",0.12],["Orinar con frecuencia",0.10],["Sangre en la orina",0.09],["Escalofríos",0.02],["Fiebre",0.01]],
+        "causas": "Las infecciones urinarias son causadas por bacterias",
+        "recomendaciones": "Bebe mucha agua. El agua ayuda a diluir la orina y expulsar las bacterias. Evita las bebidas que puedan irritar la vejiga. Evita el café, el alcohol y los refrescos que contengan jugos de cítricos o cafeína hasta que la infección haya desaparecido.",
+        "consideraciones": "Se tratan con antibióticos. Sin embargo, cada vez que usted toma antibióticos, estos pueden causar efectos secundarios, que incluyen sarpullido, mareos, náuseas, diarrea e infecciones por hongos."
     },
     {
         "nombre": "Influenza",
-        "descripcion": "",
+        "descripcion": "Es una enfermedad respiratoria contagiosa provocada por los virus de la influenza que infectan la nariz, la garganta y en algunos casos los pulmones.",
         "sintomas": [["Fiebre",0.13],["Tos",0.12],["Dolor de garganta",0.10],["Secreción nasal",0.06],["Dolores musculares",0.05],["Dolores de cabeza",0.04],["fatiga",0.02]],
-        "causas": "",
-        "recomendaciones": "",
+        "causas": "Provocada por los virus de la influenza que infectan la nariz, la garganta y en algunos casos los pulmones.",
+        "recomendaciones": "Se recomienda evitar el contacto cercano con personas que estén enfermas, evitar tocarse los ojos, la nariz o la boca, Practicar otros buenos hábitos de salud.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "VIH/Sida",
+        "descripcion": "Es una afección crónica que pone en riesgo la vida provocada por el virus de la inmunodeficiencia humana (VIH). Al dañar tu sistema inmunitario, el VIH interfiere con la capacidad de tu cuerpo para luchar contra infecciones y enfermedades.",
+        "sintomas": [["Candidiasis",0.10],["Pérdida de peso",0.09],["Herpes ",0.12],["Neumonía",0.11],["Ganglios linfáticos inflamados",0.06],["Diarrea crónica",0.05],["Manchas blancas",0.12]],
+        "causas": "Puede trasmitirse a través del contactomatrimonio sexual, la inyección de drogas ilícitas o el uso compartido de agujas, el contacto con sangre infectada.",
+        "recomendaciones": "Se recomienda tener los cuidados respectivos durante el acto sexual",
+        "consideraciones": "Actualmente no se cuenta con un tratamiento para curar esta infección, pero se ha logrado, mediante el cumplimiento de varias acciones de salud, encabezadas por el tratamiento antirretroviral, que los pacientes con VIH/sida vivan muchos años y con una buena calidad de vida"
+    },
+    {
+        "nombre": "Sífilis",
+        "descripcion": "La sífilis es una ETS que puede causar complicaciones a largo plazo o la muerte, si no se trata de manera adecuada.",
+        "sintomas": [["Inflamación de las glándulas linfáticas", 0.15],["Dolor de garganta",0.03],["pérdida de cabello",0.04],["Pérdida de peso",0.07],["Fiebre",0.01],["Dolor de cabeza", 0.01],["Fatiga",0.02]],
+        "causas": "La causa de la sífilis es una bacteria llamada Treponema pallidum. La vía más común de transmisión de la sífilis es a través del contacto con la llaga de una persona infectada durante la actividad sexual.",
+        "recomendaciones": "Se recomienda hacerse pruebas regularmente y usar condón o barreras de látex bucales cuando tengas sexo",
+        "consideraciones": "Los condones previenen la transmisión de la sífilis al evitar el contacto con las llagas, pero a veces, las llagas pueden estar en áreas que el condón no cubre. La sífilis todavía se puede transmitir al tener contacto con estas llagas."
+    },
+    {
+        "nombre": "Gonorrea",
+        "descripcion": "Es una enfermedad de transmisión sexual (ETS) que puede infectar tanto a los hombres como a las mujeres. Puede causar infecciones en los genitales, el recto y la garganta. Es una infección muy común, especialmente en las personas jóvenes de 15 a 24 años.",
+        "sintomas": [["Ardor al orinar",0.13],["Secreción del pene",0.12],["Testículos sensibles",0.12],["Testículos inflamados",0.15],["Abertura del pene",0.15],["Dolor de garganta",0.04]],
+        "causas": "Es causada por la bacteria Neisseria gonorrhoeae y la puede propagar cualquier tipo de actividad sexual. Se puede contraer por contacto con la boca, la garganta, los ojos, la uretra, la vagina, el pene o el ano.",
+        "recomendaciones": "La gonorrea se previene con el uso del preservativo o condón en todas las relaciones sexuales",
+        "consideraciones": "Para prevenir la transmisión durante el parto existe una norma que establece la aplicación de gotas antibióticas en los ojos a todos los recién nacidos."
+    },
+    {
+        "nombre": "Chikunguña",
+        "descripcion": "Es una enfermeda​d viral que se propaga por la picadura de los mosquitos Aedes aegypti o Aedes albopictus infectados, que son los mismos vectores del dengue.",
+        "sintomas": [["Dolores articulares",0.16],["Fiebre",0.09],["Dolores musculares",0.07],["Dolores de cabeza",0.06],["Náuseas",0.04],["Erupciones cutáneas",0.05]],
+        "causas": "La enfermedad se transmite por la picadura de los mosquitos hembra infectados Aede aegypti y Aedes albopictus (mosquito tigre). Son mosquitos hematófogos diurnos y permanecen infectantes hasta su muerte.",
+        "recomendaciones": "Se recomienda el tratamiento inmediato de la enfermedad de Kawasaki incompleta, la terapia con aspirina y la obtención de un ecocardiograma en caso de shock.",
+        "consideraciones": "No hay vacuna contra el virus del chikunguña. El tratamiento se c​oncentra en aliviar los síntomas."
+    },
+    {
+        "nombre": "Faringitis",
+        "descripcion": "La faringitis es una afección que cursa con irritación, inflamación o infección de la faringe, y muy particularmente de su tejido linfoide.",
+        "sintomas": [["Malestar general",0.10],["Fiebre",0.09],["Dolor de garganta al tragar",0.15],["Enrojecimiento de la faringe",0.13],["Ganglios cervicales inflamados",0.10]],
+        "causas": "La mayoría de las faringitis agudas son procesos infecciosos, debidos a virus o bacterias; los virus causan entre un 80% y un 90% de las faringitis tanto en niños como en los adultos.",
+        "recomendaciones": "Beber líquidos suaves, evitar los ambientes muy contaminados, evitar los cambios bruscos de temperatura",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Artrosis",
+        "descripcion": "La osteoartritis o artrosis es la enfermedad degenerativa articular más frecuente, caracterizada por la destrucción del cartílago hialino que recubre las superficies óseas.",
+        "sintomas": [["Pérdida de flexibilidad",0.09],["Osteofitos",0.08],["Dolor articular",0.12],["Deformidad articular",0.13],["Inflamación en las articulaciones",0.13],["",],["",],["",]],
+        "causas": "La osteoartritis se produce cuando el cartílago que amortigua los extremos de los huesos en las articulaciones se deteriora progresivamente.",
+        "recomendaciones": "No se deben hacer aquellos ejercicios que produzcan dolor, cuidar posturas",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Artritis",
+        "descripcion": "La artritis es la hinchazón y la sensibilidad de una o más de las articulaciones.",
+        "sintomas": [["Dolor articular",],["Inflamación articular",],["Enrojecimiento articular",],["Disminución de la amplitud de movimiento",],["Hinchazón en las articulaciones",],["Rigidez",]],
+        "causas": "La artritis involucra la degradación de las estructuras articulares, particularmente del cartílago.",
+        "recomendaciones": "Mantenga un peso corporal correcto. La obesidad es una de las causas de la enfermedad.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Hepatitis B",
+        "descripcion": "Infección grave del hígado causada por el virus de la hepatitis B que se puede prevenir fácilmente mediante una vacuna.",
+        "sintomas": [["Color amarillento de los ojos",],["Dolor abdominal",],["Orina oscura",],["Fatiga",],["Picazón",],["",],["",],["",]],
+        "causas": "Ascendencia con Hepatitis B o pincharse accidentalmente con una aguja que usó una persona infectada",
+        "recomendaciones": "Vacunarse contra la hepatitis B",
+        "consideraciones": "La artrosis es la enfermedad reumática más frecuente, especialmente entre personas de edad avanzada"
+    },
+    {
+        "nombre": "Diabetes",
+        "descripcion": "Un grupo de enfermedades que tiene como resultado un exceso de azúcar en la sangre (glucosa sanguínea elevada).",
+        "sintomas": [["Aumento de la sed",0.11],["Fatiga",0.10],["Visión borrosa",0.13],["Pérdida de peso",0.09],["Aumento del apetito",0.09],["Micción frecuente",0.04],["Infecciones frecuentes",0.05]],
+        "causas": "El páncreas no produce suficiente insulina, las células no responden de manera normal a la insulina",
+        "recomendaciones": "Adaptar la alimentación, mantener una hidratación adecuada, practicar ejercicio de forma regular, realizar controles de glucosa con frecuencia y de forma estructurada",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Insuficiencia Renal",
+        "descripcion": "Afección que provoca que los riñones pierdan la capacidad de eliminar los desechos y equilibrar los fluidos.",
+        "sintomas": [["Disminución del volumen de orina excretado",],["Hinchazón en las piernas",],["Hinchazón en los pies",],["Falta de aire",],["Fatiga",],["Desorientación",],["Náuseas",],["Debilidad",]],
+        "causas": "Administración de algunos fármacos y de contrastes yodados. Tensión arterial muy baja u obstrucciones provocadas por posibles cálculos renales, algunos tumores o un agrandamiento de la próstata en varones. Diabetes o Hipertensión",
+        "recomendaciones": "No fumar. Evitar el consumo de antiinflamatorios, sólo en ocasiones puntuales, siempre bajo prescripción médica. Controles periódicos del estado de salud (especialmente en analíticas de sangre y orina que recojan valores como la urea, la creatinina y la glucosa).",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Elefantiasis",
+        "descripcion": "Enfermedad parasitaria tropical que afecta los ganglios linfáticos y los vasos linfáticos.",
+        "sintomas": [["Inflamación en las piernas",],["Inflamación en los brazos",],["Inflamación en los genitales",],["",],["",],["",],["",],["",]],
+        "causas": "Se produce por la transmisión de unos parásitos denominados filarias a través de los mosquitos",
+        "recomendaciones": "Evitar la picadura de los mosquitos, sobre todo con mosquiteras con impregnación de insecticidas, y el uso de repelentes en la piel y la ropa",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Hepatitis A",
+        "descripcion": "Infección hepática muy contagiosa ocasionada por el virus de la hepatitis A.",
+        "sintomas": [["Fatiga",],["Náuseas",],["Dolor abdominal",],["Pérdida del apetito",],["Fiebre",],["",],["",],["",]],
+        "causas": "Comer alimentos manipulados por alguien con el virus que no se lavó bien las manos después de ir al baño. Estar en contacto cercano con una persona infectada",
+        "recomendaciones": "Vacunarse contra la hepatitis A. Lavarse las manos y consumir agua potable. No tener contacto con sangre o fluidos de otras personas",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Celulitis",
+        "descripcion": "Infección cutánea bacteriana común y potencialmente grave.",
+        "sintomas": [["Erupciones rojas",],["Calor",],["Ampolla",],["Escalofrios",],["Fiebre",],["Malestar",],["Pus",]],
+        "causas": "Factores hormonales juegan un papel importante en la apariencia de celulitis, así como la genética y el peso.",
+        "recomendaciones": "Llevar una dieta equilibrada, pobre en grasas e hidratos de carbono y rica en verduras y frutas. Beber de uno a dos litros de aguda diarios. Moderar el consumo de café y alcohol.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Obesidad",
+        "descripcion": "Trastorno caracterizado por niveles excesivos de grasa corporal que aumentan el riesgo de tener problemas de salud.",
+        "sintomas": [["Grasa corporal excesiva",],["Dolor en articulaciones",],["Apetito desenfrenado",],["Fatiga",],["",],["",],["",],["",]],
+        "causas": "Aumento en la ingesta de alimentos de alto contenido calórico que son ricos en grasa y ademas, un descenso en la actividad física",
+        "recomendaciones": "Establecer un horario regular de comidas y evitar comer fuera de los tiempos de comida u omitir alguna comida",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Hipertension Arterial",
+        "descripcion": "Afección en la que la presión de la sangre hacia las paredes de la arteria es demasiado alta.",
+        "sintomas": [["",],["",],["",],["",],["",],["Dolor de cabeza",],["Dificultad para respirar",],["Sangrado nasal",]],
+        "causas": "Suele ser hereditaria. Sobrepeso u obesidad es otra causa.",
+        "recomendaciones": "Reducir el exceso de peso, reducir el consumo de sodio, hacer ejercicio regularmente, dejar de fumar y limitar la cantidad de alcohol que bebes.",
         "consideraciones": "..."
     }
 ]

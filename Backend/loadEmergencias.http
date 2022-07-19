@@ -1,55 +1,76 @@
 @api = http://localhost:4000
 
-POST {{api}}/Emergencia/add
+POST {{api}}/Emergencia/addList
 Content-Type: application/json
 
 [
     {
        "nombre": "Atención general",
-       "Normas": [],
-       "Escena": "",
-       "Solicitud": "",
-       "Signos": [],
-       "Consideraciones": ""
+       "Normas": [
+"Actuar con rapidez pero conservando la calma.",
+"Evitar aglomeraciones.",
+"No mover a la persona herida salvo que sea imprescindible.",
+"No dar al herido de beber, comer o medicar.",
+"Tranquilizar al herido.",
+"Mantener al herido caliente."
+       ],
+       "Escena": "Protección del accidentado y del socorrista. Es preferible alejar el peligro que movilizar al accidentado. Hay que hacer seguro el lugar de la emergencia (señalizar, retirar peligros, iluminar…)",
+       "Solicitud": "Informar correctamente sobre: Lugar exacto. Tipo de accidente. Número de heridos y situación. Identificarse (las llamadas anónimas no inspiran confianza). Colgar en último lugar.",
+       "Signos": [
+"Evaluación Primaria: Se debe valorar el estado de conciencia (comprobar si responde), y valorar la respiración (oír, ver y sentir la respiración).",
+"Si NO contesta se le pellizca en la axila o trapecio, observando sus reacciones (gemidos, apertura de ojos, movimientos de cabeza), si no existe reacción el paciente está inconsciente",
+"Evaluación Secundaria: Consiste en una exploración complementaria del paciente, para detectar otras lesiones: hemorragias, heridas, quemaduras, fracturas, etc., y aplicarles primeros auxilios hasta la llegada de los servicios médicos pertinentes."
+
+       ],
+       "Consideraciones": "Hacer solo lo imprescindible. Como norma general no inmovilizar al accidentado. Si hubiera que hacerlo, moverlo en bloque."
     },
     {
        "nombre": "Traslado de paciente",
+       "Normas": [
+         "El traslado debe realizarse con el máximo cuidado y atención que sea posible para así poder evitar movimientos que provoquen lesiones adicionales a las que ya se han producido en el accidente.",
+         "Se tiene que prestar especial atención a: Las lesiones de columna vertebral que pueda tener, en las que se debe mover al accidentado en bloque, con el objetivo de evitar lesiones sobre la médula espinal.",
+       ],
+       "Escena": "El traslado puede constar de dos fases: La primera fase se define desde el lugar donde se han accidentado las víctimas hasta el lugar donde recibirán la asistencia sanitaria. La segunda fase es aquella que se sitúa desde donde se les han aplicado los primeros auxilios hasta el centro médico externo de referencia donde se realizará el tratamiento definitivo de las lesiones.",
+       "Solicitud": "Según el número de socorristas, se pueden utilizar diferentes sistemas para trasladar a las víctimas. Traslado con un solo socorrista: Arrastre, Carga. Traslado con dos socorristas: Carga, Puente, Sillita de la reina.",
+       "Signos": [
+         "Arrastre simple: para realizar este tipo de arrastre lo que se debe hacer es agarrar al lesionado por los antebrazos o si eso no es posible se agarra por los pies, con una manta o por la ropa y se arrastra. Para el arrastre, el socorrista debe caminar hacia atrás en dirección a un lugar seguro. Este tipo de arrastre se realiza sobre suelos lisos.",
+         "Arrastre axilar: en este tipo de arrastre el socorrista debe tomar por detrás al lesionado, con los brazos a través de las axilas y agarrarse de las manos para luego caminar hacia atrás. Esta técnica es útil si es necesario bajar o subir escaleras.",
+         "Arrastre de bombero: este tipo de arrastre se utiliza en casos de incendios. El primer paso es llegar al lugar donde se encuentra la víctima arrastrándose por el suelo. Después se coloca a la víctima boca arriba y se le atan las muñecas con un pañuelo, correa, etc. Una vez atadas, el socorrista debe colocarse sobre la víctima y pasar las manos del lesionado por encima de su cabeza, quedando de esta forma colgando. Después de eso se moviliza gateando y arrastrando al víctima hacia un lugar seguro. Se utiliza para los casos en los que no exista fractura en hombros o manos.",
+         "Arrastre con manta: se utiliza una manta, sábana, toalla, etc. extendiéndose la misma al lado del lesionado en posición de seguridad y colocándose la manta plegada lo más cerca posible de él. Una vez colocada la manta, se gira al accidentado hacia la posición normal para que quede encima de la manta. El propio arrastre se realiza agarrando la manta desde el lado donde se encuentra la cabeza del lesionado",
+         "Caballito asegurado: Para realizar este tipo de carga el socorrista debe colocar al lesionado sobre su espalda agarrándolo por sus manos para asegurarlo, el socorrista se traslada caminando."
+       ],
+       "Consideraciones": "La técnica de traslado por arrastre es de utilidad cuando existen peligros inminentes que hacen imprescindible salvar y trasladar a la víctima sin haber estabilizado sus partes lesionadas con anterioridad."
+    },
+    {
+       "nombre": "Heridas y hemorragias",
+       "Normas": [
+              "Si la herida presenta hemorragia, para detener o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión.", 
+              "Si la herida se encuentra en piernas o brazos, levante el miembro a un nivel superior al corazón, esto puede detener o reducir una hemorragia.",
+              "Si el sangrado no se detiene, es conveniente colocar más compresas y realizar un vendaje. NO USAR torniquete"
+       ],
+       "Escena": "Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos": ["Geminis y Tauro"],
+       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).Luego cubra con compresa, gasa y vendaje si fuera posible. No coloque algodón sobre la herida, ya que se incorpora al tejido.La herida debe ser evaluada por un médico lo antes posible (antes de las 6 horas pues puede requerir sutura)"
+    },
+    {
+       "nombre": "Contusiones o golpes",
        "Normas": [],
        "Escena": "",
        "Solicitud": "",
        "Signos": [],
-       "Consideraciones": ""
-    },
-    {
-       "nombre": "Heridas y hemorragias",
-       "Normas": ["Si la herida presenta hemorragia, para detener o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión.", 
-       "Si la herida se encuentra en piernas o brazos, levante el miembro a un nivel superior al corazón, esto puede detener o reducir una hemorragia. ",
-       "Si el sangrado no se detiene, es conveniente colocar más compresas y realizar un vendaje. NO USAR torniquete"
-       ],
-       "Escena": "Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos": "Geminis y Tauro",
-       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y jabón blanco, use antiséptico líquido (tipo iodopovidona, etc). 
-       Luego cubra con compresa, gasa y vendaje si fuera posible. No coloque algodón sobre la herida, ya que se incorpora al tejido. 
-       La herida debe ser evaluada por un médico lo antes posible (antes de las 6 horas pues puede requerir sutura)"
-    },
-    {
-       "nombre": "Contusiones o golpes",
-       "": "",
-       "": "",
-       "": "",
-       "": ""
+       "Consideraciones":""
     },
     {
        "nombre": "Quemaduras",
        "Normas": [
-"Deje correr agua fría sobre la zona de la quemadura o sumerja la zona en agua fría (no helada). Mantenga la zona en el agua durante al menos de 5 a 30 minutos. Una toalla limpia, húmeda y fría también ayuda a reducir el dolor.",
-"Calme y reconforte a la persona.",
-"Luego de lavar o remojar la quemadura en agua, cúbrala con un vendaje estéril y seco o con un apósito limpio.",
-"Proteja la quemadura de presiones o fricciones.",
-"El ibuprofeno o el paracetamol de venta libre pueden ayudar a aliviar el dolor y la inflamación. NO le dé ácido acetilsalicílico (aspirin) a niños menores de 12 años.",
-"Una vez que se enfríe la piel, una loción humectante que contenga áloe y un antibiótico también puede ayudar."
-],
+              "Deje correr agua fría sobre la zona de la quemadura o sumerja la zona en agua fría (no helada). Mantenga la zona en el agua durante al menos de 5 a 30 minutos. Una toalla limpia, húmeda y fría también ayuda a reducir el dolor.",
+              "Calme y reconforte a la persona.",
+              "Luego de lavar o remojar la quemadura en agua, cúbrala con un vendaje estéril y seco o con un apósito limpio.",
+              "Proteja la quemadura de presiones o fricciones.",
+              "El ibuprofeno o el paracetamol de venta libre pueden ayudar a aliviar el dolor y la inflamación. NO le dé ácido acetilsalicílico (aspirin) a niños menores de 12 años.",
+              "Una vez que se enfríe la piel, una loción humectante que contenga áloe y un antibiótico también puede ayudar."
+       ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
        "Signos":[
@@ -64,19 +85,27 @@ Content-Type: application/json
     },
     {
        "nombre": "Lesiones músculo-esqueléticas",
-       "": "",
-       "": "",
-       "": "",
-       "": ""
-    },
+       "Normas": [],
+       "Escena": "",
+       "Solictud": "",
+       "Signos": [],
+       "Consideraciones":""
+    },{
+      "nombre": "Obstrucción de la vía aérea",
+      "Normas": [],
+      "Escena": "",
+      "Solictud": "",
+      "Signos": [],
+      "Consideraciones":""
+    }
     {
        "nombre": "Intoxicación",
        "Normas":[
-        "Si el contacto fue por la piel: Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna loción, grasa o aceite.", 
-        "Si el contacto fue por vía inhalatoria: Trasladar a la víctima a un lugar abierto y bien ventilado.", 
-        "Si se produjo por monóxido de carbono: Luego de sacar a la víctima, apague la fuente de combustión y ventile el ambiente. Aunque los síntomas sean leves siempre se debe consultar al médico debido a que los daños pueden aparecer más tarde. En el caso de artefactos mal instalados o con inadecuada ventilación, recuerde insistir en la revisación y reparación antes de usarlos nuevamente.", 
-        "Si el contacto fue en el ojo: Pasar suavemente un paño o un papel por la cara para retirar restos de producto y lavar el ojo con agua a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fijarse si no quedan restos sólidos del producto en las pestañas o en las cejas ni alrededor del ojo.", 
-        "Si el contacto fue por vía oral (ingestión): No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico."
+              "Si el contacto fue por la piel: Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna loción, grasa o aceite.", 
+              "Si el contacto fue por vía inhalatoria: Trasladar a la víctima a un lugar abierto y bien ventilado.", 
+              "Si se produjo por monóxido de carbono: Luego de sacar a la víctima, apague la fuente de combustión y ventile el ambiente. Aunque los síntomas sean leves siempre se debe consultar al médico debido a que los daños pueden aparecer más tarde. En el caso de artefactos mal instalados o con inadecuada ventilación, recuerde insistir en la revisación y reparación antes de usarlos nuevamente.", 
+              "Si el contacto fue en el ojo: Pasar suavemente un paño o un papel por la cara para retirar restos de producto y lavar el ojo con agua a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fijarse si no quedan restos sólidos del producto en las pestañas o en las cejas ni alrededor del ojo.", 
+              "Si el contacto fue por vía oral (ingestión): No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico."
        ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
@@ -89,175 +118,20 @@ Content-Type: application/json
     },
     {
        "nombre": "Botiquín de emergencias",
-       "": [],
-       "": "",
-       "": "",
-       "": [],
-       "": ""
+      "Normas": [],
+       "Escena": "",
+       "Solictud": "",
+       "Signos": [],
+       "Consideraciones":""
     },
     {
        "nombre": "Reanimación",
-       "": [],
-       "": "",
-       "": "",
-       "": [],
-       "": ""
-    },
-    {
-       "nombre": "Fracturaa",
-       "Normas":
-       [
-        "Retirar anillos, pulseras y relojes cuando la fractura se produce en los miembros superiores (la
-hinchazón posterior puede hacer imposible su
-extracción y cortar la circulación).",
-"Si se requiere trasladar a la persona, ante fracturas no complejas de miembros (brazos o piernas) es importante “inmovilizar” con objetos rígidos, maderas, palos, cartones gruesos. Esta
-maniobra calma o disminuye el dolor. Hay que
-trasladar a la persona siempre y cuando se movilice por sus propios medios. En caso contrario
-esperar al servicio de emergencias",
-"Cuando la fractura es expuesta, es decir que se
-ve el hueso, no intente reintroducir los fragmentos óseos. Sólo cúbralo con gasas o telas limpias
-e inmovilice"
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":["Geminis", "Tauro"],
-       "Consideraciones": "La inmovilización debe tomar dos articulaciones, una por arriba y otra por debajo de la fractura.
-Si hay una fractura en el antebrazo, inmovilice también el codo y la muñeca.s"
+       "Normas": [],
+       "Escena": "",
+       "Solictud": "",
+       "Signos": [],
+       "Consideraciones":""
     }
-    ,
-    {
-       "nombre": "Electrocuióna",
-       "Normas":[
-        "Si presencia la electrocución de una persona:
-primero, si es posible y no hay riesgos para usted, interrumpa el suministro eléctrico general
-(apague interruptores, llave térmica u otro) Con
-solo apagar un equipo puede no interrumpir el
-flujo eléctrico. ",
-"Si no puede interrumpir el flujo de corriente,
-utilice un objeto no conductor (palo, escoba, silla
-madera, rollo alfombra) para empujar a la víctima lejos de la fuente. NO utilice un objeto húmedo ni metálico. De ser posible, párese sobre un
-objeto no conductor (goma, papeles). No intente
-el rescate de una víctima que se encuentre cerca
-de líneas activas de alto voltaje. ",
-"Llame o haga llamar al
-servicio de emergencias",
-"Si la víctima está libre de la fuente de electricidad, controle su respiración y evalúe el estado
-de conciencia, si no responde, no se mueve, no
-respira o respira mal, comience a administrar
-compresiones torácicas (RCP). ",
-" Si la víctima está consciente, tranquilícela, si
-tiene una quemadura, retire la ropa que salga
-con facilidad y lave con agua corriente (ver quemaduras)."
-       ],
-       "Escena": "Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos": [
-        "Alteración del nivel de la conciencia, desde la pérdida total
-(desmayo) hasta mareos o embotamiento.",
-"Puede presentar contractura y dolor muscular,
-hasta fracturas óseas de miembros; dolor de cabeza; alteración de la deglución, visión y audición; arritmias cardíacas; hormigueo en cara, tronco, o miembros; dificultad para respirar
-(hasta paro respiratorio); convulsiones; quemaduras y paro cardíaco.",
-"La descarga eléctrica
-puede asociarse con explosión e incendio además pudiendo producir la caída de la víctima,
-pudiendo ocasionar lesiones traumáticas adicionales, externas obvias y/o internas ocultas"],
-       "Consideraciones": "NO DEBE aplicar hielo, manteca, ungüentos,medicamentos, algodón,
-ni vendajes adhesivos a la quemadura.
-NO DEBE acercarse a menos de 6 mts. de una persona que
-se está electrocutando con corriente de alto
-voltaje hasta que la corriente eléctrica haya
-sido interrumpida.
-NO DEBE movilizar a la víctima de una descarga eléctrica
-a menos que haya peligro inmediato para ella (fuego
-o explosión inminente)s"
-    }
-
-,
-    
-    {
-       "nombre": "Desmayoa",
-       "Normas":[
-        "Compruebe si la víctima respira. Si respira,
-colóquela en lugar con buena ventilación fuera
-del calor/frío o peligros aledaños (vía pública). ",
-"Si todavía no perdió el conocimiento, acuéstela
-boca arriba sobre una superficie horizontal (tiene
-reflejo deglutorio, aunque ante la duda colóquela
-en posición lateral de seguridad). Afloje la ropa
-para facilitar la respiración (la cabeza quedará al
-mismo nivel que el corazón, ayuda a mejorar la
-circulación cerebral)",
-"Pídale que tosa varias veces (estímulo mejora
-la circulación cerebral).",
-"Si perdió el conocimiento: levántele las piernas (30°) para facilitar el retorno venoso y elevar
-la presión arterial.",
-"Si hace frío, evite que la víctima se enfríe (hipotermia). Cúbrala con ropa extra. "
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":[
-        "Debilidad repentina, palidez de la piel, sudoración
-fría, visión borrosa, obnubilación, escasa reacción",
-" pérdida momentánea de la conciencia y caída. La
-respiración es superficial pero no se pierde"
-       ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-s"
-    }
-    {
-       "nombre": "Desmayo",
-       "Normas": [
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":[
-       ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
-    },
-    {
-       "nombre": "Desmayo",
-       "Normas": [
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":[
-       ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
-    },
-    {
-       "nombre": "Desmayo",
-       "Normas": [
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":[
-       ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
-    },
-    {
-       "nombre": "Desmayo",
-       "Normas": [
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos":[
-       ],
-       "Consideraciones": "En sí
-no produce ninguna complicación a menos que haya
-un golpe importante en la cabeza, cara o miembros
-"
-    },
-,
 ]
 
 # {
