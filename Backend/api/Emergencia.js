@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Emergencia = require("./../models/Emergencia");
 
-function addEmg(res,body) {
+function addEmg(res, body) {
     let {
         nombre,
         Normas,
@@ -13,7 +13,9 @@ function addEmg(res,body) {
         Consideraciones
     } = body;
 
-    Emergencia.find({nombre}).then((r) => {
+    Emergencia.find({
+        nombre
+    }).then((r) => {
         if (r.length) {
             res.json({
                 msg: "Ya existe."
@@ -25,15 +27,25 @@ function addEmg(res,body) {
                 console.log(err);
             })
         }
+    }).catch((e)=>{
+        console.log(e);
     });
 }
 
 router.post('/add', (req, res) => {
 
-    addEmg(res,req.body);
+    addEmg(res, req.body);
 
 });
 
+router.post('/addList', (req, res) => {
+
+    req.body.forEach((e) => {
+
+        addEmg(res, e);
+    })
+
+});
 
 router.get('/get/:param', async function (req, res) {
     let param = req.params.param;

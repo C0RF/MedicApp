@@ -5,7 +5,43 @@ Content-Type: application/json
 
 [
     {
-       "nombre": "Quemadura",
+       "nombre": "Atención general",
+       "Normas": [],
+       "Escena": "",
+       "Solicitud": "",
+       "Signos": [],
+       "Consideraciones": ""
+    },
+    {
+       "nombre": "Traslado de paciente",
+       "Normas": [],
+       "Escena": "",
+       "Solicitud": "",
+       "Signos": [],
+       "Consideraciones": ""
+    },
+    {
+       "nombre": "Heridas y hemorragias",
+       "Normas": ["Si la herida presenta hemorragia, para detener o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión.", 
+       "Si la herida se encuentra en piernas o brazos, levante el miembro a un nivel superior al corazón, esto puede detener o reducir una hemorragia. ",
+       "Si el sangrado no se detiene, es conveniente colocar más compresas y realizar un vendaje. NO USAR torniquete"
+       ],
+       "Escena": "Escena?",
+       "Solicitud": "Solicitud?",
+       "Signos": "Geminis y Tauro",
+       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y jabón blanco, use antiséptico líquido (tipo iodopovidona, etc). 
+       Luego cubra con compresa, gasa y vendaje si fuera posible. No coloque algodón sobre la herida, ya que se incorpora al tejido. 
+       La herida debe ser evaluada por un médico lo antes posible (antes de las 6 horas pues puede requerir sutura)"
+    },
+    {
+       "nombre": "Contusiones o golpes",
+       "": "",
+       "": "",
+       "": "",
+       "": ""
+    },
+    {
+       "nombre": "Quemaduras",
        "Normas": [
 "Deje correr agua fría sobre la zona de la quemadura o sumerja la zona en agua fría (no helada). Mantenga la zona en el agua durante al menos de 5 a 30 minutos. Una toalla limpia, húmeda y fría también ayuda a reducir el dolor.",
 "Calme y reconforte a la persona.",
@@ -16,40 +52,56 @@ Content-Type: application/json
 ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos":
-       ["Ampollas que están intactas (sin romperse) o tienen rupturas que están perdiendo fluido.",
-"Dolor -- El grado de este no está relacionado con la gravedad de la quemadura. Las quemaduras más graves pueden ser indoloras.",
-"Peladuras en la piel.",
-"Shock-- Se debe observar si hay palidez y piel fría y húmeda, debilidad, labios y uñas azulados y disminución de la lucidez mental.",
-"Inflamación.",
-"Piel blanca, roja o carbonizada."],
-       "Consideraciones": "No coloque hielo, cremas, dentífrico u otras soluciones habitualmente de
-origen popular, pues pueden aumentar la lesión y provocar infección.
-En caso de tener “ampollas” no las abra.."
+       "Signos":[
+              "Ampollas que están intactas (sin romperse) o tienen rupturas que están perdiendo fluido.", 
+              "Dolor -- El grado de este no está relacionado con la gravedad de la quemadura. Las quemaduras más graves pueden ser indoloras.",
+              "Peladuras en la piel.",
+              "Shock-- Se debe observar si hay palidez y piel fría y húmeda, debilidad, labios y uñas azulados y disminución de la lucidez mental.",
+              "Inflamación.",
+              "Piel blanca, roja o carbonizada."
+       ],
+       "Consideraciones": "No coloque hielo, cremas, dentífrico u otras soluciones habitualmente de origen popular, pues pueden aumentar la lesión y provocar infección. En caso de tener “ampollas” no las abra.."
     },
     {
-       "nombre":"Heridaa",
+       "nombre": "Lesiones músculo-esqueléticas",
+       "": "",
+       "": "",
+       "": "",
+       "": ""
+    },
+    {
+       "nombre": "Intoxicación",
        "Normas":[
-        "Si la herida presenta hemorragia, para detener
-o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión. 
-",
-"Si la herida se encuentra en piernas o brazos,
-levante el miembro a un nivel superior al corazón,
-esto puede detener o reducir una hemorragia. ",
-"Si el sangrado no se detiene, es conveniente
-colocar más compresas y realizar un vendaje.
-NO USAR torniquete"
+        "Si el contacto fue por la piel: Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna loción, grasa o aceite.", 
+        "Si el contacto fue por vía inhalatoria: Trasladar a la víctima a un lugar abierto y bien ventilado.", 
+        "Si se produjo por monóxido de carbono: Luego de sacar a la víctima, apague la fuente de combustión y ventile el ambiente. Aunque los síntomas sean leves siempre se debe consultar al médico debido a que los daños pueden aparecer más tarde. En el caso de artefactos mal instalados o con inadecuada ventilación, recuerde insistir en la revisación y reparación antes de usarlos nuevamente.", 
+        "Si el contacto fue en el ojo: Pasar suavemente un paño o un papel por la cara para retirar restos de producto y lavar el ojo con agua a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fijarse si no quedan restos sólidos del producto en las pestañas o en las cejas ni alrededor del ojo.", 
+        "Si el contacto fue por vía oral (ingestión): No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico."
        ],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos":"Geminis y Tauro",
-       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y
-jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).
-Luego cubra con compresa, gasa y vendaje si fuera posible.
-No coloque algodón sobre la herida, ya que se incorpora al tejido.
-La herida debe ser evaluada por un médico lo antes posible (antes de
-las 6 horas pues puede requerir sutura).
-s"
+       "Signos": [
+              "Malestar, dolor de cabeza, mareos, náuseas o vómitos. ",
+              "Ardor y/o dolor de garganta, tos repentina, dificultad para tragar o respirar, babeo, falta de fuerzas, somnolencia repentina, confusión o disminución de la capacidad mental, convulsiones, desvanecimiento.",
+              "La presencia de envases de plaguicidas o medicamentos en las cercanías de la víctima, o de restos de sustancias y/o quemaduras alrededor de la boca, los dientes, los ojos o la piel, también pueden estar asociados a una intoxicación."
+       ],
+       "Consideraciones": "En todos los casos de intoxicación acudir o trasladar al paciente al hospital o centro de salud más cercano sin perder tiempo."
+    },
+    {
+       "nombre": "Botiquín de emergencias",
+       "": [],
+       "": "",
+       "": "",
+       "": [],
+       "": ""
+    },
+    {
+       "nombre": "Reanimación",
+       "": [],
+       "": "",
+       "": "",
+       "": [],
+       "": ""
     },
     {
        "nombre": "Fracturaa",
@@ -120,42 +172,7 @@ o explosión inminente)s"
     }
 
 ,
-    {
-       "nombre": "Intoxicacióna",
-       "Normas":[
-        "Si el contacto fue por la piel:
-Quitar rápidamente la ropa y lavar con abundante agua durante 15 o 20 minutos. No aplicar ninguna
-loción, grasa o aceite.",
-"Si el contacto fue por vía inhalatoria:
-Trasladar a la víctima a un lugar abierto y bien ventilado.",
-"Si se produjo por monóxido de carbono:
-Luego de sacar a la víctima, apague la fuente de combustión y ventile el ambiente. Aunque los síntomas
-sean leves siempre se debe consultar al médico debido a que los daños pueden aparecer más tarde. En
-el caso de artefactos mal instalados o con inadecuada ventilación, recuerde insistir en la revisación y
-reparación antes de usarlos nuevamente.",
-"Si el contacto fue en el ojo:
-Pasar suavemente un paño o un papel por la cara para retirar restos de producto y lavar el ojo con agua
-a temperatura ambiente y manteniendo el ojo abierto durante 15- 20 minutos. Fijarse si no quedan restos sólidos del producto en las pestañas o en las cejas ni alrededor del ojo. 
-",
-"Si el contacto fue por vía oral (ingestión):
-No hacer vomitar o beber a una persona que está inconsciente, confundida, adormecida o tiene dificultad para tragar. En cualquier caso, antes de administrar algo “por boca” a una persona que ha ingerido
-un producto potencialmente tóxico, comunicarse con un Centro de Información, Asesoramiento y Asistencia Toxicológica o consultar a su médico.
-"
-       ],
-       "Escena":"Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos": [
-        "Malestar, dolor de cabeza, mareos, náuseas o vómitos. ",
-        "Ardor y/o dolor de garganta, tos repentina, dificultad para tragar o respirar,
-babeo, falta de fuerzas, somnolencia repentina, confusión o disminución de la
-capacidad mental, convulsiones, desvanecimiento.",
-"La presencia de envases de plaguicidas o medicamentos en las cercanías de
-la víctima, o de restos de sustancias y/o quemaduras alrededor de la boca, los
-dientes, los ojos o la piel, también pueden estar asociados a una intoxicación."
-       ],
-       "Consideraciones": "En todos los casos de intoxicación acudir o trasladar al paciente al
-hospital o centro de salud más cercano sin perder tiempo.s"
-    },
+    
     {
        "nombre": "Desmayoa",
        "Normas":[
@@ -223,6 +240,24 @@ respiración es superficial pero no se pierde"
        "Solicitud": "Solicitud?",
        "Signos":[
        ],
+<<<<<<< HEAD
        "Consideraciones": "En sí no produce ninguna complicación a menos que haya un golpe importante en la cabeza, cara o miembros"
     }
 ]
+=======
+       "Consideraciones": "En sí
+no produce ninguna complicación a menos que haya
+un golpe importante en la cabeza, cara o miembros
+"
+    },
+,
+]
+
+# {
+#        "nombre": "",
+#        "": "",
+#        "": "",
+#        "": "",
+#        "": "",
+# }
+>>>>>>> 10a4fe97bb56fc2075b7c0a185650e77aca45492

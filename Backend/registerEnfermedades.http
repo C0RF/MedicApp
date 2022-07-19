@@ -51,28 +51,32 @@ Content-Type: application/json
         "causas": "No se sabe donde se origina la viruela del simio, pero se cree que se transmite a través de pequeños roedores y ardillas de las selvas tropicales de África, principalmente en África occidental y central.",
         "recomendaciones": "Se recomienda abstenerse de tener contacto cercano con terceros, evitar asistir a reuniones y seguir los consejos emitidos por las autoridades sanitarias correspondientes",
         "consideraciones": "Se recomienda"
-    },{
+    },
+    {
         "nombre": "Viruela Kawasaki",
         "descripcion": "La enfermedad de Kawasaki es una vasculitis, es decir, una inflamación generalizada de los vasos sanguíneos, que tiende a afectar, sobre todo, a las arterias medianas de todo el organismo.",
         "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",""],["Inyección conjuntival",""],["Garganta inflada",""],["Lengua inflamada",""],["Dolor abdominal",""],["Dolores articulares",""]],
         "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
         "recomendaciones": "Se recomienda ...",
         "consideraciones": "Se huevea"
-    },{
+    },
+    {
         "nombre": "Sinusitis crónica",
         "descripcion": "La sinusitis crónica se produce cuando los espacios dentro de la nariz y la cabeza (senos paranasales) están hinchados e inflamados durante tres meses o más, a pesar del tratamiento.",
         "sintomas": [["Inflamación nasal",0.13],["Secreción espesa de la nariz",0.12],["Nariz tapada",0.11],["Secreción posnasal",0.10],["Hinchazón alrededor de los ojos",0.05],["Reducción del sentido del olfato",0.04],["Reducción del sentido del gusto",0.02],["Dolor de oído",0.001]],
         "causas": "infecciones, crecimientos en los senos paranasales (pólipos nasales) o hinchazón del revestimiento de los senos paranasales.",
         "recomendaciones": "Se recomienda evitar el contacto con personas resfriadas o con otras infecciones.",
         "consideraciones": "..."
-    },{
+    },
+    {
         "nombre": "Infección urinaria",
         "descripcion": "Infección urinaria descripción",
         "sintomas": [["...",0.12],["...",0.10],["...",0.09],["",0.05],["...",0.03],["...",0.02],["...",0.01]],
         "causas": "..",
         "recomendaciones": "...",
         "consideraciones": "..."
-    },{
+    },
+    {
         "nombre": "Influenza",
         "descripcion": "Influenza descripción",
         "sintomas": [["Fiebre",0.13],["Tos",0.12],["Dolor de garganta",0.10],["Secreción nasal",0.06],["Dolores musculares",0.05],["Dolores de cabeza",0.04],["fatiga",0.02]],
