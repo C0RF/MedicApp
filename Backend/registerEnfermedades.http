@@ -159,7 +159,7 @@ Content-Type: application/json
     {
         "nombre": "Insuficiencia Renal",
         "descripcion": "Afección que provoca que los riñones pierdan la capacidad de eliminar los desechos y equilibrar los fluidos.",
-        "sintomas": [["Disminución del volumen de orina excretado",],["Hinchazón en las piernas",],["Hinchazón en los pies",],["Falta de aire",],["Fatiga",],["Desorientación",],["Náuseas",],["Debilidad",]],
+        "sintomas": [["Disminución del volumen de orina excretado",0.15],["Hinchazón en las piernas",0.12],["Hinchazón en los pies",0.10],["Falta de aire",0.09],["Fatiga",0.06],["Desorientación",0.03],["Náuseas",0.02],["Debilidad",0.02]],
         "causas": "Administración de algunos fármacos y de contrastes yodados. Tensión arterial muy baja u obstrucciones provocadas por posibles cálculos renales, algunos tumores o un agrandamiento de la próstata en varones. Diabetes o Hipertensión",
         "recomendaciones": "No fumar. Evitar el consumo de antiinflamatorios, sólo en ocasiones puntuales, siempre bajo prescripción médica. Controles periódicos del estado de salud (especialmente en analíticas de sangre y orina que recojan valores como la urea, la creatinina y la glucosa).",
         "consideraciones": "..."

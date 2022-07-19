@@ -27,7 +27,7 @@ Content-Type: application/json
     }
 
 ####
-GET {{api}}/Sintomas/getEnfermedadRel
+POST {{api}}/Sintomas/enfermedadesRelacionadas
 Content-Type: application/json
 
 [

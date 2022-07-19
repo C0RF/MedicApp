@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Enfermedad = require("../models/Enfermedad");
 
-router.get("/getEnfermedadRel", (req, res) => {
+router.post("/enfermedadesRelacionadas", (req, res) => {
     lista_sintomas = req.body;
     let results = [];
     async function obtProb() {
