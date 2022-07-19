@@ -37,7 +37,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": " Cólera",
+        "nombre": "Cólera",
         "descripcion": "Es una enfermedad diarreica aguda causada por la ingestión de alimentos o agua contaminados con el bacilo Vibrio cholerae.",
         "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.05],["Dolores corporales leves",0.03],["Dificultad para respirar",0.02]],
         "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
@@ -63,7 +63,7 @@ Content-Type: application/json
     {
         "nombre": "Sinusitis crónica",
         "descripcion": "La sinusitis crónica se produce cuando los espacios dentro de la nariz y la cabeza (senos paranasales) están hinchados e inflamados durante tres meses o más, a pesar del tratamiento.",
-        "sintomas": [["Inflamación nasal",0.13],["Secreción espesa de la nariz",0.12],["Nariz tapada",0.11],["Secreción posnasal",0.10],["Hinchazón alrededor de los ojos",0.05],["Reducción del sentido del olfato",0.04],["Reducción del sentido del gusto",0.02],["Dolor de oído",0.001]],
+        "sintomas": [["Inflamación nasal",0.13],["Secreción espesa de la nariz",0.12],["Nariz tapada",0.11],["Secreción posnasal",0.10],["Hinchazón alrededor de los ojos",0.05],["Reducción del sentido del olfato",0.04],["Reducción del sentido del gusto",0.02],["Dolor de oído",0.01]],
         "causas": "infecciones, crecimientos en los senos paranasales (pólipos nasales) o hinchazón del revestimiento de los senos paranasales.",
         "recomendaciones": "Se recomienda evitar el contacto con personas resfriadas o con otras infecciones.",
         "consideraciones": "..."
@@ -167,7 +167,7 @@ Content-Type: application/json
     {
         "nombre": "Elefantiasis",
         "descripcion": "Enfermedad parasitaria tropical que afecta los ganglios linfáticos y los vasos linfáticos.",
-        "sintomas": [["Inflamación en las piernas",],["Inflamación en los brazos",],["Inflamación en los genitales",],["",],["",],["",],["",],["",]],
+        "sintomas": [["Inflamación en las piernas",0.16],["Inflamación en los brazos",0.15],["Inflamación en los genitales",0.14],["Fiebre elevada",0.06],["Sensibilidad a la luz",0.05],["Pericarditis",0.03],["Comezón en el cuerpo",0.04]],
         "causas": "Se produce por la transmisión de unos parásitos denominados filarias a través de los mosquitos",
         "recomendaciones": "Evitar la picadura de los mosquitos, sobre todo con mosquiteras con impregnación de insecticidas, y el uso de repelentes en la piel y la ropa",
         "consideraciones": "..."
@@ -175,7 +175,7 @@ Content-Type: application/json
     {
         "nombre": "Hepatitis A",
         "descripcion": "Infección hepática muy contagiosa ocasionada por el virus de la hepatitis A.",
-        "sintomas": [["Fatiga",],["Náuseas",],["Dolor abdominal",],["Pérdida del apetito",],["Fiebre",],["",],["",],["",]],
+        "sintomas": [["Fatiga",0.07],["Náuseas",0.08],["Dolor abdominal",0.10],["Pérdida del apetito",0.09],["Fiebre",0.06],["Color amarillento en la piel",0.20],["Orina de color oscuro",0.05],["Dolor articular",0.04]],
         "causas": "Comer alimentos manipulados por alguien con el virus que no se lavó bien las manos después de ir al baño. Estar en contacto cercano con una persona infectada",
         "recomendaciones": "Vacunarse contra la hepatitis A. Lavarse las manos y consumir agua potable. No tener contacto con sangre o fluidos de otras personas",
         "consideraciones": "..."
@@ -183,7 +183,7 @@ Content-Type: application/json
     {
         "nombre": "Celulitis",
         "descripcion": "Infección cutánea bacteriana común y potencialmente grave.",
-        "sintomas": [["Erupciones rojas",],["Calor",],["Ampolla",],["Escalofrios",],["Fiebre",],["Malestar",],["Pus",]],
+        "sintomas": [["Erupciones rojas",0.15],["Calor",0.09],["Ampolla",0.09],["Escalofrios",0.09],["Fiebre",0.08],["Malestar general",0.07],["Pus",0.15]],
         "causas": "Factores hormonales juegan un papel importante en la apariencia de celulitis, así como la genética y el peso.",
         "recomendaciones": "Llevar una dieta equilibrada, pobre en grasas e hidratos de carbono y rica en verduras y frutas. Beber de uno a dos litros de aguda diarios. Moderar el consumo de café y alcohol.",
         "consideraciones": "..."
@@ -191,7 +191,7 @@ Content-Type: application/json
     {
         "nombre": "Obesidad",
         "descripcion": "Trastorno caracterizado por niveles excesivos de grasa corporal que aumentan el riesgo de tener problemas de salud.",
-        "sintomas": [["Grasa corporal excesiva",],["Dolor en articulaciones",],["Apetito desenfrenado",],["Fatiga",],["",],["",],["",],["",]],
+        "sintomas": [["Grasa corporal excesiva",0.12],["Dolor en articulaciones",0.15],["Apetito desenfrenado",0.09],["Fatiga",0.05],["Dolor en las piernas",0.14],["Pérdida de control para orinar",0.13],["Dificultad para respirar",0.12]],
         "causas": "Aumento en la ingesta de alimentos de alto contenido calórico que son ricos en grasa y ademas, un descenso en la actividad física",
         "recomendaciones": "Establecer un horario regular de comidas y evitar comer fuera de los tiempos de comida u omitir alguna comida",
         "consideraciones": "..."
@@ -199,7 +199,7 @@ Content-Type: application/json
     {
         "nombre": "Hipertension Arterial",
         "descripcion": "Afección en la que la presión de la sangre hacia las paredes de la arteria es demasiado alta.",
-        "sintomas": [["",],["",],["",],["",],["",],["Dolor de cabeza",],["Dificultad para respirar",],["Sangrado nasal",]],
+        "sintomas": [["Vómitos",0.08],["Confusión",0.07],["Náuseas",0.08],["Dolor de cabeza",0.16],["Dificultad para respirar",0.10],["Sangrado nasal",0.12]],
         "causas": "Suele ser hereditaria. Sobrepeso u obesidad es otra causa.",
         "recomendaciones": "Reducir el exceso de peso, reducir el consumo de sodio, hacer ejercicio regularmente, dejar de fumar y limitar la cantidad de alcohol que bebes.",
         "consideraciones": "..."
