@@ -350,6 +350,14 @@ Content-Type: application/json
     },
     {
         "nombre": "Tuberculosis",
+        "descripcion": "La tuberculosis es una enfermedad infecciosa y potencialmente seria que afecta principalmente los pulmones. La bacteria que causa la tuberculosis se contagia de persona a persona a través de pequeñas gotitas diseminadas en el aire al toser o estornudar.",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Ébola",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -357,7 +365,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "",
+        "nombre": "Autismo",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -365,7 +373,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "Influenza",
+        "nombre": "Pálida",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -373,7 +381,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "Influenza",
+        "nombre": "Papera",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -381,7 +389,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "Influenza",
+        "nombre": "Tétano",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -389,15 +397,7 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "Influenza",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
-    },
-    {
-        "nombre": "Influenza",
+        "nombre": "Asma",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -407,7 +407,7 @@ Content-Type: application/json
 ]
 
 # {
-#     "nombre": "Influenza",
+#     "nombre": "",
 #     "descripcion": "",
 #     "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
 #     "causas": "",
