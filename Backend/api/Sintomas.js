@@ -24,7 +24,7 @@ router.post("/enfermedadesRelacionadas", (req, res) => {
         }
         return results
     }
-
+    
     async function obtProb() {
         for await (const doc of Enfermedad.find()) {
             sintomas_db = doc.sintomas;

@@ -175,7 +175,6 @@ router.get("/getEnfermedad", (req, res) => {
 
 //Obtener enfermedades relacionadas a la búsqueda
 router.get("/getEnfermedades", (req, res) => {
-    // cuando nombre="" que retorne todos
     const removeAccents = (str) => {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }

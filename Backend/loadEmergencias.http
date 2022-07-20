@@ -17,9 +17,9 @@ Content-Type: application/json
       "Escena": "Protección del accidentado y del socorrista. Es preferible alejar el peligro que movilizar al accidentado. Hay que hacer seguro el lugar de la emergencia (señalizar, retirar peligros, iluminar…)",
       "Solicitud": "Informar correctamente sobre: Lugar exacto. Tipo de accidente. Número de heridos y situación. Identificarse (las llamadas anónimas no inspiran confianza). Colgar en último lugar.",
       "Signos": [
-               "Evaluación Primaria: Se debe valorar el estado de conciencia (comprobar si responde), y valorar la respiración (oír, ver y sentir la respiración).",
+               "Ev. Primaria: Se debe valorar el estado de conciencia (comprobar si responde), y valorar la respiración (oír, ver y sentir la respiración).",
                "Si NO contesta se le pellizca en la axila o trapecio, observando sus reacciones (gemidos, apertura de ojos, movimientos de cabeza), si no existe reacción el paciente está inconsciente",
-               "Evaluación Secundaria: Consiste en una exploración complementaria del paciente, para detectar otras lesiones: hemorragias, heridas, quemaduras, fracturas, etc., y aplicarles primeros auxilios hasta la llegada de los servicios médicos pertinentes."
+               "Ev. Secundaria: Consiste en una exploración complementaria del paciente, para detectar otras lesiones: hemorragias, heridas, quemaduras, fracturas, etc., y aplicarles primeros auxilios hasta la llegada de los servicios médicos pertinentes."
       ], 
       "Consideraciones": "Hacer solo lo imprescindible. Como norma general no movilizar al accidentado. Si hubiera que hacerlo, moverlo en bloque.",
       "Titulos": {
@@ -140,7 +140,7 @@ Content-Type: application/json
          "Descubre la zona de fractura."
       ],
       "Escena": "Los trastornos musculoesqueléticos suelen cursar con dolor (a menudo persistente) y limitación de la movilidad, la destreza y el nivel general de funcionamiento, lo que reduce la capacidad de las personas para trabajar.",
-      "Solictud": "En el caso de Fractura. Cerrada: El hueso no ha desgarrado la piel. Abierta:El hueso partió la piel, hay una herida abierta y está acompañada de una hemorragia.",
+      "Solicitud": "En el caso de Fractura. Cerrada: El hueso no ha desgarrado la piel. Abierta:El hueso partió la piel, hay una herida abierta y está acompañada de una hemorragia.",
       "Signos": [
          "Dolor Intenso en la zona afectada",
          "Deformidad al romperse el hueso.",
@@ -220,7 +220,7 @@ Content-Type: application/json
             "Jabón  (para el lavado de manos, heridas y material de curación) ."
       ],
       "Escena": "Un botiquín de primeros auxilios bien provisto puede ayudarte a responder eficazmente ante lesiones y emergencias comunes. Mantén al menos un botiquín de primeros auxilios en tu casa y uno en tu automóvil.",
-      "Solictud": "Considera realizar un curso de primeros auxilios en la Cruz Roja Americana.",
+      "Solicitud": "Considera realizar un curso de primeros auxilios en la Cruz Roja Americana.",
       "Signos": [
          "Gel de aloe vera",
 "Loción de calamina",
@@ -247,12 +247,12 @@ Content-Type: application/json
       "nombre": "Reanimación",
       "Normas": [
 "Apertura de la vía aérea: Con la cabeza en hiperextensión moderada se levanta el mentón, a la vez que se va abriendo la boca.  ",
-"Comprobar la respiración. Ver, oír y sentir durante 5-10 segundos. Diferenciar una respiración normal de una respiración agónica. Es posible que con la apertura de la vía aérea (VA), el paciente ventile por sí mismo."
+"Comprobar la respiración. Ver, oír y sentir durante 5-10 segundos. Diferenciar una respiración normal de una respiración agónica. Es posible que con la apertura de la vía aérea (VA), el paciente ventile por sí mismo.",
 "Si NO respira. Indica que está en PCR",
 "Iniciar las compresiones torácicas"
 ],
-      "Escena": "La víctima No respira, o tiene respiración agónica",
-      "Solictud": "Cuando hay más de una persona para la reanimación Una persona debe comenzar la reanimación, mientras la otra va a pedir ayuda en el momento en que se comprueba que el paciente está inconsciente y no respira.",
+      "Escena": "No hay evidencias claras de cuándo no debe iniciarse la RCP en un paciente en PCR; por ello, se recomienda al personal no sanitario iniciarla siempre",
+      "Solicitud": "Cuando hay más de una persona para la reanimación Una persona debe comenzar la reanimación, mientras la otra va a pedir ayuda en el momento en que se comprueba que el paciente está inconsciente y no respira.",
       "Signos": [
                      "Se coloca a la víctima en decúbito supino (boca arriba), y quien reanima se arrodilla a su lado, con las rodillas a la altura del pecho de la víctima.",
             "Se elige el punto de compresión. En el centro del tórax, entre los pezones.",
@@ -266,7 +266,7 @@ Content-Type: application/json
       "Consideraciones":"Nunca se debe realizar una RCP en lugar o situación que suponga peligro para la persona que reanima o la reanimada",
       "Titulos":{
          "Normas": "Técnica de las compresiones",
-         "Escena": "Situación",
+         "Escena": "¿Cuándo está indicada?",
          "Solicitud": "Solicitud de Ayuda",
          "Consideraciones":"Consideraciones",
          "Signos": "Técnica de las Compresiones"

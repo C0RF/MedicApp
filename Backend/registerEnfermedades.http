@@ -23,7 +23,7 @@ Content-Type: application/json
     {
         "nombre": "Osteoporosis",
         "descripcion": "Enfermedad esquelética en la que se produce una disminución de la densidad de masa ósea.",
-        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura con el tiempo",0.13],["Postura encorvada",0.12],["Dolor de cintura",0.11]],
+        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura",0.13],["Postura encorvada",0.12],["Dolor de cintura",0.11]],
         "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
         "recomendaciones": "Mantener una alimentación saludable, variada y equilibrada, y realizar ejercicios regularmente.",
         "consideraciones": "Las fracturas por osteoporosis ocurren con mayor frecuencia en la cadera, la muñeca o la columna vertebral."
