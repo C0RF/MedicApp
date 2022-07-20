@@ -38,8 +38,9 @@ Content-Type: application/json
 
 {
     "sintomas": [
-        "fiebre",
-        "dolor de cabeza"
+        "escalofríos",
+        "dolor de cabeza",
+        "sangrado nasal"
       ]
 }
 

@@ -9,11 +9,23 @@ router.post("/enfermedadesRelacionadas", (req, res) => {
     lista_sintomas = req.body.sintomas;
     //console.log("ssl", lista_sintomas)
     // var sl = ["Estatura baja"];
-    var results = [];
+    let results = [];
     const removeAccents = (str) => {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     } 
-
+    function ordenarProb(results){
+        let i, j, aux;
+        for (i=1; i<results.length; i++){
+            for(j=0;j<(results.length-i); j++){
+                if(results[j][1]<results[j+1][1]){
+                    aux = results[j];
+                    results[j] = results[j+1];
+                    results[j+1] = aux;
+                }
+            }
+        }
+        return results
+    }
     async function obtProb() {
         for await (const doc of Enfermedad.find()) {
             sintomas_db = doc.sintomas;
@@ -29,8 +41,9 @@ router.post("/enfermedadesRelacionadas", (req, res) => {
                 results.push([doc.nombre, prob_sum]);
             }
         }
+        
 
-        return results;
+        return ordenarProb(results);
     };
     obtProb().then((result) => {
 
