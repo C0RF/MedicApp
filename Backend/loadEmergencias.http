@@ -246,7 +246,13 @@ Content-Type: application/json
    {
       "nombre": "Reanimación",
       "Normas": [
-            "Se coloca a la víctima en decúbito supino (boca arriba), y quien reanima se arrodilla a su lado, con las rodillas a la altura del pecho de la víctima.",
+"Apertura de la vía aérea: Con la cabeza en hiperextensión moderada se levanta el mentón, a la vez que se va abriendo la boca.  ",
+"Comprobar la respiración. Ver, oír y sentir durante 5-10 segundos. Diferenciar una respiración normal de una respiración agónica. Es posible que con la apertura de la vía aérea (VA), el paciente ventile por sí mismo."
+],
+      "Escena": "No respira, o tiene respiración agónica",
+      "Solictud": "Cuando hay más de una persona para la reanimación Una persona debe comenzar la reanimación, mientras la otra va a pedir ayuda en el momento en que se comprueba que el paciente está inconsciente y no respira.",
+      "Signos": [
+                     "Se coloca a la víctima en decúbito supino (boca arriba), y quien reanima se arrodilla a su lado, con las rodillas a la altura del pecho de la víctima.",
             "Se elige el punto de compresión. En el centro del tórax, entre los pezones.",
             "Durante las compresiones torácicas, el reanimador no debe apoyar sus dedos en el tórax del paciente para así asegurarse de que la presión que ejerce no se aplica en las costillas. Tampoco hay que hacer presión en el abdomen ni en la parte final del esternón.",
             "Quien reanima descarga su peso sobre el esternón del paciente con un movimiento basculante de pelvis. La profundidad de cada compresión será de 4-5 cm y, tras cada compresión, el tórax debe recuperar su posición inicial.",
@@ -255,16 +261,13 @@ Content-Type: application/json
             "Relación compresión – ventilación = 30/2 en todas las víctimas, excepto en recién nacidos",
             "Se debe intentar limitar el número de interrupciones de las compresiones torácicas. Cada vez que se interrumpen, la sangre deja de circular"
       ],
-      "Escena": "No respira, o tiene respiración agónica",
-      "Solictud": "Cuando hay más de una persona para la reanimación Una persona debe comenzar la reanimación, mientras la otra va a pedir ayuda en el momento en que se comprueba que el paciente está inconsciente y no respira.",
-      "Signos": [],
       "Consideraciones":"Nunca se debe realizar una RCP en lugar o situación que suponga peligro para la persona que reanima o la reanimada",
       "Titulos":{
-         "Normas": "Normas",
+         "Normas": "Técnica de las compresiones",
          "Escena": "Situación",
          "Solicitud": "Solicitud",
          "Consideraciones":"Consideraciones",
-         "Signos": "Síntomas"
+         "Signos": "Técnica de las Compresiones"
       }
    }
 ]
