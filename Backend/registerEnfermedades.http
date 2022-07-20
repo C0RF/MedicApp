@@ -238,32 +238,32 @@ Content-Type: application/json
     },
     {
         "nombre": "Vitiligo",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "descripcion": "El vitiligo es una enfermedad que causa la pérdida de color de la piel en manchas. Las áreas descoloridas generalmente se agrandan con el tiempo. La afección puede afectar la piel de cualquier parte del cuerpo.",
+        "sintomas": [["Pérdida del color de la piel",0.20],["Coloración blanca",0.20],["Pérdida de color en los tejidos que recubren el interior de la boca",0.20]],
+        "causas": "El vitíligo se presenta cuando las células que producen el pigmento (melanocitos) mueren o suspenden la producción de melanina, el pigmento que le proporciona color a la piel, el cabello y los ojos.",
+        "recomendaciones": "Realizar un buen cuidado diario de la piel. Uso de filtro solar para proteger las zonas afectadas más sensibles a la luz solar, y para evitar que las regiones próximas se bronceen, resaltando más el problema.",
         "consideraciones": "..."
     },
     {
         "nombre": "Cervicitis",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "descripcion": "La cervicitis es una inflamación del cuello del útero, el extremo inferior y estrecho del útero que termina en la vagina.",
+        "sintomas": [["Grandes cantidades de un flujo vaginal",0.16],["Micciones frecuentes",0.10],["Dolor durante las relaciones sexuales",0.09],["Sangrado entre períodos menstruales",0.09]],
+        "causas": "Las posibles causas de la cervicitis son: Infecciones de transmisión sexual, Reacciones alérgicas y Crecimiento excesivo de bacterias",
+        "recomendaciones": "Evitar los irritantes como las duchas vaginales y los tampones con desodorante.",
         "consideraciones": "..."
     },
     {
         "nombre": "Cirrosis",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "descripcion": "La cirrosis es una etapa tardía de la cicatrización (fibrosis) del hígado producto de muchas formas de enfermedades hepáticas, como la hepatitis y el alcoholismo crónico.",
+        "sintomas": [["Fatiga",0.03],["Pérdida de apetito",0.02],["Náuseas",0.02],["Hinchazón de las piernas",0.09],["Aparición de hemorragias",0.10],["Decoloración amarilla en la piel",0.09],["Picazón",0.03]],
+        "causas": "Abuso crónico de alcohol, Hepatitis viral crónica, Acumulación de grasas en el hígado, Acumulación de hierro en el cuerpo, Fibrosis quística, Desorden digestivo genético, etc",
+        "recomendaciones": "Consuma grandes cantidades de alimentos con carbohidratos, Tome suplementos vitamínicos, en especial vitaminas del complejo B, Consuma una ingesta moderada de grasas.",
         "consideraciones": "..."
     },
     {
         "nombre": "Sarcoma de Ewing",
         "descripcion": "El sarcoma de Ewing es un tipo raro de cáncer que se produce en los huesos o en el tejido blando alrededor de los huesos.",
-        "sintomas": [["Sensibilidad cerca del área afectada",],["Dolor de huesos",],["Cansancio",],["Fiebre",],["Pérdida de peso",],["Hinchazón cerca del área afectada",],["Dolor cerca del área afectada",]],
+        "sintomas": [["Sensibilidad cerca del área afectada",0.10],["Dolor de huesos",0.11],["Cansancio",0.05],["Fiebre",0.02],["Pérdida de peso",0.03],["Hinchazón cerca del área afectada",0.10],["Dolor cerca del área afectada",0.10]],
         "causas": "No está claro qué causa el sarcoma de Ewing.",
         "recomendaciones": "Realizar quimioterapia lo más antes posible",
         "consideraciones": "En ciertas situaciones se podrían utilizar otros tratamientos, incluida la radioterapia."
@@ -271,7 +271,7 @@ Content-Type: application/json
     {
         "nombre": "Síndrome de Down",
         "descripcion": "El síndrome de Down es un trastorno genético que se origina cuando la división celular anormal produce una copia adicional total o parcial del cromosoma 21. Este material genético adicional provoca los cambios en el desarrollo y en las características físicas relacionados con el síndrome de Down.",
-        "sintomas": [["Rostro aplanado",],["Cabeza pequeña",],["Cuello corto",],["Lengua protuberante",],["Poco tono muscular",],["Flexibilidad excesiva",],["Baja estatura",]],
+        "sintomas": [["Rostro aplanado",0.15],["Cabeza pequeña",0.07],["Cuello corto",0.08],["Lengua protuberante",0.09],["Poco tono muscular",0.09],["Flexibilidad excesiva",0.14],["Baja estatura",0.14]],
         "causas": "El síndrome de Down se genera cuando se produce una división celular anormal en el cromosoma 21. Estas anomalías en la división celular provocan una copia adicional parcial o total del cromosoma 21. Este material genético adicional es responsable de los rasgos característicos y de los problemas de desarrollo del síndrome de Down.",
         "recomendaciones": "Si tienes un riesgo elevado de tener un niño con síndrome de Down o ya tienes un niño con síndrome de Down, quizá desees consultar con un asesor en genética antes de quedar embarazada.",
         "consideraciones": "La mayoría de las veces, el síndrome de Down no es hereditario. Se produce por un error en la división celular en las primeras etapas del desarrollo del feto."
@@ -279,13 +279,77 @@ Content-Type: application/json
     {
         "nombre": "Sarcoma pleomórfico indiferenciado",
         "descripcion": "El sarcoma pleomórfico indiferenciado es un tipo de cáncer poco común que comienza principalmente en los tejidos blandos del cuerpo. Los tejidos blandos conectan, sostienen y recubren otras estructuras del cuerpo",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "sintomas": [["Un bulto creciente",0.20],["Entumecimiento",0.07],["Hinchazón en la mano",0.10],["Pérdida de apetito",0.05],["Fiebre",0.03],["Pérdida de peso",0.02]],
+        "causas": "No se sabe con exactitud qué causa el sarcoma pleomórfico indiferenciado.",
+        "recomendaciones": "Se podrían recomendar otros tratamientos, como la radioterapia y quimioterapia, antes de la cirugía, para reducir el tamaño del cáncer y que sea más fácil de extirpar sin amputar el miembro afectado.",
         "consideraciones": "..."
     },
     {
-        "nombre": "Sarcoma epitelioide",
+        "nombre": "Leucemia",
+        "descripcion": "La leucemia es el cáncer de los tejidos que forman la sangre en el organismo, incluso la médula ósea y el sistema linfático.",
+        "sintomas": [["Fatiga",0.08],["Pérdida de peso",0.03],["Ganglios linfáticos inflamados",0.09],["Formación de hematomas",0.10],["Sangrado nasal",0.2],["Manchas rojas en la piel",0.9],["Hiperhidrosis",0.10]],
+        "causas": "Los científicos no entienden las causas exactas de la leucemia. Parece desarrollarse a partir de una combinación de factores genéticos y ambientales.",
+        "recomendaciones": "Se recomienda comer alimentos saludables todos los días y no fumar",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Dengue",
+        "descripcion": "El dengue es una enfermedad transmitida por mosquitos, y ocurre en zonas tropicales y subtropicales del mundo. El dengue leve puede ocasionar fiebre alta y síntomas similares a la gripe.",
+        "sintomas": [["Dolor de cabeza", 0.02],["Dolor muscular",0.03],["Náuseas",0.04],["Vómitos",0.04],["Dolor detrás de los ojos",0.10],["Glándulas inflamadas",0.08],["Erupción",0.02]],
+        "causas": "La fiebre del dengue es causada por cualquiera de los cuatro virus del dengue. No se puede contraer la fiebre del dengue por estar cerca de una persona infectada. En cambio, la fiebre del dengue se transmite a través de las picaduras de mosquitos.",
+        "recomendaciones": "Se recomienda vacunarse y evitar las picaduras de mosquitos",
+        "consideraciones": "En las zonas del mundo donde el dengue es frecuente, se aprueba una vacuna contra el dengue (Dengvaxia) para las personas de entre 9 y 45 años que ya lo tuvieron al menos una vez. La vacuna se administra en tres dosis en el curso de 12 meses."
+    },
+    {
+        "nombre": "Neumonía",
+        "descripcion": "La neumonía es una infección que inflama los sacos aéreos de uno o ambos pulmones. Los sacos aéreos se pueden llenar de líquido o pus (material purulento), lo que provoca tos con flema o pus, fiebre, escalofríos y dificultad para respirar.",
+        "sintomas": [["Dolor en el pecho al respirar",0.14],["Desorientación",0.07],["Tos con flema",0.13],["Fatiga",0.01],["Baja temperatura corporal",0.13],["Dificultad para respirar",0.13],["Escalofríos",0.13]],
+        "causas": "Muchos gérmenes pueden causar neumonía. Los más comunes son las bacterias y los virus en el aire que respiramos. El cuerpo normalmente evita que estos gérmenes infecten los pulmones. Pero a veces estos gérmenes pueden dominar tu sistema inmunitario, incluso si tu salud es generalmente buena.",
+        "recomendaciones": "Se recomienda aplicarse la vacuna antineumocócica, la vacuna contra la influenza, dejar de fumar, reducir el consumo de alcohol, etc. ",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Neuralgia del trigémino",
+        "descripcion": "La neuralgia del trigémino es una afección que provoca sensaciones dolorosas similares a una descarga eléctrica en un lado de la cara. Esta afección de dolor crónico afecta el nervio trigémino, que trasmite las sensaciones de la cara al cerebro",
+        "sintomas": [["Dolor que se presenta con espasmos faciales",0.18],["Dolor que afecta un solo lado del rostro a la vez",0.20],["Dolor en las zonas inervadas por el nervio trigémino",0.25],["Ataques espontáneos de dolor",0.10]],
+        "causas": "El problema suele ser el contacto entre un vaso sanguíneo normal (en este caso, una arteria o una vena) y el nervio trigémino ubicado en la base del cerebro. Este contacto ejerce presión sobre el nervio y provoca un mal funcionamiento de este.",
+        "recomendaciones": "Se recomienda entonces evitar los alimentos picantes, ácidos y con cafeína",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Úlcera péptica",
+        "descripcion": "Las úlceras pépticas son llagas abiertas que aparecen en el revestimiento interno del estómago y la parte superior del intestino delgado.",
+        "sintomas": [["Dolor de estómago",0.15],["Intolerancia a los alimentos grasos",0.14],["Náuseas",0.06],["Acidez estomacal",0.05],["Sensación de plenitud",0.08]],
+        "causas": "Las úlceras pépticas se presentan cuando el ácido del aparato digestivo corroe la superficie interior del estómago y del intestino delgado. El ácido puede crear una llaga abierta que duele y puede sangrar.",
+        "recomendaciones": "Modera el consumo de café y de comidas picantes, No abuses de aspirinas y antinflamatorios no esteroideos, No te excedas en el uso de protectores de estómago, etc.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Gastritis",
+        "descripcion": "La gastritis es un término general para un grupo de enfermedades con un punto en común: la inflamación del revestimiento del estómago.",
+        "sintomas": [["Malestar en el abdomen",0.20],["Ardor en el abdomen",0.15],["Náuseas",0.4],["Vómitos",0.4]],
+        "causas": "La gastritis es una inflamación del revestimiento del estómago. La debilidad o una lesión de la barrera mucosa que protege la pared del estómago permite que los jugos digestivos dañen e inflamen el revestimiento del estómago.",
+        "recomendaciones": "Evitar bebidas estimulantes: café, té y bebidas carbonatadas. Evitar el alcohol y el tabaco. Evitar alimentos grasos y picantes. Consumir frutas y verduras preferiblemente cocidas, evitando su ingestión en crudo.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Endometriosis",
+        "descripcion": "La endometriosis es un trastorno a menudo doloroso en el cual el tejido similar al tejido que normalmente recubre el interior del útero (el endometrio) crece fuera del útero. La endometriosis afecta más comúnmente a los ovarios, las trompas de Falopio y el tejido que recubre la pelvis.",
+        "sintomas": [["Períodos dolorosos",0.15],["Dolor al tener relaciones sexuales",0.06],["Dolor al orinar",0.10],["Sangrado excesivo",0.04],["Infertilidad",0.20],["Dolor al defecar",0.10]],
+        "causas": "Aunque la causa exacta de la endometriosis no es clara, las posibles explicaciones incluyen las siguientes: Menstruación retrógrada. En la menstruación retrógrada, la sangre menstrual que contiene células endometriales regresa a través de las trompas de Falopio hacia la cavidad pélvica en lugar de salir del cuerpo.",
+        "recomendaciones": "Se recomienda reducir el consumo de alimentos enlatados (conservas de pescado, legumbres, verduras) potenciando el uso y la compra de tarros de cristal",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Anemia",
+        "descripcion": "La anemia es una afección en la cual careces de suficientes glóbulos rojos sanos para transportar un nivel adecuado de oxígeno a los tejidos del cuerpo. La anemia, también conocida como nivel bajo de hemoglobina, puede hacer que te sientas cansado y débil.",
+        "sintomas": [["Fatiga",0.10],["Debilidad",0.07],["Piel pálida",0.08],["Latidos del corazón irregulares",0.10],["Mareos",0.09],["Dolor en el pecho",0.04],["Dolor de cabeza",0.02]],
+        "causas": "La anemia puede deberse a una afección presente al nacer (congénita) o a una afección que se desarrolla (adquirida). La anemia se produce cuando la sangre no tiene suficientes glóbulos rojos.",
+        "recomendaciones": "Se recomienda consumir mínimo dos porciones al día de carnes rojas, pollo o pescado",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Tuberculosis",
         "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
@@ -293,8 +357,48 @@ Content-Type: application/json
         "consideraciones": "..."
     },
     {
-        "nombre": "Sarcoma sinovial",
-        "descripcion": "El sarcoma sinovial es un tipo de cáncer poco frecuente que suele aparecer cerca de articulaciones grandes, especialmente en las rodillas, en adultos jóvenes. A pesar de su nombre, generalmente, no afecta el interior de las articulaciones, en donde se encuentran el tejido y el líquido sinovial.",
+        "nombre": "",
+        "descripcion": "",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Influenza",
+        "descripcion": "",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Influenza",
+        "descripcion": "",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Influenza",
+        "descripcion": "",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Influenza",
+        "descripcion": "",
+        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
+        "causas": "",
+        "recomendaciones": "",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Influenza",
+        "descripcion": "",
         "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
         "causas": "",
         "recomendaciones": "",

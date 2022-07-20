@@ -9,7 +9,7 @@ router.post("/enfermedadesRelacionadas", (req, res) => {
     const removeAccents = (str) => {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     } 
-
+    
     async function obtProb() {
         for await (const doc of Enfermedad.find()) {
             sintomas_db = doc.sintomas;
