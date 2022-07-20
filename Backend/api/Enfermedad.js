@@ -146,9 +146,7 @@ router.post("/createEnfermedades", (req, res) => {
 
 //Obtener enfermedad seleccionada
 router.get("/getEnfermedad", (req, res) => {
-    // const nombre = 'Cólera';
     const nombre = decodeURIComponent(req.query.nombre);
-    // const nombre = 'Osteoporosis';
     Enfermedad.find({
             nombre
         })
@@ -184,12 +182,12 @@ router.get("/getEnfermedades", (req, res) => {
     nombre_enfermedad = removeAccents(req.query.enfermedad.toLowerCase())
     const nombre = new RegExp(`\.\*${decodeURIComponent(nombre_enfermedad)}\.\*`);
     let resultados = []
-     
+
     async function comp() {
-        for await (const doc of Enfermedad.find()){
+        for await (const doc of Enfermedad.find()) {
             let nombres_db = doc.nombre;
 
-            if((nombre.test(removeAccents(nombres_db.toLowerCase())))){
+            if ((nombre.test(removeAccents(nombres_db.toLowerCase())))) {
                 resultados.push(doc);
             }
         }

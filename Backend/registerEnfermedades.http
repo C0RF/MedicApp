@@ -421,91 +421,86 @@ Content-Type: application/json
         "consideraciones": "La afección no es contagiosa."
     },
     {
-     "nombre": "Tendinitis",
-     "descripcion": "Afección en la que se inflama el tejido que conecta el músculo con el hueso.",
-     "sintomas": [["Dolor",0.1],["Sensibilidad",0.1],["Enrojecimiento",0.01],["Hinchazon",0.05],["Calor",0.05],["Rigidez",0.1],["Inflamación",0.04],["Debilidad",0.01]],
-     "causas": "Aunque la tendinitis puede ser causada por una lesión repentina, es mucho más probable que la enfermedad se origine en la repetición de un movimiento en particular a lo largo del tiempo. Muchas personas padecen tendinitis porque sus trabajos o pasatiempos implican movimientos repetitivos, que tensionan los tendones.",
-     "recomendaciones": "La mayoría de los casos de tendinitis se pueden tratar eficazmente con reposo, fisioterapia y medicamentos para reducir el dolor. En caso de que la tendinitis sea grave y ocasione la rotura de un tendón, probablemente necesites una cirugía.",
-     "consideraciones":"Sin el tratamiento correcto, la tendinitis puede incrementar el riesgo de sufrir rotura del tendón, una afección mucho más grave que tal vez requiera cirugía. En caso de que la irritación del tendón persista durante varias semanas o meses, se puede manifestar una enfermedad conocida como «tendinosis». Esta enfermedad consiste en cambios degenerativos en el tendón, junto con un crecimiento anormal de nuevos vasos sanguíneos." 
+        "nombre": "Tendinitis",
+        "descripcion": "Afección en la que se inflama el tejido que conecta el músculo con el hueso.",
+        "sintomas": [["Dolor",0.1],["Sensibilidad",0.1],["Enrojecimiento",0.01],["Hinchazon",0.05],["Calor",0.05],["Rigidez",0.1],["Inflamación",0.04],["Debilidad",0.01]],
+        "causas": "Aunque la tendinitis puede ser causada por una lesión repentina, es mucho más probable que la enfermedad se origine en la repetición de un movimiento en particular a lo largo del tiempo. Muchas personas padecen tendinitis porque sus trabajos o pasatiempos implican movimientos repetitivos, que tensionan los tendones.",
+        "recomendaciones": "La mayoría de los casos de tendinitis se pueden tratar eficazmente con reposo, fisioterapia y medicamentos para reducir el dolor. En caso de que la tendinitis sea grave y ocasione la rotura de un tendón, probablemente necesites una cirugía.",
+        "consideraciones":"Sin el tratamiento correcto, la tendinitis puede incrementar el riesgo de sufrir rotura del tendón, una afección mucho más grave que tal vez requiera cirugía. En caso de que la irritación del tendón persista durante varias semanas o meses, se puede manifestar una enfermedad conocida como «tendinosis». Esta enfermedad consiste en cambios degenerativos en el tendón, junto con un crecimiento anormal de nuevos vasos sanguíneos." 
     },
     {
-     "nombre": "Asperger",
-     "descripcion": "Trastorno del comportamiento que afecta la capacidad de socializar y comunicarse con efectividad.",
-     "sintomas": [["Agresión",0.1],["Aislamiento",0.15],["Nervios",0.05],["Impulsividad",0.1],["Coordinación Deficiente",0.05],["Ansiedad",0.05],["Enfado",0.05],["Temor",0.05]],
-     "causas": "Se desconoce la causa exacta, pero el síndrome de Asperger puede deberse a una combinación de factores genéticos y ambientales que provocan cambios en el desarrollo del cerebro.",
-     "recomendaciones": "La terapia conductual y de formación en la comunicación permite a los pacientes con trastornos del aprendizaje socializar mejor.",
-     "consideraciones": "El síndrome de Asperger es un trastorno del espectro autista que suele ser menos grave."
+        "nombre": "Asperger",
+        "descripcion": "Trastorno del comportamiento que afecta la capacidad de socializar y comunicarse con efectividad.",
+        "sintomas": [["Agresión",0.1],["Aislamiento",0.15],["Nervios",0.05],["Impulsividad",0.1],["Coordinación Deficiente",0.05],["Ansiedad",0.05],["Enfado",0.05],["Temor",0.05]],
+        "causas": "Se desconoce la causa exacta, pero el síndrome de Asperger puede deberse a una combinación de factores genéticos y ambientales que provocan cambios en el desarrollo del cerebro.",
+        "recomendaciones": "La terapia conductual y de formación en la comunicación permite a los pacientes con trastornos del aprendizaje socializar mejor.",
+        "consideraciones": "El síndrome de Asperger es un trastorno del espectro autista que suele ser menos grave."
     },
     {
-     "nombre": "Preeclampsia",
-     "descripcion": "Complicación del embarazo potencialmente severa caracterizada por una presión arterial elevada.",
-     "sintomas": [["Hipertensión",0.1],["Hinchazón",0.1],["Retención de Líquidos",0.1],["Presión Alta",0.05],["Náuseas",0.05],["Visión Borrosa",0.01],["Fatiga",0.06],["Aumento de Peso",0.01]],
-     "causas": "La causa exacta de la preeclampsia posiblemente implique varios factores. Los especialistas creen que comienza en la placenta, el órgano que nutre al feto durante el embarazo. En las primeras semanas del embarazo, se forman nuevos vasos sanguíneos y estos evolucionan para suministrar oxígeno y nutrientes a la placenta.",
-     "recomendaciones": "Usualmente, la preeclampsia se puede controlar con medicamentos orales o intravenosos hasta que el bebé madura lo suficiente como para nacer. A menudo, implica ponderar los riesgos de un nacimiento prematuro y los riesgos de continuar con los síntomas de la preeclampsia.",
-     "consideraciones": "Si bien es poco frecuente, la preeclampsia también se puede presentar en una mujer después de dar a luz a su bebé, casi siempre dentro de las siguientes 48 horas. Esto se denomina preeclampsia posparto."
+        "nombre": "Preeclampsia",
+        "descripcion": "Complicación del embarazo potencialmente severa caracterizada por una presión arterial elevada.",
+        "sintomas": [["Hipertensión",0.1],["Hinchazón",0.1],["Retención de Líquidos",0.1],["Presión Alta",0.05],["Náuseas",0.05],["Visión Borrosa",0.01],["Fatiga",0.06],["Aumento de Peso",0.01]],
+        "causas": "La causa exacta de la preeclampsia posiblemente implique varios factores. Los especialistas creen que comienza en la placenta, el órgano que nutre al feto durante el embarazo. En las primeras semanas del embarazo, se forman nuevos vasos sanguíneos y estos evolucionan para suministrar oxígeno y nutrientes a la placenta.",
+        "recomendaciones": "Usualmente, la preeclampsia se puede controlar con medicamentos orales o intravenosos hasta que el bebé madura lo suficiente como para nacer. A menudo, implica ponderar los riesgos de un nacimiento prematuro y los riesgos de continuar con los síntomas de la preeclampsia.",
+        "consideraciones": "Si bien es poco frecuente, la preeclampsia también se puede presentar en una mujer después de dar a luz a su bebé, casi siempre dentro de las siguientes 48 horas. Esto se denomina preeclampsia posparto."
     },
     {
-     "nombre": "Apendicitis",
-     "descripcion": "Afección dolorosa en la que el apéndice se inflama y se llena de pus.",
-     "sintomas": [["Dolor Abdominal",0.15],["Náuseas",0.02],["Vómitos",0.03],["Pérdida del apetito",0.03],["Fiebre",0.02],["Escalosfríos",0.02],["Diarrea",0.01],["Malestar",0.09]],
-     "causas": "La causa probable de la apendicitis es una obstrucción en el recubrimiento del apéndice que da como resultado una infección. Las bacterias se multiplican rápidamente y hacen que el apéndice se inflame, se hinche y se llene de pus. Si no se trata inmediatamente, el apéndice puede romperse.",
-     "recomendaciones": "El tratamiento más común para la apendicitis es la extirpación quirúrgica del apéndice.",
-     "consideraciones": "La apendicitis puede ser difícil de diagnosticar porque existen otras condiciones que causan síntomas similares. No todos los que tienen apendicitis exhiben todos estos síntomas. Si usted tiene cualquiera de estos síntomas, particularmente dolor abdominal que continúa y empeora, contacte inmediatamente a su médico."
+        "nombre": "Apendicitis",
+        "descripcion": "Afección dolorosa en la que el apéndice se inflama y se llena de pus.",
+        "sintomas": [["Dolor Abdominal",0.15],["Náuseas",0.02],["Vómitos",0.03],["Pérdida del apetito",0.03],["Fiebre",0.02],["Escalosfríos",0.02],["Diarrea",0.01],["Malestar",0.09]],
+        "causas": "La causa probable de la apendicitis es una obstrucción en el recubrimiento del apéndice que da como resultado una infección. Las bacterias se multiplican rápidamente y hacen que el apéndice se inflame, se hinche y se llene de pus. Si no se trata inmediatamente, el apéndice puede romperse.",
+        "recomendaciones": "El tratamiento más común para la apendicitis es la extirpación quirúrgica del apéndice.",
+        "consideraciones": "La apendicitis puede ser difícil de diagnosticar porque existen otras condiciones que causan síntomas similares. No todos los que tienen apendicitis exhiben todos estos síntomas. Si usted tiene cualquiera de estos síntomas, particularmente dolor abdominal que continúa y empeora, contacte inmediatamente a su médico."
     },
     {
-     "nombre": "Hepatitis C",
-     "descripcion": "La hepatitis C al igual que el tipo B, puede conducir a complicaciones de salud graves , como cirrosis, insuficiencia hepática y cáncer de hígado. Puede ser aguda o crónica, sin embargo, la mayoría de las personas con hepatitis C aguda, terminan padeciendo la crónica.",
-     "sintomas": [["Coloración Amarillenta",0.2],["Pérdida de apetito",0.1],["Fiebre",0.01],["Heces Claras",0.05],["Orina Oscura",0.05],["Dolor Estomacal",0.1],["Vómitos",0.01],["Dolor de articulaciones",0.15]],
-     "causas": "La hepatitis C es una enfermedad infecciosa, ocasionada por el virus VHC, del cual existen siete genotipos distintos. Existen diversas vías y factores de riesgo para contraer la enfermedad. Estas incluyen: Consumir drogas inyectadas (transmisión a través de una aguja infectada). Haberse realizado perforaciones o tatuajes bajo condiciones de higiene dudosas.",
-     "recomendaciones": "Si la afección es aguda, no existe un tratamiento específico. En la mayoría de los casos, el tratamiento consiste en la administración de medicamentos antivirales. Cuando la hepatitis se hace crónica, lo más probable es que sea necesario un trasplante de hígado debido a las complicaciones derivadas de la enfermedad.",
-     "consideraciones": "No existe una vacuna para el virus de la hepatitis C."
-},
-{
-     "nombre": "Hepatitis D",
-     "descripcion": "La hepatitis D, es un virus que molecularmente está formado por una cadena de ARN y su manifestación requiere que la persona haya estado infectada previamente con el virus de la hepatitis B.",
-    "sintomas": [["Color amarillento de los ojos",0.20],["Dolor abdominal",0.07],["Orina oscura",0.10],["Fatiga",0.06],["Picazón",0.04],["Pérdida del apetito",0.08],["Color amarillento en la piel",0.20]],
-     "causas": "La causa más probable de padecer hepatitis D, es el contagio de una persona infectada a una que no está pero que si padece de hepatitis tipo B, sin embargo, existen otros factores de riesgo que favorecen el contagio. Uno de ellos, es no estar vacunado contra la hepatitis B. También son factores de riesgo el uso de drogas por vía intravenosa y tener relaciones sexuales sin la debida protección.",
-     "recomendaciones": "Se aconseja evitar el consumo de alcohol, tener una alimentación lo más saludable y balanceada posible y guardar reposo, al menos hasta que el color amarillento de los ojos y la piel haya desaparecido. Sin embargo, estas últimas prescripciones no tienen fundamento científico.",
-     "consideraciones": "Los síntomas de la hepatitis D, no difieren de los síntomas padecidos en otros tipos de infección de hepatitis. Por esta razón, al estar padeciendo hepatitis B crónica, generalmente se indica una prueba de descarte de VHD, aunque este tipo de pruebas de diagnóstico no están normalizadas y su disponibilidad es limitada."
- },
-{
-     "nombre": "Hepatitis E",
-     "descripcion": "Este tipo de hepatitis, está presente en todas las partes del mundo, pero presenta una mayor prevalencia en los países asiáticos. Es causada por el virus VHE.",
-     "sintomas": [["Fiebre",0.05],["Pérdida del apetito",0.05],["Prurito",0.2],["Ictericia",0.2],["Aumento del tamaño del hígado",0.2]],
-     "causas": "La mayor causa de contagio de la hepatitis E es por medio de la transmisión fecal-oral, es decir, a través de la ingesta de alimentos manipulados en condiciones de higiene deficiente y el consumo de agua contaminada, siendo esta última una de las vías de contagio más comunes. Comer carnes crudas o semicrudas y la transmisión de la madre al feto, también son vías de contacto. Esta infección es especialmente peligrosa en mujeres embarazadas, quienes corren el riesgo de sufrir insuficiencia hepática aguda, con riesgo de muerte tanto para ellas como para sus fetos.",
-     "recomendaciones": "No existe un tratamiento específico para la hepatitis E, por lo general suele remitir de manera espontánea y no es necesaria la hospitalización y debe evitarse la automedicación. Es recomendado el reposo, buena nutrición, evitar el consumo de bebidas alcohólicas y el uso de medicamentos no prescritos.",
-     "consideraciones": "No todos los pacientes con hepatitis E padecen síntomas. Si aparecen son muy similares a los síntomas detectados en otras infecciones por hepatitis."
- },
-{
-     "nombre": "Hígado graso",
-     "descripcion": "Acumulación excesiva de grasa en el hígado.",
-     "sintomas": [["Fatiga",0.05],["Pérdida de peso",0.01],["Dolor Abdominal",0.05],["Cansancio",0.02]],
-     "causas": "La causa más común de hígado graso es el alcoholismo o el consumo excesivo de alcohol. En muchos casos, no se sabe exactamente qué causa el hígado graso en las personas que no beben mucho alcohol.",
-     "recomendaciones": "El tratamiento consiste en reducir los factores de riesgo, como la obesidad, mediante la dieta y la actividad física. Generalmente es una afección benigna, pero en una pequeña cantidad de pacientes puede ocasionar insuficiencia hepática (cirrosis).",
-     "consideraciones": "Si bien el tratamiento puede ayudar, esta enfermedad no tiene cura."
- },
-{
-     "nombre": "Fiebre amarilla",
-     "descripcion": "Infección viral que se propaga por una especie determinada de mosquito.",
-     "sintomas": [["Fiebre",0.1],["Dolor de Cabeza",0.15],["Náuseas",0.05],["Vómitos",0.04],["Dolor muscular",0.04],["Sensibilidad a la luz",0.18],["Ictericia",0.1],["Disminución de Orina",0.14]],
-     "causas": "La fiebre amarilla es causada por un virus propagado por el mosquito Aedes aegypti. Estos mosquitos prosperan en las viviendas humanas y cerca de ellas, donde se reproducen incluso en el agua más limpia. La mayoría de los casos de fiebre amarilla se produce en el África subsahariana y en las zonas tropicales de América del Sur.",
-     "recomendaciones": "No existe un tratamiento específico para la fiebre amarilla. El tratamiento es de apoyo y se centra en: Hemoderivados para el sangrado grave. Diálisis para la insuficiencia renal. Líquidos por vía intravenosa (líquidos intravenosos)",
-     "consideraciones": "Cualquier persona puede contraer la fiebre amarilla, pero las personas mayores presentan un riesgo mayor de infección grave. Si una persona es picada por un mosquito infectado, los síntomas generalmente se manifiestan entre 3 y 6 días más tarde."
- },
- {
-     "nombre": "Gripe porcina",
-     "descripcion": "La influenza porcina (gripe porcina) es una enfermedad respiratoria de los cerdos, causada por virus de influenza tipo A que provocan brotes regulares de influenza en los cerdos.",
-     "sintomas": [["Fiebre",0.06],["Depresión",0.15],["Secreción nasal",0.12],["Inflamación de los ojos",0.14],["Escalofríos",0.09],["Diarrea",0.07],["Dolor de cuerpo",0.08]],
-     "causas": "Alguien con gripe tose o estornuda hacia el aire que otros inhalan, alguien toca una perilla de la puerta, un escritorio, un computadora o mostrador con el virus de la gripe y luego se toca la boca, los ojos o la nariz, alguien toca moco mientras cuida de un niño o un adulto que esté enfermo de gripe, etc.",
-     "recomendaciones": "Cubrirse la nariz y boca con papel higiénico al toser o estornudar y luego de su uso tirarlo en un tacho de basura. En caso de no contar con papel se debe cubrir la nariz y boca con el antebrazo. Asimismo, se recomienda lavarse las manos con agua y jabón de manera frecuente.",
-     "consideraciones": "..."
-}
+        "nombre": "Hepatitis C",
+        "descripcion": "La hepatitis C al igual que el tipo B, puede conducir a complicaciones de salud graves , como cirrosis, insuficiencia hepática y cáncer de hígado. Puede ser aguda o crónica, sin embargo, la mayoría de las personas con hepatitis C aguda, terminan padeciendo la crónica.",
+        "sintomas": [["Coloración Amarillenta",0.2],["Pérdida de apetito",0.1],["Fiebre",0.01],["Heces Claras",0.05],["Orina Oscura",0.05],["Dolor Estomacal",0.1],["Vómitos",0.01],["Dolor de articulaciones",0.15]],
+        "causas": "La hepatitis C es una enfermedad infecciosa, ocasionada por el virus VHC, del cual existen siete genotipos distintos. Existen diversas vías y factores de riesgo para contraer la enfermedad. Estas incluyen: Consumir drogas inyectadas (transmisión a través de una aguja infectada). Haberse realizado perforaciones o tatuajes bajo condiciones de higiene dudosas.",
+        "recomendaciones": "Si la afección es aguda, no existe un tratamiento específico. En la mayoría de los casos, el tratamiento consiste en la administración de medicamentos antivirales. Cuando la hepatitis se hace crónica, lo más probable es que sea necesario un trasplante de hígado debido a las complicaciones derivadas de la enfermedad.",
+        "consideraciones": "No existe una vacuna para el virus de la hepatitis C."
+    },
+    {
+        "nombre": "Hepatitis D",
+        "descripcion": "La hepatitis D, es un virus que molecularmente está formado por una cadena de ARN y su manifestación requiere que la persona haya estado infectada previamente con el virus de la hepatitis B.",
+        "sintomas": [["Color amarillento de los ojos",0.20],["Dolor abdominal",0.07],["Orina oscura",0.10],["Fatiga",0.06],["Picazón",0.04],["Pérdida del apetito",0.08],["Color amarillento en la piel",0.20]],
+        "causas": "La causa más probable de padecer hepatitis D, es el contagio de una persona infectada a una que no está pero que si padece de hepatitis tipo B, sin embargo, existen otros factores de riesgo que favorecen el contagio. Uno de ellos, es no estar vacunado contra la hepatitis B. También son factores de riesgo el uso de drogas por vía intravenosa y tener relaciones sexuales sin la debida protección.",
+        "recomendaciones": "Se aconseja evitar el consumo de alcohol, tener una alimentación lo más saludable y balanceada posible y guardar reposo, al menos hasta que el color amarillento de los ojos y la piel haya desaparecido. Sin embargo, estas últimas prescripciones no tienen fundamento científico.",
+        "consideraciones": "Los síntomas de la hepatitis D, no difieren de los síntomas padecidos en otros tipos de infección de hepatitis. Por esta razón, al estar padeciendo hepatitis B crónica, generalmente se indica una prueba de descarte de VHD, aunque este tipo de pruebas de diagnóstico no están normalizadas y su disponibilidad es limitada."
+    },
+    {
+        "nombre": "Hepatitis E",
+        "descripcion": "Este tipo de hepatitis, está presente en todas las partes del mundo, pero presenta una mayor prevalencia en los países asiáticos. Es causada por el virus VHE.",
+        "sintomas": [["Fiebre",0.05],["Pérdida del apetito",0.05],["Prurito",0.2],["Ictericia",0.2],["Aumento del tamaño del hígado",0.2]],
+        "causas": "La mayor causa de contagio de la hepatitis E es por medio de la transmisión fecal-oral, es decir, a través de la ingesta de alimentos manipulados en condiciones de higiene deficiente y el consumo de agua contaminada, siendo esta última una de las vías de contagio más comunes. Comer carnes crudas o semicrudas y la transmisión de la madre al feto, también son vías de contacto. Esta infección es especialmente peligrosa en mujeres embarazadas, quienes corren el riesgo de sufrir insuficiencia hepática aguda, con riesgo de muerte tanto para ellas como para sus fetos.",
+        "recomendaciones": "No existe un tratamiento específico para la hepatitis E, por lo general suele remitir de manera espontánea y no es necesaria la hospitalización y debe evitarse la automedicación. Es recomendado el reposo, buena nutrición, evitar el consumo de bebidas alcohólicas y el uso de medicamentos no prescritos.",
+        "consideraciones": "No todos los pacientes con hepatitis E padecen síntomas. Si aparecen son muy similares a los síntomas detectados en otras infecciones por hepatitis."
+    },
+    {
+        "nombre": "Hígado graso",
+        "descripcion": "Acumulación excesiva de grasa en el hígado.",
+        "sintomas": [["Fatiga",0.05],["Pérdida de peso",0.01],["Dolor Abdominal",0.05],["Cansancio",0.02]],
+        "causas": "La causa más común de hígado graso es el alcoholismo o el consumo excesivo de alcohol. En muchos casos, no se sabe exactamente qué causa el hígado graso en las personas que no beben mucho alcohol.",
+        "recomendaciones": "El tratamiento consiste en reducir los factores de riesgo, como la obesidad, mediante la dieta y la actividad física. Generalmente es una afección benigna, pero en una pequeña cantidad de pacientes puede ocasionar insuficiencia hepática (cirrosis).",
+        "consideraciones": "Si bien el tratamiento puede ayudar, esta enfermedad no tiene cura."
+    },
+    {
+        "nombre": "Fiebre amarilla",
+        "descripcion": "Infección viral que se propaga por una especie determinada de mosquito.",
+        "sintomas": [["Fiebre",0.1],["Dolor de Cabeza",0.15],["Náuseas",0.05],["Vómitos",0.04],["Dolor muscular",0.04],["Sensibilidad a la luz",0.18],["Ictericia",0.1],["Disminución de Orina",0.14]],
+        "causas": "La fiebre amarilla es causada por un virus propagado por el mosquito Aedes aegypti. Estos mosquitos prosperan en las viviendas humanas y cerca de ellas, donde se reproducen incluso en el agua más limpia. La mayoría de los casos de fiebre amarilla se produce en el África subsahariana y en las zonas tropicales de América del Sur.",
+        "recomendaciones": "No existe un tratamiento específico para la fiebre amarilla. El tratamiento es de apoyo y se centra en: Hemoderivados para el sangrado grave. Diálisis para la insuficiencia renal. Líquidos por vía intravenosa (líquidos intravenosos)",
+        "consideraciones": "Cualquier persona puede contraer la fiebre amarilla, pero las personas mayores presentan un riesgo mayor de infección grave. Si una persona es picada por un mosquito infectado, los síntomas generalmente se manifiestan entre 3 y 6 días más tarde."
+    },
+    {
+        "nombre": "Gripe porcina",
+        "descripcion": "La influenza porcina (gripe porcina) es una enfermedad respiratoria de los cerdos, causada por virus de influenza tipo A que provocan brotes regulares de influenza en los cerdos.",
+        "sintomas": [["Fiebre",0.06],["Depresión",0.15],["Secreción nasal",0.12],["Inflamación de los ojos",0.14],["Escalofríos",0.09],["Diarrea",0.07],["Dolor de cuerpo",0.08]],
+        "causas": "Alguien con gripe tose o estornuda hacia el aire que otros inhalan, alguien toca una perilla de la puerta, un escritorio, un computadora o mostrador con el virus de la gripe y luego se toca la boca, los ojos o la nariz, alguien toca moco mientras cuida de un niño o un adulto que esté enfermo de gripe, etc.",
+        "recomendaciones": "Cubrirse la nariz y boca con papel higiénico al toser o estornudar y luego de su uso tirarlo en un tacho de basura. En caso de no contar con papel se debe cubrir la nariz y boca con el antebrazo. Asimismo, se recomienda lavarse las manos con agua y jabón de manera frecuente.",
+        "consideraciones": "..."
+    }
 ]
-
-#Piedras en la vesicula
-#Infeccion al estomag
-#Infeccion al intestino
-#Colon irritable
 
 
 # {

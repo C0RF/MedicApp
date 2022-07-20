@@ -28,7 +28,7 @@ function addEmg(res, body) {
                 console.log(err);
             })
         }
-    }).catch((e)=>{
+    }).catch((e) => {
         console.log(e);
     });
 }
