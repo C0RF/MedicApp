@@ -6,8 +6,6 @@ const Enfermedad = require("../models/Enfermedad");
 router.post("/enfermedadesRelacionadas", (req, res) => {
 
     lista_sintomas = req.body.sintomas;
-
-    lista_sintomas = req.body.sintomas;
     var results = [];
     const removeAccents = (str) => {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
