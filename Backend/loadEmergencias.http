@@ -248,8 +248,10 @@ Content-Type: application/json
       "Normas": [
 "Apertura de la vía aérea: Con la cabeza en hiperextensión moderada se levanta el mentón, a la vez que se va abriendo la boca.  ",
 "Comprobar la respiración. Ver, oír y sentir durante 5-10 segundos. Diferenciar una respiración normal de una respiración agónica. Es posible que con la apertura de la vía aérea (VA), el paciente ventile por sí mismo."
+"Si NO respira. Indica que está en PCR",
+"Iniciar las compresiones torácicas"
 ],
-      "Escena": "No respira, o tiene respiración agónica",
+      "Escena": "La víctima No respira, o tiene respiración agónica",
       "Solictud": "Cuando hay más de una persona para la reanimación Una persona debe comenzar la reanimación, mientras la otra va a pedir ayuda en el momento en que se comprueba que el paciente está inconsciente y no respira.",
       "Signos": [
                      "Se coloca a la víctima en decúbito supino (boca arriba), y quien reanima se arrodilla a su lado, con las rodillas a la altura del pecho de la víctima.",
@@ -265,7 +267,7 @@ Content-Type: application/json
       "Titulos":{
          "Normas": "Técnica de las compresiones",
          "Escena": "Situación",
-         "Solicitud": "Solicitud",
+         "Solicitud": "Solicitud de Ayuda",
          "Consideraciones":"Consideraciones",
          "Signos": "Técnica de las Compresiones"
       }
