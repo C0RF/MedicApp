@@ -8,12 +8,13 @@ const morgan = require('morgan');
 const express = require('express')
 
 const app = express();
-var cors = require('cors');
+const cors = require('cors');
 app.use(cors());
 
-var EnfermedadRouter = require('./api/Enfermedad');
-var EmergenciaRouter = require('./api/Emergencia');
-var SintomasRouter = require('./api/Sintomas');
+const EnfermedadRouter = require('./api/Enfermedad');
+const EmergenciaRouter = require('./api/Emergencia');
+const SintomasRouter = require('./api/Sintomas');
+const MapsRouter = require('./api/Maps');
 
 let bodyParser = require('body-parser');
 app.use(bodyParser.json({ limit: "50mb" }));
@@ -24,6 +25,7 @@ app.use(morgan("dev"));
 app.use('/Enfermedad', EnfermedadRouter);
 app.use('/Emergencia', EmergenciaRouter);
 app.use('/Sintomas', SintomasRouter);
+app.use('/Maps', MapsRouter);
 
 
 app.listen(config.portExpress, () => {
