@@ -4,12 +4,12 @@ POST {{api}}/Enfermedad/createEnfermedad
 Content-Type: application/json
 
 {
-    "nombre": "Osteogénesis imperfecta",
-    "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
-    "sintomas": ["anomalías ósea","dientes frágiles","estatura baja"],
-    "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
-    "recomendaciones": "evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
-    "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
+        "nombre": "Osteogénesis imperfecta",
+        "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
+        "sintomas": [["Anomalías óseas", 0.15],["Dientes frágiles", 0.13],["Estatura baja", 0.12],["Cara de forma triangular", 0.10], ["Pérdidas auditivas en la edad adulta", 0.06], ["Articulaciones laxas", 0.04]],
+        "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
+        "recomendaciones": "Evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
+        "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
 }
 
 ####
