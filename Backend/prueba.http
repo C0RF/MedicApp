@@ -5,35 +5,59 @@ Content-Type: application/json
 
 [
     {
-        "nombre": "Artrosis",
-        "descripcion": "La osteoartritis o artrosis es la enfermedad degenerativa articular más frecuente, caracterizada por la destrucción del cartílago hialino que recubre las superficies óseas.",
-        "sintomas": [["Pérdida de flexibilidad",0.09],["Osteofitos",0.08],["Dolor articular",0.12],["Deformidad articular",0.13],["Inflamación en las articulaciones",0.13],["",],["",],["",]],
-        "causas": "La osteoartritis se produce cuando el cartílago que amortigua los extremos de los huesos en las articulaciones se deteriora progresivamente.",
-        "recomendaciones": "No se deben hacer aquellos ejercicios que produzcan dolor, cuidar posturas",
+        "nombre": "Osteogénesis imperfecta",
+        "descripcion": "Conjunto de transtornos hereditarios caracterizados por huesos frágiles que se fracturan fácilmente.",
+        "sintomas": [["Anomalías óseas", 0.15],["Dientes frágiles", 0.13],["Estatura baja", 0.12],["Cara de forma triangular", 0.10], ["Pérdidas auditivas en la edad adulta", 0.06], ["Articulaciones laxas", 0.04]],
+        "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
+        "recomendaciones": "Evitar aquellas actividades que supongan un riesgo de caída o de choque o que ejerzan demasiado estrés sobre los huesos.",
+        "consideraciones": "El tratamiento puede ayudar pero no tiene cura."
+    },
+    {
+        "nombre": "COVID‑19",
+        "descripcion": "Enfermedad respiratoria muy contagiosa causada por el virus SARS-CoV-2.",
+        "sintomas": [["Fiebre", 0.15],["Tos",0.13],["Cansancio",0.12],["Pérdida del gusto",0.11],["Pérdida del olfato",0.09],["Dolor de garganta",0.05],["Dolor de cabeza",0.03],["Diarrea",0.02]],
+        "causas": "Cuando alguien contagiado con COVID-19 exhala o tose, expulsa pequeñas gotas que contienen el virus. Estas gotas pueden entrar en la boca o la nariz de alguien sin el virus, causando así una infección.",
+        "recomendaciones": "Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.",
+        "consideraciones": "La vacunación está ayudando a reducir los casos de muerte por esta enfermedad."
+    },
+    {
+        "nombre": "Osteoporosis",
+        "descripcion": "Enfermedad esquelética en la que se produce una disminución de la densidad de masa ósea.",
+        "sintomas": [["Dolor de espalda",0.15],["Pérdida de estatura con el tiempo",0.13],["Postura encorvada",0.12],["Dolor de cintura",0.11]],
+        "causas": "A menudo es causada por un defecto en un gen que produce el colágeno tipo 1.",
+        "recomendaciones": "Mantener una alimentación saludable, variada y equilibrada, y realizar ejercicios regularmente.",
+        "consideraciones": "Las fracturas por osteoporosis ocurren con mayor frecuencia en la cadera, la muñeca o la columna vertebral."
+    },
+    {
+        "nombre": "Bronquitis aguda",
+        "descripcion": "Es una inflamación del revestimiento de los bronquios que llevan el aire hacia adentro y fuera de los pulmones.",
+        "sintomas": [["Dolor en el pecho",0.14],["Dolores corporales leves",0.13],["Dolor de garganta",0.13],["Tos con mucosidad",0.10],["Dolor de cabeza leve",0.08],["Dolores corporales leves",0.06],["Dificultad para respirar",0.06]],
+        "causas": "Suele ser provocada por un virus y, con frecuencia, ocurre después de una infección de las vías respiratorias superiores.",
+        "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
         "consideraciones": "..."
     },
     {
-        "nombre": "Artritis",
-        "descripcion": "La artritis es la hinchazón y la sensibilidad de una o más de las articulaciones.",
-        "sintomas": [["Dolor articular",],["Inflamación articular",],["Enrojecimiento articular",],["Disminución de la amplitud de movimiento",],["Hinchazón en las articulaciones",],["Rigidez",]],
-        "causas": "La artritis involucra la degradación de las estructuras articulares, particularmente del cartílago.",
-        "recomendaciones": "Mantenga un peso corporal correcto. La obesidad es una de las causas de la enfermedad.",
+        "nombre": "Cólera",
+        "descripcion": "Es una enfermedad diarreica aguda causada por la ingestión de alimentos o agua contaminados con el bacilo Vibrio cholerae.",
+        "sintomas": [["Deshidratación",0.16],["Diarrea",0.12],["Náuseas",0.12],["Vómitos",0.10],["Dolor de cabeza leve",0.05],["Dolores corporales leves",0.03],["Dificultad para respirar",0.02]],
+        "causas": "La bacteria que causa la infección por cólera se denomina Vibrio cholerae",
+        "recomendaciones": "Se recomienda evitar el humo del cigarrillo, lavarse bien las manos y vaunarse.",
+        "consideraciones": "..."   
+    },
+    {
+        "nombre": "Viruela símica",
+        "descripcion": "Se trata de una enfermedad zoonótica viral, lo que significa que puede transmitirse de animales a humanos.",
+        "sintomas": [["Fiebre",0.13],["Inflamación de los ganglios linfáticos",0.12],["Dolor de cabeza",0.10],["Escalofríos",0.09],["Dolores musculares",0.07],["Dolores de la espalda",0.09],["Agotamiento",0.06],["Sarpullido ",0.04]],
+        "causas": "No se sabe donde se origina la viruela del simio, pero se cree que se transmite a través de pequeños roedores y ardillas de las selvas tropicales de África, principalmente en África occidental y central.",
+        "recomendaciones": "Se recomienda abstenerse de tener contacto cercano con terceros, evitar asistir a reuniones y seguir los consejos emitidos por las autoridades sanitarias correspondientes",
         "consideraciones": "..."
     },
     {
-        "nombre": "Hepatitis B",
-        "descripcion": "Infección grave del hígado causada por el virus de la hepatitis B que se puede prevenir fácilmente mediante una vacuna.",
-        "sintomas": [["Color amarillento de los ojos",],["Dolor abdominal",],["Orina oscura",],["Fatiga",],["Picazón",],["",],["",],["",]],
-        "causas": "Ascendencia con Hepatitis B o pincharse accidentalmente con una aguja que usó una persona infectada",
-        "recomendaciones": "Vacunarse contra la hepatitis B",
-        "consideraciones": "La artrosis es la enfermedad reumática más frecuente, especialmente entre personas de edad avanzada"
-    },
-    {
-        "nombre": "Diabetes",
-        "descripcion": "Un grupo de enfermedades que tiene como resultado un exceso de azúcar en la sangre (glucosa sanguínea elevada).",
-        "sintomas": [["Aumento de la sed",0.11],["Fatiga",0.10],["Visión borrosa",0.13],["Pérdida de peso",0.09],["Aumento del apetito",0.09],["Micción frecuente",0.04],["Infecciones frecuentes",0.05]],
-        "causas": "El páncreas no produce suficiente insulina, las células no responden de manera normal a la insulina",
-        "recomendaciones": "Adaptar la alimentación, mantener una hidratación adecuada, practicar ejercicio de forma regular, realizar controles de glucosa con frecuencia y de forma estructurada",
+        "nombre": "Viruela Kawasaki",
+        "descripcion": "La enfermedad de Kawasaki es una vasculitis, es decir, una inflamación generalizada de los vasos sanguíneos, que tiende a afectar, sobre todo, a las arterias medianas de todo el organismo.",
+        "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",""],["Inyección conjuntival",""],["Garganta inflada",""],["Lengua inflamada",""],["Dolor abdominal",""],["Dolores articulares",""]],
+        "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
+        "recomendaciones": "Se recomienda realizar tratamiento inmediato de la enfermedad de Kawasaki incompleta, la terapia con aspirina y la obtención de un ecocardiograma en caso de shock.",
         "consideraciones": "..."
     }
 ]

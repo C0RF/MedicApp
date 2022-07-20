@@ -10,7 +10,8 @@ function addEmg(res, body) {
         Escena,
         Solicitud,
         Signos,
-        Consideraciones
+        Consideraciones,
+        Titulos
     } = body;
 
     Emergencia.find({
@@ -48,9 +49,9 @@ router.post('/addList', (req, res) => {
 });
 
 router.get('/get/:param', async function (req, res) {
-    let param = req.params.param;
+    let param = decodeURIComponent(req.params.param);
 
-    if (param = "all") {
+    if (param == "all") {
         try {
 
             emg_list = await Emergencia.find().select('nombre').exec();

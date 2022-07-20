@@ -17,7 +17,7 @@ Content-Type: application/json
         "descripcion": "Enfermedad respiratoria muy contagiosa causada por el virus SARS-CoV-2.",
         "sintomas": [["Fiebre", 0.15],["Tos",0.13],["Cansancio",0.12],["Pérdida del gusto",0.11],["Pérdida del olfato",0.09],["Dolor de garganta",0.05],["Dolor de cabeza",0.03],["Diarrea",0.02]],
         "causas": "Cuando alguien contagiado con COVID-19 exhala o tose, expulsa pequeñas gotas que contienen el virus. Estas gotas pueden entrar en la boca o la nariz de alguien sin el virus, causando así una infección.",
-        "recomendaciones": "Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.",
+        "recomendaciones": "Mantener una distancia de seguridad con otras personas (de 1 metro como mínimo), utilizar mascarilla en público, prioriza los espacios abiertos y con buena ventilación en lugar de los espacios cerrados.",
         "consideraciones": "La vacunación está ayudando a reducir los casos de muerte por esta enfermedad."
     },
     {
@@ -55,7 +55,7 @@ Content-Type: application/json
     {
         "nombre": "Viruela Kawasaki",
         "descripcion": "La enfermedad de Kawasaki es una vasculitis, es decir, una inflamación generalizada de los vasos sanguíneos, que tiende a afectar, sobre todo, a las arterias medianas de todo el organismo.",
-        "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",""],["Inyección conjuntival",""],["Garganta inflada",""],["Lengua inflamada",""],["Dolor abdominal",""],["Dolores articulares",""]],
+        "sintomas": [["Fiebre",0.15],["Eritema",0.13],["Nódulos linfáticos inflamados",0.07],["Inyección conjuntival",0.09],["Garganta inflada",0.04],["Lengua inflamada",0.04],["Dolor abdominal",0.02],["Dolores articulares",0.03]],
         "causas": "Se sospecha que podría existir un componente genético que predispone a desarrollar una reacción inmunológica exagerada después de la infección por un agente",
         "recomendaciones": "Se recomienda realizar tratamiento inmediato de la enfermedad de Kawasaki incompleta, la terapia con aspirina y la obtención de un ecocardiograma en caso de shock.",
         "consideraciones": "..."
@@ -351,60 +351,162 @@ Content-Type: application/json
     {
         "nombre": "Tuberculosis",
         "descripcion": "La tuberculosis es una enfermedad infecciosa y potencialmente seria que afecta principalmente los pulmones. La bacteria que causa la tuberculosis se contagia de persona a persona a través de pequeñas gotitas diseminadas en el aire al toser o estornudar.",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "sintomas": [["Tos con sangre",0.15],["Dolor en el pecho",0.09],["Escalofríos",0.06],["Dolor al respirar",0.08],["Sudoraciones nocturnas",0.12],["Fiebre",0.01]],
+        "causas": "La tuberculosis es causada por bacterias que se contagian de persona a persona a través de gotitas microscópicas diseminadas en el aire. Esto puede suceder cuando una persona con la forma activa de la tuberculosis no tratada tose, habla, estornuda, escupe, se ríe, o canta.",
+        "recomendaciones": "Se recomienda el cumplimiento de la quimioprofilaxis de las personas infectadas.",
         "consideraciones": "..."
     },
     {
         "nombre": "Ébola",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
-    },
-    {
-        "nombre": "Autismo",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
-    },
-    {
-        "nombre": "Pálida",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
+        "descripcion": "El Ébola es una enfermedad potencialmente letal provocada por el virus del mismo nombre, y es una de las más mortíferas que se conocen para el ser humano.",
+        "sintomas": [["Escalofríos",0.04],["Dolor de garganta",0.06],["Dolor muscular",0.06],["Debilidad",0.06],["Fatiga",0.08],["Erupción cutánea",0.10],["Fiebre muy elevada",0.20]],
+        "causas": "El virus del Ebola se introduce en la población humana por contacto estrecho con órganos, sangre, secreciones u otros líquidos corporales de animales infectados, de chimpancés, gorilas, murciélagos frugívoros, monos, antílopes y puercoespines infectados que se habían encontrado muertos o enfermos en la selva.",
+        "recomendaciones": "Se recomienda lavarse las manos con frecuencia y evitar las carnes de animales salvajes.",
+        "consideraciones": "No existe un tratamiento específico contra el virus y hasta hace poco tampoco había vacuna. El tratamiento estándar se centra en tratar los síntomas para aliviar el sufrimiento de los pacientes e intentar reducir la mortalidad."
     },
     {
         "nombre": "Papera",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
+        "descripcion": "Las paperas son una infección viral que afecta principalmente a las glándulas salivales que se encuentran cerca de los oídos. Las paperas pueden provocar inflamación de una de las glándulas o ambas.",
+        "sintomas": [["Dolor en las glándulas salivales",0.2],["Dolor al masticar",0.1],["Fiebre",0.1],["Dolor de cabeza",0.1],["Debilidad",0.05]],
+        "causas": "La parotiditis es causada por un virus que se disemina fácilmente de una persona a otra a través de la saliva infectada.",
+        "recomendaciones": "Se recomiensa utilizar una compresa caliente o fría para aliviar el dolor de las glándulas inflamadas",
         "consideraciones": "..."
     },
     {
-        "nombre": "Tétano",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
+        "nombre": "Tétanos",
+        "descripcion": "Enfermedad grave del sistema nervioso comúnmente conocida como 'trismo' que es causada por una bacteria productora de toxinas.",
+        "sintomas": [["Espasmos musculares",0.2],["Rigidez muscular",0.2],["Tensión muscular",0.2],["Espasmos dolorosos",0.2], ["Dificultad para tragar",0.05],["Fiebre",0.05]],
+        "causas": "La bacteria que causa el tétanos se llama Clostridium tetani, esta bacteria puede sobrevivir en la tierra y en las heces pero se vuelve activa cuando entran en una herida. A medida que crecen y se dividen, liberan la toxina tetanospasmina que afecta los nervios del cuerpo que controlan los músculos.",
+        "recomendaciones": "El tétanos se puede prevenir con una vacuna. En el caso de niños se aplica como parte de las vacunas de refuerzo.",
+        "consideraciones": "El tétanos es una enfermedad que pone en riesgo la vida. Busca atención de emergencia si tienes signos o síntomas de tétanos y no te has vacunado."
     },
     {
         "nombre": "Asma",
-        "descripcion": "",
-        "sintomas": [["",],["",],["",],["",],["",],["",],["",],["",]],
-        "causas": "",
-        "recomendaciones": "",
-        "consideraciones": "..."
-    }
+        "descripcion": "Afección en la que las vías respiratorias se estrechan e hinchan, lo que puede producir mayor mucosidad. Esto puede dificultar la respiración y provocar tos, un silbido (sibilancia) al exhalar y falta de aire.",
+        "sintomas": [["Falta de aire",0.5],["Dolor de pecho",0.2],["Sibilancia",0.2],["Problemas para dormir",0.02],["Tos",0.05]],
+        "causas": "No está claro por qué algunas personas contraen asma y otras no; sin embargo, es probable que se deba a una combinación de factores ambientales y/o genéticos",
+        "recomendaciones": "El asma no tiene cura, pero sus síntomas pueden controlarse. Dado que el asma suele cambiar con el tiempo, es importante que colabores con el médico para hacer un seguimiento de los signos y los síntomas y ajustar el tratamiento según sea necesario.",
+        "consideraciones": "Los ataques de asma graves pueden poner en riesgo la vida. Debes acudir al médico con urgencia cuando haya falta de mejora o empeoramiento, incluso después de usar un inhalador"
+    },
+    {
+        "nombre":"Esclerosis",
+        "descripcion":"Enfermedad en la que el sistema inmunológico degrada la cubierta protectora de los nervios.",
+        "sintomas": [["Perdida de visión",0.15],["Dolor",0.05],["Fatiga",0.05],["Disminución de Coordinación",0.1],["Dificultad para caminar",0.05],["Calambres",0.05],["Debilidad",0.05],["Espasmos",0.05]],
+        "causas": "No se sabe exactamente qué causa la EM. La creencia más frecuente es que es causada por virus, un defecto genético o ambos. Los factores ambientales también pueden influir. Usted es ligeramente más propenso a presentar esta enfermedad si tiene antecedentes familiares de EM o si vive en una parte del mundo donde esta enfermedad es más común.",
+        "recomendaciones": "La fisioterapia y los medicamentos que inhiben el sistema inmunológico pueden aliviar los síntomas y reducir la velocidad de la progresión de la enfermedad.",
+        "consideraciones": "Algunas personas pueden no presentar síntomas durante gran parte de sus vidas, mientras que otras pueden tener graves síntomas crónicos que nunca desaparecen."
+    },
+    {
+        "nombre":"Fibromialgia",
+        "descripcion":"Dolor y sensibilidad muscular generalizados.",
+        "sintomas": [["Dolor Muscular",0.15],["Sensibilidad",0.15],["Malestar",0.01],["Fatiga",0.02],["Estreñimiento",0.02],["Espasmos",0.05],["Nerviosismo",0.01],["Olvido",0.01]],
+        "causas": "No se conoce la causa de esta alteración, pero se piensa que hay muchos factores implicados. Hay personas que desarrollan la enfermedad sin causa aparente y en otras comienza después de procesos identificables como puede ser una infección bacteriana o viral, un accidente de automóvil o en otros casos aparece después de que otra enfermedad conocida limite la calidad de vida.",
+        "recomendaciones": "La enfermedad no tiene curación definitiva. El objetivo del tratamiento es mejorar el dolor y tratar los síntomas acompañantes, para conseguir una gran mejoría en la calidad de vida de estos pacientes. Es importante conocer la naturaleza de la enfermedad y cuales son los factores desencadenantes de brotes, realizar tratamiento de las alteraciones psicológicas asociadas si las hay (ansiedad y depresión) y ejercicio físico suave diariamente.",
+        "consideraciones": "A pesar de tener un carácter benigno porque no produce secuelas físicas (no destruye las articulaciones, no ocasiona lesiones irreversibles ni deformidades) ni influye en la supervivencia del paciente, el impacto que origina en la calidad de vida de quien la padece es muy variable de unas personas a otras pudiendo ser limitante."
+    },
+    {
+        "nombre":"Salmonella",
+        "descripcion": "La salmonela es más común entre los niños. Las personas con sistemas inmunológicos comprometidos, como los adultos de edad avanzada, los bebés y las personas con SIDA, suelen presentar los casos más graves.",
+        "sintomas": [["Diarrea",0.15],["Fiebre",0.1],["Escalosfríos",0.15],["Dolor Abdominal",0.1],["Deshidratación",0.05],["Fatiga",0.05],["Dolor Muscular",0.03],["Dolor de Cabeza",0.02]],
+        "causas": "Infección provocada por la bacteria de la salmonela, usualmente ocasionada por la ingesta de alimentos o agua contaminados.",
+        "recomendaciones": "El tratamiento consiste en fluidos. La mayoría de las personas solamente necesitan líquidos para recuperarse en menos de una semana. Las infecciones graves pueden requerir cuidado médico, incluida la administración de líquidos por vía intravenosa y, en algunos casos, antibióticos.",
+        "consideraciones": "Puede sanar solo. La afección generalmente mejora con el tiempo sin tratamiento."
+    },
+    {
+        "nombre": "Soriasis",
+        "descripcion": "Afección en la que las células de la piel se acumulan para formar escamas y manchas secas que producen comezón.",
+        "sintomas": [["Sarpullido",0.2],["Erupciones",0.05],["Descamación",0.05],["Enrojecimiento",0.05],["Fisuras",0.05],["Piel escamosa",0.05],["Picazón",0.15],["Tendones inflamados",0.05]],
+        "causas": "Se cree que la psoriasis es un problema del sistema inmunitario que hace que las células de la piel crezcan a un ritmo más rápido de lo normal. En el tipo más frecuente de psoriasis, conocido como psoriasis de placas, esta rápida renovación de las células da lugar a manchas escamosas y secas.",
+        "recomendaciones": "Control del estrés, Vaselina, Fototerapia, Terapia con luz ultravioleta, Emoliente, Urea y Alquitrán de hulla",
+        "consideraciones": "La afección no es contagiosa."
+    },
+    {
+     "nombre": "Tendinitis",
+     "descripcion": "Afección en la que se inflama el tejido que conecta el músculo con el hueso.",
+     "sintomas": [["Dolor",0.1],["Sensibilidad",0.1],["Enrojecimiento",0.01],["Hinchazon",0.05],["Calor",0.05],["Rigidez",0.1],["Inflamación",0.04],["Debilidad",0.01]],
+     "causas": "Aunque la tendinitis puede ser causada por una lesión repentina, es mucho más probable que la enfermedad se origine en la repetición de un movimiento en particular a lo largo del tiempo. Muchas personas padecen tendinitis porque sus trabajos o pasatiempos implican movimientos repetitivos, que tensionan los tendones.",
+     "recomendaciones": "La mayoría de los casos de tendinitis se pueden tratar eficazmente con reposo, fisioterapia y medicamentos para reducir el dolor. En caso de que la tendinitis sea grave y ocasione la rotura de un tendón, probablemente necesites una cirugía.",
+     "consideraciones":"Sin el tratamiento correcto, la tendinitis puede incrementar el riesgo de sufrir rotura del tendón, una afección mucho más grave que tal vez requiera cirugía. En caso de que la irritación del tendón persista durante varias semanas o meses, se puede manifestar una enfermedad conocida como «tendinosis». Esta enfermedad consiste en cambios degenerativos en el tendón, junto con un crecimiento anormal de nuevos vasos sanguíneos." 
+    },
+    {
+     "nombre": "Asperger",
+     "descripcion": "Trastorno del comportamiento que afecta la capacidad de socializar y comunicarse con efectividad.",
+     "sintomas": [["Agresión",0.1],["Aislamiento",0.15],["Nervios",0.05],["Impulsividad",0.1],["Coordinación Deficiente",0.05],["Ansiedad",0.05],["Enfado",0.05],["Temor",0.05]],
+     "causas": "Se desconoce la causa exacta, pero el síndrome de Asperger puede deberse a una combinación de factores genéticos y ambientales que provocan cambios en el desarrollo del cerebro.",
+     "recomendaciones": "La terapia conductual y de formación en la comunicación permite a los pacientes con trastornos del aprendizaje socializar mejor.",
+     "consideraciones": "El síndrome de Asperger es un trastorno del espectro autista que suele ser menos grave."
+    },
+    {
+     "nombre": "Preeclampsia",
+     "descripcion": "Complicación del embarazo potencialmente severa caracterizada por una presión arterial elevada.",
+     "sintomas": [["Hipertensión",0.1],["Hinchazón",0.1],["Retención de Líquidos",0.1],["Presión Alta",0.05],["Náuseas",0.05],["Visión Borrosa",0.01],["Fatiga",0.06],["Aumento de Peso",0.01]],
+     "causas": "La causa exacta de la preeclampsia posiblemente implique varios factores. Los especialistas creen que comienza en la placenta, el órgano que nutre al feto durante el embarazo. En las primeras semanas del embarazo, se forman nuevos vasos sanguíneos y estos evolucionan para suministrar oxígeno y nutrientes a la placenta.",
+     "recomendaciones": "Usualmente, la preeclampsia se puede controlar con medicamentos orales o intravenosos hasta que el bebé madura lo suficiente como para nacer. A menudo, implica ponderar los riesgos de un nacimiento prematuro y los riesgos de continuar con los síntomas de la preeclampsia.",
+     "consideraciones": "Si bien es poco frecuente, la preeclampsia también se puede presentar en una mujer después de dar a luz a su bebé, casi siempre dentro de las siguientes 48 horas. Esto se denomina preeclampsia posparto."
+    },
+    {
+     "nombre": "Apendicitis",
+     "descripcion": "Afección dolorosa en la que el apéndice se inflama y se llena de pus.",
+     "sintomas": [["Dolor Abdominal",0.15],["Náuseas",0.02],["Vómitos",0.03],["Pérdida del apetito",0.03],["Fiebre",0.02],["Escalosfríos",0.02],["Diarrea",0.01],["Malestar",0.09]],
+     "causas": "La causa probable de la apendicitis es una obstrucción en el recubrimiento del apéndice que da como resultado una infección. Las bacterias se multiplican rápidamente y hacen que el apéndice se inflame, se hinche y se llene de pus. Si no se trata inmediatamente, el apéndice puede romperse.",
+     "recomendaciones": "El tratamiento más común para la apendicitis es la extirpación quirúrgica del apéndice.",
+     "consideraciones": "La apendicitis puede ser difícil de diagnosticar porque existen otras condiciones que causan síntomas similares. No todos los que tienen apendicitis exhiben todos estos síntomas. Si usted tiene cualquiera de estos síntomas, particularmente dolor abdominal que continúa y empeora, contacte inmediatamente a su médico."
+    },
+    {
+     "nombre": "Hepatitis C",
+     "descripcion": "La hepatitis C al igual que el tipo B, puede conducir a complicaciones de salud graves , como cirrosis, insuficiencia hepática y cáncer de hígado. Puede ser aguda o crónica, sin embargo, la mayoría de las personas con hepatitis C aguda, terminan padeciendo la crónica.",
+     "sintomas": [["Coloración Amarillenta",0.2],["Pérdida de apetito",0.1],["Fiebre",0.01],["Heces Claras",0.05],["Orina Oscura",0.05],["Dolor Estomacal",0.1],["Vómitos",0.01],["Dolor de articulaciones",0.15]],
+     "causas": "La hepatitis C es una enfermedad infecciosa, ocasionada por el virus VHC, del cual existen siete genotipos distintos. Existen diversas vías y factores de riesgo para contraer la enfermedad. Estas incluyen: Consumir drogas inyectadas (transmisión a través de una aguja infectada). Haberse realizado perforaciones o tatuajes bajo condiciones de higiene dudosas.",
+     "recomendaciones": "Si la afección es aguda, no existe un tratamiento específico. En la mayoría de los casos, el tratamiento consiste en la administración de medicamentos antivirales. Cuando la hepatitis se hace crónica, lo más probable es que sea necesario un trasplante de hígado debido a las complicaciones derivadas de la enfermedad.",
+     "consideraciones": "No existe una vacuna para el virus de la hepatitis C."
+},
+{
+     "nombre": "Hepatitis D",
+     "descripcion": "La hepatitis D, es un virus que molecularmente está formado por una cadena de ARN y su manifestación requiere que la persona haya estado infectada previamente con el virus de la hepatitis B.",
+    "sintomas": [["Color amarillento de los ojos",0.20],["Dolor abdominal",0.07],["Orina oscura",0.10],["Fatiga",0.06],["Picazón",0.04],["Pérdida del apetito",0.08],["Color amarillento en la piel",0.20]],
+     "causas": "La causa más probable de padecer hepatitis D, es el contagio de una persona infectada a una que no está pero que si padece de hepatitis tipo B, sin embargo, existen otros factores de riesgo que favorecen el contagio. Uno de ellos, es no estar vacunado contra la hepatitis B. También son factores de riesgo el uso de drogas por vía intravenosa y tener relaciones sexuales sin la debida protección.",
+     "recomendaciones": "Se aconseja evitar el consumo de alcohol, tener una alimentación lo más saludable y balanceada posible y guardar reposo, al menos hasta que el color amarillento de los ojos y la piel haya desaparecido. Sin embargo, estas últimas prescripciones no tienen fundamento científico.",
+     "consideraciones": "Los síntomas de la hepatitis D, no difieren de los síntomas padecidos en otros tipos de infección de hepatitis. Por esta razón, al estar padeciendo hepatitis B crónica, generalmente se indica una prueba de descarte de VHD, aunque este tipo de pruebas de diagnóstico no están normalizadas y su disponibilidad es limitada."
+ },
+{
+     "nombre": "Hepatitis E",
+     "descripcion": "Este tipo de hepatitis, está presente en todas las partes del mundo, pero presenta una mayor prevalencia en los países asiáticos. Es causada por el virus VHE.",
+     "sintomas": [["Fiebre",0.05],["Pérdida del apetito",0.05],["Prurito",0.2],["Ictericia",0.2],["Aumento del tamaño del hígado",0.2]],
+     "causas": "La mayor causa de contagio de la hepatitis E es por medio de la transmisión fecal-oral, es decir, a través de la ingesta de alimentos manipulados en condiciones de higiene deficiente y el consumo de agua contaminada, siendo esta última una de las vías de contagio más comunes. Comer carnes crudas o semicrudas y la transmisión de la madre al feto, también son vías de contacto. Esta infección es especialmente peligrosa en mujeres embarazadas, quienes corren el riesgo de sufrir insuficiencia hepática aguda, con riesgo de muerte tanto para ellas como para sus fetos.",
+     "recomendaciones": "No existe un tratamiento específico para la hepatitis E, por lo general suele remitir de manera espontánea y no es necesaria la hospitalización y debe evitarse la automedicación. Es recomendado el reposo, buena nutrición, evitar el consumo de bebidas alcohólicas y el uso de medicamentos no prescritos.",
+     "consideraciones": "No todos los pacientes con hepatitis E padecen síntomas. Si aparecen son muy similares a los síntomas detectados en otras infecciones por hepatitis."
+ },
+{
+     "nombre": "Hígado graso",
+     "descripcion": "Acumulación excesiva de grasa en el hígado.",
+     "sintomas": [["Fatiga",0.05],["Pérdida de peso",0.01],["Dolor Abdominal",0.05],["Cansancio",0.02]],
+     "causas": "La causa más común de hígado graso es el alcoholismo o el consumo excesivo de alcohol. En muchos casos, no se sabe exactamente qué causa el hígado graso en las personas que no beben mucho alcohol.",
+     "recomendaciones": "El tratamiento consiste en reducir los factores de riesgo, como la obesidad, mediante la dieta y la actividad física. Generalmente es una afección benigna, pero en una pequeña cantidad de pacientes puede ocasionar insuficiencia hepática (cirrosis).",
+     "consideraciones": "Si bien el tratamiento puede ayudar, esta enfermedad no tiene cura."
+ },
+{
+     "nombre": "Fiebre amarilla",
+     "descripcion": "Infección viral que se propaga por una especie determinada de mosquito.",
+     "sintomas": [["Fiebre",0.1],["Dolor de Cabeza",0.15],["Náuseas",0.05],["Vómitos",0.04],["Dolor muscular",0.04],["Sensibilidad a la luz",0.18],["Ictericia",0.1],["Disminución de Orina",0.14]],
+     "causas": "La fiebre amarilla es causada por un virus propagado por el mosquito Aedes aegypti. Estos mosquitos prosperan en las viviendas humanas y cerca de ellas, donde se reproducen incluso en el agua más limpia. La mayoría de los casos de fiebre amarilla se produce en el África subsahariana y en las zonas tropicales de América del Sur.",
+     "recomendaciones": "No existe un tratamiento específico para la fiebre amarilla. El tratamiento es de apoyo y se centra en: Hemoderivados para el sangrado grave. Diálisis para la insuficiencia renal. Líquidos por vía intravenosa (líquidos intravenosos)",
+     "consideraciones": "Cualquier persona puede contraer la fiebre amarilla, pero las personas mayores presentan un riesgo mayor de infección grave. Si una persona es picada por un mosquito infectado, los síntomas generalmente se manifiestan entre 3 y 6 días más tarde."
+ },
+ {
+     "nombre": "Gripe porcina",
+     "descripcion": "La influenza porcina (gripe porcina) es una enfermedad respiratoria de los cerdos, causada por virus de influenza tipo A que provocan brotes regulares de influenza en los cerdos.",
+     "sintomas": [["Fiebre",0.06],["Depresión",0.15],["Secreción nasal",0.12],["Inflamación de los ojos",0.14],["Escalofríos",0.09],["Diarrea",0.07],["Dolor de cuerpo",0.08]],
+     "causas": "Alguien con gripe tose o estornuda hacia el aire que otros inhalan, alguien toca una perilla de la puerta, un escritorio, un computadora o mostrador con el virus de la gripe y luego se toca la boca, los ojos o la nariz, alguien toca moco mientras cuida de un niño o un adulto que esté enfermo de gripe, etc.",
+     "recomendaciones": "Cubrirse la nariz y boca con papel higiénico al toser o estornudar y luego de su uso tirarlo en un tacho de basura. En caso de no contar con papel se debe cubrir la nariz y boca con el antebrazo. Asimismo, se recomienda lavarse las manos con agua y jabón de manera frecuente.",
+     "consideraciones": "..."
+}
 ]
+
+#Piedras en la vesicula
+#Infeccion al estomag
+#Infeccion al intestino
+#Colon irritable
+
 
 # {
 #     "nombre": "",

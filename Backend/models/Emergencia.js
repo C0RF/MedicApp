@@ -22,6 +22,10 @@ const EmergenciaSchema = new Schema({
     Consideraciones: {
         type: String
     },
+    Titulos: {
+        type: Map
+    }
+
 });
 
 module.exports = model('Emergencia', EmergenciaSchema);

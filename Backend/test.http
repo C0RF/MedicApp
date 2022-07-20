@@ -19,11 +19,17 @@ Content-Type: application/json
 
     {
        "nombre": "Quemadura",
-       "Normas": "No tocar",
+       "Normas": ["No tocar"],
        "Escena":"Escena?",
        "Solicitud": "Solicitud?",
-       "Signos":"Geminis y Tauro",
-       "Consideraciones": "Todas"
+       "Signos":["Geminis y Tauro"],
+       "Consideraciones": "Todas",
+       "Titulos": {
+        "Normas": "Normas",
+        "Escena": "Escena de emergencia",
+        "Solicitud": "Solicitud de ayuda",
+        "Signos": "Signos Vitales"
+      }
     }
 
 ####
@@ -32,9 +38,22 @@ Content-Type: application/json
 
 {
     "sintomas": [
-        "Anomalias osea",
-        "Dientes fragiles",
-        "Articulaciones laxas",
-        "Diarrea"
-        ]
+        "fiebre",
+        "dolor de cabeza"
+      ]
 }
+
+####
+
+GET {{api}}/Emergencia/get/Quemadura
+
+####
+GET {{api}}/Emergencia/get/Atenci%C3%B3n%20General
+
+####
+GET {{api}}/Enfermedad/getEnfermedad?nombre=Osteogénesis%20imperfecta
+
+####
+
+GET {{api}}/Enfermedad/getEnfermedades?enfermedad=imperfecta
+

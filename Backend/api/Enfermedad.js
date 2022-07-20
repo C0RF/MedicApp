@@ -147,7 +147,7 @@ router.post("/createEnfermedades", (req, res) => {
 //Obtener enfermedad seleccionada
 router.get("/getEnfermedad", (req, res) => {
     // const nombre = 'Cólera';
-    const nombre = req.query.nombre;
+    const nombre = decodeURIComponent(req.query.nombre);
     // const nombre = 'Osteoporosis';
     Enfermedad.find({
             nombre
@@ -177,14 +177,28 @@ router.get("/getEnfermedad", (req, res) => {
 
 //Obtener enfermedades relacionadas a la búsqueda
 router.get("/getEnfermedades", (req, res) => {
-    const nombre = new RegExp(`\.\*${req.query.enfermedad}\.\*`);
+    // cuando nombre="" que retorne todos
+    const removeAccents = (str) => {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+    nombre_enfermedad = removeAccents(req.query.enfermedad.toLowerCase())
+    const nombre = new RegExp(`\.\*${decodeURIComponent(nombre_enfermedad)}\.\*`);
+    let resultados = []
+     
+    async function comp() {
+        for await (const doc of Enfermedad.find()){
+            let nombres_db = doc.nombre;
+
+            if((nombre.test(removeAccents(nombres_db.toLowerCase())))){
+                resultados.push(doc);
+            }
+        }
+        return resultados
+    }
     console.log(nombre)
-    Enfermedad.find({
-            nombre
-        })
-        .then((resultado) => {
+    comp().then((resultado) => {
             if (resultado.length == 0) {
-                res.json({
+                res.status(404).send({
                     status: "FAILED",
                     message: "registro vacio",
                 });
@@ -198,7 +212,7 @@ router.get("/getEnfermedades", (req, res) => {
         })
         .catch((err) => {
             console.log(err);
-            res.json({
+            res.status(404).send({
                 status: "FAILED",
                 message: "Se ha producido un error al obtener enfermedades"
             })

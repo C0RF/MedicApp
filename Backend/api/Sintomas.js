@@ -29,6 +29,7 @@ router.post("/enfermedadesRelacionadas", (req, res) => {
                 results.push([doc.nombre, prob_sum]);
             }
         }
+
         return results;
     };
     obtProb().then((result) => {
