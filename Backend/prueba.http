@@ -1,0 +1,39 @@
+@api = http://localhost:4000
+
+POST {{api}}/Enfermedad/createEnfermedades
+Content-Type: application/json
+
+[
+    {
+        "nombre": "Artrosis",
+        "descripcion": "La osteoartritis o artrosis es la enfermedad degenerativa articular más frecuente, caracterizada por la destrucción del cartílago hialino que recubre las superficies óseas.",
+        "sintomas": [["Pérdida de flexibilidad",0.09],["Osteofitos",0.08],["Dolor articular",0.12],["Deformidad articular",0.13],["Inflamación en las articulaciones",0.13],["",],["",],["",]],
+        "causas": "La osteoartritis se produce cuando el cartílago que amortigua los extremos de los huesos en las articulaciones se deteriora progresivamente.",
+        "recomendaciones": "No se deben hacer aquellos ejercicios que produzcan dolor, cuidar posturas",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Artritis",
+        "descripcion": "La artritis es la hinchazón y la sensibilidad de una o más de las articulaciones.",
+        "sintomas": [["Dolor articular",],["Inflamación articular",],["Enrojecimiento articular",],["Disminución de la amplitud de movimiento",],["Hinchazón en las articulaciones",],["Rigidez",]],
+        "causas": "La artritis involucra la degradación de las estructuras articulares, particularmente del cartílago.",
+        "recomendaciones": "Mantenga un peso corporal correcto. La obesidad es una de las causas de la enfermedad.",
+        "consideraciones": "..."
+    },
+    {
+        "nombre": "Hepatitis B",
+        "descripcion": "Infección grave del hígado causada por el virus de la hepatitis B que se puede prevenir fácilmente mediante una vacuna.",
+        "sintomas": [["Color amarillento de los ojos",],["Dolor abdominal",],["Orina oscura",],["Fatiga",],["Picazón",],["",],["",],["",]],
+        "causas": "Ascendencia con Hepatitis B o pincharse accidentalmente con una aguja que usó una persona infectada",
+        "recomendaciones": "Vacunarse contra la hepatitis B",
+        "consideraciones": "La artrosis es la enfermedad reumática más frecuente, especialmente entre personas de edad avanzada"
+    },
+    {
+        "nombre": "Diabetes",
+        "descripcion": "Un grupo de enfermedades que tiene como resultado un exceso de azúcar en la sangre (glucosa sanguínea elevada).",
+        "sintomas": [["Aumento de la sed",0.11],["Fatiga",0.10],["Visión borrosa",0.13],["Pérdida de peso",0.09],["Aumento del apetito",0.09],["Micción frecuente",0.04],["Infecciones frecuentes",0.05]],
+        "causas": "El páncreas no produce suficiente insulina, las células no responden de manera normal a la insulina",
+        "recomendaciones": "Adaptar la alimentación, mantener una hidratación adecuada, practicar ejercicio de forma regular, realizar controles de glucosa con frecuencia y de forma estructurada",
+        "consideraciones": "..."
+    }
+]

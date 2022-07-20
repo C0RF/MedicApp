@@ -44,14 +44,16 @@ Content-Type: application/json
     {
        "nombre": "Heridas y hemorragias",
        "Normas": [
-              "Si la herida presenta hemorragia, para detener o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión.", 
+         "Frente a heridas no sangrantes, luego de un abundante lavado con agua y jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).Luego cubra con compresa, gasa y vendaje si fuera posible. No coloque algodón sobre la herida, ya que se incorpora al tejido.",
+              "Si la herida presenta hemorragia, para detener o disminuir el sangrado, debe aplicar una “compresa” o tela limpia haciendo presión,  si esta se llena de sangre no se debe de quitar sino colocar encima otra compresa para evitar deshacer el coagulo que se empieza a formar.", 
               "Si la herida se encuentra en piernas o brazos, levante el miembro a un nivel superior al corazón, esto puede detener o reducir una hemorragia.",
-              "Si el sangrado no se detiene, es conveniente colocar más compresas y realizar un vendaje. NO USAR torniquete"
+              "Si el sangrado no se detiene, es conveniente colocar más compresas y realizar un vendaje."
        ],
-       "Escena": "Escena?",
-       "Solicitud": "Solicitud?",
-       "Signos": ["Geminis y Tauro"],
-       "Consideraciones": "Frente a heridas no sangrantes, luego de un abundante lavado con agua y jabón blanco, use antiséptico líquido (tipo iodopovidona, etc).Luego cubra con compresa, gasa y vendaje si fuera posible. No coloque algodón sobre la herida, ya que se incorpora al tejido.La herida debe ser evaluada por un médico lo antes posible (antes de las 6 horas pues puede requerir sutura)"
+       "Escena": "La hemorragia es la salida de sangre de los conductos o vasos por los cuales circula, esta salida implica una pérdida gradual de sangre la cual debe ser controlada lo antes posible para que no se complique.",
+       "Solicitud": "La herida debe ser evaluada por un médico lo antes posible (antes de las 6 horas pues puede requerir sutura)",
+       "Signos": ["Los signos de shock incluyen palidez de la piel, descenso de la temperatura corporal, sudor, respiración acelerada y desvanecimiento",
+       ],
+       "Consideraciones": "Aunque el torniquete es una maniobra encaminada a controlar una hemorragia grave, que no cede con unos adecuados primeros auxilios. Es una técnica peligrosa, con importantes complicaciones posibles (gangrena y muerte) y que solo debe realizarse en último extremo. La única situación donde estaría indicado realizar un torniquete es en caso de una amputación donde la hemorragia sea incontrolable."
     },
     {
        "nombre": "Contusiones o golpes",
