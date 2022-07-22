@@ -3,7 +3,6 @@ const router = express.Router();
 const axios = require('axios');
 
 
-
 router.post("/getNearestPlaces", (req, res) => {
     const {lat, lng, radius, type, googleApiKey} = req.body
 
