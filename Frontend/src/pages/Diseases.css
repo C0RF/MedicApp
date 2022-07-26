@@ -1,0 +1,78 @@
+.diseases {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.left-diseases {
+    top: 0px;
+    background: #FEF2EC;
+    padding: 3% 0px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.search-container{
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.info-previewer-container{
+    width: 80%;
+    max-height: 25rem;
+    margin-bottom: 5%;
+    padding-right: 7px;
+    overflow-y: scroll;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+}
+
+.info-previewer-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .info-previewer-container::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 50px;
+  }
+  
+  .info-previewer-container::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #888888;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  }
+
+.right-diseases {
+    background: #fff;
+    padding-top: 40px;
+    height: 100%;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.right-diseases > p {
+    margin: 15px;
+    margin-left: 42px;
+}
+
+.right-diseases-title {
+    background: #DB90A2;
+    height: 60px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+.right-diseases-title p {
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FEF2EC;
+}

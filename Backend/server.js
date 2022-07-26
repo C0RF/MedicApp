@@ -22,12 +22,14 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 5
 
 app.use(morgan("dev"));
 
+app.set('port', process.env.PORT || config.portExpress)
+
 app.use('/Enfermedad', EnfermedadRouter);
 app.use('/Emergencia', EmergenciaRouter);
 app.use('/Sintomas', SintomasRouter);
 app.use('/Maps', MapsRouter);
 
 
-app.listen(config.portExpress, () => {
+app.listen(app.get('port'), () => {
     console.log(`Server on port ${config.portExpress}`);
 })

@@ -1,0 +1,47 @@
+.NearestHospitals {
+    display: flex;
+    height: fit-content;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+  
+.left-NearestHospitals {
+    background: #fff;
+    padding: 1rem 0px;
+    height: 100%;
+    width: 35%;
+    flex-direction: column;
+    align-content: center;
+}
+  
+.left-NearestHospitals-title {
+    position: relative;
+    padding: 18px 25px 2px 25px;
+    width: 100%;
+      background: #DB90A2;
+      height: fit-content; 
+      text-align: center;
+      font-size: 120%;
+      color: #fff;
+  }
+
+
+.right-NearestHospitals {
+  width: 65%;
+  height: fit-content;
+}
+
+.slide-table-container {
+    position: relative;
+    max-height: 25rem;
+    margin: 30px;
+    align-content: center;
+    align-items: center;
+    background: #FEF2EC;
+    border-radius: 6px;
+    padding: 2px;
+    padding-bottom: 10px;
+  }

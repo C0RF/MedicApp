@@ -1,0 +1,65 @@
+.StepProgress-container {
+    width: 100%;
+    font-size: 18px;
+}
+
+.StepProgress-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -20px;
+}
+
+.left-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speech-item-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #0073A4;
+    align-content: center;
+}
+.thread-step {
+    height: 55px;
+    background-color: #0073A4;
+    width: 2px;
+}
+
+.right-item-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.right-item-container strong{
+    margin-bottom: 2%;
+}
+
+
+.StepProgress-item input {
+    border-radius: 0px !important;
+    border: 0px;
+    border-bottom: 1.6px solid #0073A4;
+    font-size: 16px;
+}
+
+.StepProgress-item input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.StepProgress-item:not(:last-child) {
+    padding-bottom: 3%;
+}
+
+
+.StepProgress strong {
+    display: block;
+}
