@@ -1,5 +1,6 @@
 // Figma: https://www.figma.com/proto/etc4RIJbccl1LPGfu1Pjml/AppSalud?node-id=15%3A40&scaling=contain&page-id=0%3A1&starting-point-node-id=16%3A136
 
+require('dotenv').config();
 const config = require('./config/config');
 
 require('./config/database');
@@ -31,5 +32,5 @@ app.use('/Maps', MapsRouter);
 
 
 app.listen(app.get('port'), () => {
-    console.log(`Server on port ${config.portExpress}`);
+    console.log(`Server on port ${app.get('port')}`);
 })

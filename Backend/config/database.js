@@ -2,7 +2,7 @@ const config = require('./config');
 
 const mongoose = require("mongoose");
 
-const uri = `mongodb+srv://david20190591J:20190591J@clusterd.mnper.mongodb.net/${config.nameDatabase}?retryWrites=true&w=majority`;
+const uri = process.env.MONGODB_URI
 
 mongoose.connect(uri, {
     useNewUrlParser: true

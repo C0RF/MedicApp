@@ -18,7 +18,7 @@ import {
 } from '../constants/defaultConstants';
 
 const SERVER_API = process.env.REACT_APP_SERVER_API 
-
+// const SERVER_API = ""
 export const getDiagnosis = (body) => async (dispatch) => {
   dispatch({ type: GET_DIAGNOSIS_REQUEST, payload: body });
   try {
