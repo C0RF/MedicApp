@@ -1,4 +1,4 @@
 module.exports = {
-    portExpress: 4001,
+    portExpress: 4000,
     nameDatabase: "MedicAppDB"
 };
